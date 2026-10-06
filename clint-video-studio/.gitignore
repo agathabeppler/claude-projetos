@@ -1,0 +1,9 @@
+node_modules/
+remotion/out/
+remotion/stills/
+remotion/public/telas.mp4
+remotion/public/*.mp4
+projetos/*
+!projetos/README.md
+*.mov
+.DS_Store
