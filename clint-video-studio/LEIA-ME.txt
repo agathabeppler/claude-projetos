@@ -1,0 +1,17 @@
+KIT CLINT VIDEO STUDIO
+Faça vídeos de novidade da Clint só conversando com o Claude.
+O Claude faz tudo: roteiro, narração, gravação das telas da Clint, animações, trilha e vinheta.
+
+COMO USAR
+1. Assista ao vídeo "1 - Assista primeiro - tutorial.mp4" (1 minuto).
+2. Arraste a pasta "clint-video-studio" para a sua pasta Documentos.
+3. Abra o app do Claude, vá na aba Code, escolha a pasta "clint-video-studio"
+   e escreva:  /video-lancamento  e a sua ideia de vídeo.
+
+Na primeira vez, o Claude prepara o seu computador sozinho (uns 10 minutos).
+Você só precisa:
+- fazer login na Clint numa janela que ele abrir;
+- se aparecer o aviso, conectar o HeyGen em Configurações > Conectores.
+
+Para um GIF curto, escreva:  /gif-produto  e o que deve aparecer.
+Dúvidas: fale com a Rafaela Beck.
