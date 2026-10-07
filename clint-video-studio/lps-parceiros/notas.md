@@ -43,7 +43,8 @@ Os tempos por palavra usados nas cenas estão direto no código (`remotion/src/l
 
 - [x] Roteiros aprovados
 - [x] Narrações (Voz IA 26)
-- [ ] Cenas animadas (dor, virada, fechamento) → storyboard
+- [ ] Cenas animadas (dor, virada, fechamento) → storyboard. Feitas: LP1 (conferida em quadros) e LP2. Faltam LP3, LP4, LP5.
+      Código em `remotion/src/lps/` (composições LP1, LP2… no Remotion). As gravações entram no lugar dos blocos `TelaPendente`.
 - [ ] Gravações de tela na conta demo
 - [ ] Prévia de trechos
 - [ ] Trilha (5 opções)
