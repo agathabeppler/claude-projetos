@@ -1,5 +1,5 @@
 import React from 'react';
-import {Abertura, Comissao, Divisao30, Final, SemContaNova} from './cenas';
+import {Abertura, Comissao, Final, SemContaNova} from './cenas';
 
 // Linha do tempo do vídeo, em SEGUNDOS da narração final.
 // - TELAS: trechos com gravação de tela (lida de public/<VIDEO_TELAS>, montada por scripts/montar_telas.py
@@ -11,7 +11,9 @@ import {Abertura, Comissao, Divisao30, Final, SemContaNova} from './cenas';
 // Projeto: projetos/2026-10-13-cadastro-parceiros (narração v2, 114,76 s).
 // TELA A (13,33–64,09): conta 1 — LP, "Já sou cliente", Painel do afiliado, "Fazer cadastro", etapa 1 (logo obrigatório),
 //   etapa 2 (dados bancários), termos, "Concluir cadastro", painel liberado.
-// TELA B (75,94–104,47): conta 2 — "Seu link de indicação", 25% + 5%, "Criar novo link", "Copiar".
+// TELA B (64,09–104,47): conta 2 — Painel do afiliado, cartão "Link de indicação" (divisão dos 30% mostrada NA PLATAFORMA,
+//   pedido da Agatha: zoom no texto "Você tem 30% para distribuir..." em 66,7 s, em "Quero receber" em 71,8 s e em "oferecer" em 73,7 s),
+//   depois "Seu link de indicação", 25% + 5%, "Criar novo link", "Copiar".
 // Os zooms entram depois da gravação, quando os tempos de cada clique forem conhecidos.
 export type Cena = React.FC<{g0: number; dur: number}>;
 export type Zoom = [number, number, number, number];
@@ -22,13 +24,12 @@ export const VIDEO_TELAS = 'telas.mp4';
 
 export const TELAS: {de: number; ate: number; zoom?: Zoom[]}[] = [
   {de: 13.33, ate: 64.09},
-  {de: 75.94, ate: 104.47},
+  {de: 64.09, ate: 104.47},
 ];
 
 export const CENAS: [number, number, Cena][] = [
   [0, 7.1, Abertura],
   [7.1, 13.33, SemContaNova],
-  [64.09, 75.94, Divisao30],
   [104.47, 110.2, Comissao],
   [110.2, DURACAO_S, Final],
 ];

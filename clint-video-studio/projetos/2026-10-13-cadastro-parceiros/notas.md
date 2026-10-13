@@ -30,7 +30,7 @@ Pedido da Agatha (roteiro v4): deixar MUITO claro que o parceiro escolhe como di
 
 ## Gravação em 2 contas (aprovado pela Agatha)
 - Conta 1 (ainda NÃO parceira): LP › Quero ser parceiro › Já sou cliente › Painel do afiliado › Fazer cadastro › etapa 1 › Continuar › etapa 2 › termos › Concluir cadastro (blocos 3–9). Só dá para concluir UMA vez: gravar tomadas 3–8 parando antes do clique final, e o clique em "Concluir cadastro" por último.
-- Conta 2 (já parceira): Painel › Seu link de indicação › Gerenciar link › 25/5 › Criar novo link › Copiar (blocos 9c–9e). Anonimizar ref=... e desativar o link de teste depois.
+- Conta 2 (já parceira): Painel › cartão "Link de indicação" (divisão dos 30% NA PLATAFORMA, 64,09–75,94: mostrar o texto rosa "Você tem 30% para distribuir como quiser", campo "Quero receber" em 71,8 s e "oferecer" em 73,7 s; pode mexer nos campos, ex. 27→25 / 3→5) › Seu link de indicação › Gerenciar link › 25/5 › Criar novo link › Copiar (blocos 9c–9e). Anonimizar ref=... e desativar o link de teste depois.
 - Dois perfis de navegador separados (um login por conta), feito no Mac.
 
 ## Aprovações
@@ -42,3 +42,8 @@ Pedido da Agatha (roteiro v4): deixar MUITO claro que o parceiro escolhe como di
 - remotion/public/telas.mp4 atual é PROVISÓRIO (fundo escuro com rótulos). Substituir pela gravação real via montar_telas.py.
 - FALTA (no Mac): gravar conta 1 e conta 2 (gravacao.py), montar telas.mp4 (plano_telas.json com os trechos TELA A 13,33–64,09 e TELA B 75,94–104,47), zooms na timeline, storyboard das telas, escolha da trilha (5 opções), render, mixagem + vinheta, checagens.
 - Trilha: se a Agatha não escolher, usar a padrão "Comida" (já estendida em entrada/trilha_comida.wav só nesta sessão; refazer no Mac com estender_trilha.py).
+
+## Mudanças (13/10, depois das prévias)
+- Prévias da abertura e da divisão: aprovadas. MAS a divisão dos 30% deve ser mostrada DENTRO DA PLATAFORMA (pedido da Agatha).
+  → cena animada Divisao30 removida; 64,09–75,94 virou TELA (conta 2). TELA B agora é 64,09–104,47.
+  → cenas animadas restantes: Abertura, SemContaNova, Comissao, Final.
