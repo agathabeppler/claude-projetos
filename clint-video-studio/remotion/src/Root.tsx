@@ -4,12 +4,15 @@ import {Video} from './Video';
 import {DURACAO_S, FPS} from './projeto/timeline';
 import {CallGif, GIF_DUR, GIF_FPS, GIF_H, GIF_W} from './exemplos/ligacoes-whatsapp/CallGif';
 import {TUTORIAL_DUR, TutorialStudio} from './exemplos/tutorial-studio/TutorialStudio';
+import {CentralClientes, DURACAO_S as CC_DUR} from './central-clientes/Video';
 import './theme';
 
 export const Root: React.FC = () => (
   <>
     {/* Vídeo do projeto atual (edite src/projeto/timeline.ts e src/projeto/cenas.tsx) */}
     <Composition id="Video" component={Video} durationInFrames={Math.round(DURACAO_S * FPS)} fps={FPS} width={1920} height={1080} />
+    {/* Vídeo "Central de Clientes" (projetos/2026-10-13-central-clientes) */}
+    <Composition id="CentralClientes" component={CentralClientes} durationInFrames={Math.round(CC_DUR * FPS)} fps={FPS} width={1920} height={1080} />
     {/* Exemplo de GIF de produto (260x346), desenhado em 3,346x e reduzido na exportação */}
     <Composition id="GifExemplo" component={CallGif} durationInFrames={Math.round(GIF_DUR * GIF_FPS)} fps={GIF_FPS} width={GIF_W} height={GIF_H} />
     {/* Vídeo tutorial do próprio kit */}
