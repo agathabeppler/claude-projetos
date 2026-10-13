@@ -33,3 +33,8 @@ Método: sobreposição em Remotion nas posições fixas (linhas com passo de 57
 - Narração v2: mesmo texto, speed 1.15 e pausas de 0,25 s → 71,84 s (era 88,45 s). v1 guardada como entrada/narracao_v1_lenta.wav (NÃO usar).
 - Tempos do código continuam escritos na v1 e passam por W() (src/central-clientes/timing.ts), que converte para a v2.
 - Prévia completa: saida/previa_completa_v2.mp4 (960x540, trilha "Comida" provisória, sem vinheta).
+
+## Entrega (13/10)
+- Aprovado pela Agatha. Trilha: padrão "Comida" (GlowCity).
+- Final: saida/Central de Clientes - Parceiros Clint.mp4 — 79,2 s (71,8 + vinheta 7,3), 1920x1080, -14,9 LUFS.
+- Não transcrito com whisper (não instalado na sessão na nuvem); narração é o .wav aprovado, sem troca de voz.
