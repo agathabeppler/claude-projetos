@@ -148,8 +148,8 @@ export const Oportunidades: React.FC<P> = ({g0, dur}) => {
           <ClienteCard nome="Studio Lume" at={L(78.7)} glow={glow} saude={<Saude n={41} label="Atenção" color="#D9822B" tint="#FFF1E3" />} />
         </div>
       </Abs>
-      <Abs x={760} y={700}>
-        <Pop at={L(80.1)} x={-20} y={0} pop>
+      <Abs x={196} y={744}>
+        <Pop at={L(80.1)} y={-16} pop>
           <Chip icon="help" text="Oportunidade: ativar um agente de IA" color="#E04F9C" tint="#FDE7F2" size={22} />
         </Pop>
       </Abs>
