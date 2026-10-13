@@ -28,3 +28,8 @@ Método: sobreposição em Remotion nas posições fixas (linhas com passo de 57
 - Linha do tempo: Abertura 0–6,74 · TELA 6,74–77,44 (menu, lista, abas, colunas, detalhes, pedir acesso com e-mail digitado, acessar conta) · Oportunidades 77,44–84,37 · Final 84,37–88,45.
 - public/central/gravacao.mp4 NÃO vai para o Git (dados reais); recriar com: ffmpeg -i entrada/gravacao.mp4 -an -c:v libx264 -g 1 -crf 16 -pix_fmt yuv420p -r 30 ../../remotion/public/central/gravacao.mp4
 - Prévias: saida/previa_1_abertura_menu.mp4 e saida/previa_2_detalhes.mp4 (trilha "Comida" provisória).
+
+## Ajuste (13/10): "acelera um pouco, está demorado"
+- Narração v2: mesmo texto, speed 1.15 e pausas de 0,25 s → 71,84 s (era 88,45 s). v1 guardada como entrada/narracao_v1_lenta.wav (NÃO usar).
+- Tempos do código continuam escritos na v1 e passam por W() (src/central-clientes/timing.ts), que converte para a v2.
+- Prévia completa: saida/previa_completa_v2.mp4 (960x540, trilha "Comida" provisória, sem vinheta).

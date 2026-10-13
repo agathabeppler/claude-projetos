@@ -3,13 +3,14 @@ import {AbsoluteFill, Easing, Img, OffthreadVideo, Sequence, staticFile} from 'r
 import {C, FONT} from '../theme';
 import {Background, ramp, useSec, useSpring} from '../ui';
 import {Abertura, Final, Oportunidades} from './cenas';
+import {DURACAO_S as DUR, W} from './timing';
 
 // Vídeo "Central de Clientes" (projetos/2026-10-13-central-clientes). Tempos = segundos da narração (88,45 s).
 // A gravação da Agatha (1800x904) entra num cartão flutuante; trechos com dados de clientes usam quadros
 // reescritos com dados fictícios (projetos/.../anonimizar.py → public/central/*.png).
 
 export const FPS = 30;
-export const DURACAO_S = 88.45;
+export const DURACAO_S = DUR;
 const SW = 1800;
 const SH = 904;
 const CW = 1920 * 0.86;
@@ -17,13 +18,13 @@ const CH = (CW * SH) / SW;
 const CX0 = (1920 - CW) / 2;
 const CY0 = (1080 - CH) / 2;
 
-const TELA_DE = 6.74;
-const TELA_ATE = 77.44;
+const TELA_DE = W(6.74);
+const TELA_ATE = W(77.44);
 
 type Seg = {de: number; ate: number; img?: string; video?: number};
 // video = segundo da gravação no início do trecho
-const SEGS: Seg[] = [
-  {de: 6.74, ate: 11.95, video: 0},
+const SEGS_V1: Seg[] = [
+  {de: 6.74, ate: 11.95, video: 0.25},
   {de: 11.95, ate: 37.03, img: 'lista_topo.png'},
   {de: 37.03, ate: 40.62, img: 'lista_rolada_info.png'},
   {de: 40.62, ate: 57.39, img: 'detalhes.png'},
@@ -31,12 +32,13 @@ const SEGS: Seg[] = [
   {de: 60.0, ate: 71.18, img: 'pedir_acesso.png'},
   {de: 71.18, ate: 77.44, img: 'lista_rolada.png'},
 ];
+const SEGS: Seg[] = SEGS_V1.map((sg) => ({...sg, de: W(sg.de), ate: W(sg.ate)}));
 
 // [tempo, centro x 0–1, centro y 0–1, escala] (pontos na gravação de 1800x904)
 type Z = [number, number, number, number];
 const px = (x: number) => x / SW;
 const py = (y: number) => y / SH;
-const ZOOM: Z[] = [
+const ZOOM_V1: Z[] = [
   [6.74, 0.5, 0.5, 1],
   [7.6, 0.5, 0.5, 1],
   [8.2, px(260), py(500), 1.7], // menu Mais
@@ -81,6 +83,7 @@ const ZOOM: Z[] = [
   [73.2, px(1450), py(430), 2.2], // Acessar conta
   [77.4, px(1450), py(430), 2.2],
 ];
+const ZOOM: Z[] = ZOOM_V1.map(([t, x, y, z]) => [W(t), x, y, z]);
 
 const ease = Easing.inOut(Easing.cubic);
 const zoomAt = (t: number): [number, number, number] => {
@@ -108,7 +111,7 @@ const toScreen = (g: number, sx: number, sy: number) => {
 
 // cursor próprio (pontos na gravação) — só nos trechos de quadro parado
 type CP = {t: number; x: number; y: number};
-const CURSORES: {de: number; ate: number; pts: CP[]; clicks: number[]}[] = [
+const CURSORES_V1: {de: number; ate: number; pts: CP[]; clicks: number[]; seta: boolean}[] = [
   {
     de: 37.03,
     ate: 40.62,
@@ -117,6 +120,7 @@ const CURSORES: {de: number; ate: number; pts: CP[]; clicks: number[]}[] = [
       {t: 40.62, x: 1739, y: 470},
     ],
     clicks: [40.3],
+    seta: false,
   },
   {
     de: 57.39,
@@ -127,6 +131,7 @@ const CURSORES: {de: number; ate: number; pts: CP[]; clicks: number[]}[] = [
       {t: 60.0, x: 1712, y: 25},
     ],
     clicks: [59.75],
+    seta: true,
   },
   {
     de: 71.18,
@@ -137,14 +142,16 @@ const CURSORES: {de: number; ate: number; pts: CP[]; clicks: number[]}[] = [
       {t: 77.44, x: 1560, y: 412},
     ],
     clicks: [73.85],
+    seta: true,
   },
 ];
+const CURSORES = CURSORES_V1.map((c) => ({...c, de: W(c.de), ate: W(c.ate), pts: c.pts.map((q) => ({...q, t: W(q.t)})), clicks: c.clicks.map(W)}));
 
 const CursorTela: React.FC<{g: number}> = ({g}) => {
   const c = CURSORES.find((k) => g >= k.de && g < k.ate);
   if (!c) return null;
   // na gravação rolada com ⓘ o cursor real já aparece no quadro: só desenha o clique
-  const desenhaSeta = c.de !== 37.03;
+  const desenhaSeta = c.seta;
   let sx = c.pts[0].x;
   let sy = c.pts[0].y;
   for (let i = 0; i < c.pts.length - 1; i++) {
@@ -207,7 +214,7 @@ const EMAIL = 'contato@odontosorrisopleno.com.br';
 /** Sobreposições em coordenadas da gravação (acompanham o zoom). */
 const Sobreposicoes: React.FC<{g: number}> = ({g}) => {
   const out: React.ReactNode[] = [];
-  if (g < 11.95) {
+  if (g < W(11.95)) {
     // foto do usuário e widget do gravador no trecho em vídeo
     out.push(
       <div key="av" style={{position: 'absolute', left: 10, top: 862, width: 36, height: 34, background: '#fff'}}>
@@ -216,10 +223,10 @@ const Sobreposicoes: React.FC<{g: number}> = ({g}) => {
       <div key="wg" style={{position: 'absolute', left: 1652, top: 482, width: 76, height: 338, background: '#fff'}} />,
     );
   }
-  if (g >= 60.0 && g < 71.18) {
+  if (g >= W(60.0) && g < W(71.18)) {
     // e-mail sendo digitado no campo
-    const n = Math.round(ramp(g, 60.8, 62.6, 0, EMAIL.length, Easing.linear));
-    const blink = Math.floor(g * 2) % 2 === 0 || (g > 60.8 && g < 62.8);
+    const n = Math.round(ramp(g, W(60.8), W(62.6), 0, EMAIL.length, Easing.linear));
+    const blink = Math.floor(g * 2) % 2 === 0 || (g > W(60.8) && g < W(62.8));
     out.push(
       <div key="em" style={{position: 'absolute', left: 702, top: 418, width: 394, height: 27, background: '#fff', display: 'flex', alignItems: 'center', paddingLeft: 10, fontFamily: FONT, fontSize: 13, color: '#2A2838', boxSizing: 'border-box'}}>
         {n === 0 ? <span style={{color: '#A8A6B3'}}>nome@empresa.com.br</span> : EMAIL.slice(0, n)}
@@ -286,8 +293,8 @@ const Gravacao: React.FC = () => {
 
 const CENAS: [number, number, React.FC<{g0: number; dur: number}>][] = [
   [0, TELA_DE, Abertura],
-  [TELA_ATE, 84.37, Oportunidades],
-  [84.37, DURACAO_S, Final],
+  [TELA_ATE, W(84.37), Oportunidades],
+  [W(84.37), DURACAO_S, Final],
 ];
 
 export const CentralClientes: React.FC = () => (

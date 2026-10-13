@@ -1,6 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, Easing} from 'remotion';
 import {C} from '../theme';
+import {W} from './timing';
 import {Abs, ContactAvatar, Cursor, Grad, Icon, Logo, Pop, POP, Scene, Sparkle, Words, card, ramp, useSec, useSpring} from '../ui';
 
 // Cenas do vídeo "Central de Clientes". L(s) = s - g0, com s = instante da palavra na narração.
@@ -68,7 +69,7 @@ const ClienteCard: React.FC<{nome: string; saude: React.ReactNode; at: number; g
 // ============ 1. Abertura (0 – 6,74 s) ============
 // "Você já indicou clientes para a Clint? (0–2,2) Agora dá para acompanhar (3,1) cada um deles de perto (3,7–5,0), direto da sua conta (5,1–6,3)."
 export const Abertura: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s - g0;
+  const L = (s: number) => W(s) - g0;
   const t = useSec();
   const clientes = [
     {nome: 'Clínica Bem Viver', y: 330, at: 0.9},
@@ -130,7 +131,7 @@ export const Abertura: React.FC<P> = ({g0, dur}) => {
 // ============ 2. Oportunidades (77,44 – 84,37 s) ============
 // "Assim, você acompanha cada cliente (78,1–79,9), encontra oportunidades (80,0–81,6), e fortalece a sua comissão recorrente (81,8–84,0)."
 export const Oportunidades: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s - g0;
+  const L = (s: number) => W(s) - g0;
   const t = useSec();
   const op = useSpring(L(80.0));
   const glow = Math.min(op, 1);
@@ -182,7 +183,7 @@ export const Oportunidades: React.FC<P> = ({g0, dur}) => {
 // ============ 3. Encerramento (84,37 s – fim) ============
 // "Acesse a Central de Clientes (84,4–86,2) e acompanhe seus clientes hoje (86,2–88,2)."
 export const Final: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s - g0;
+  const L = (s: number) => W(s) - g0;
   const t = useSec();
   const click = L(85.9);
   const morph = useSpring(click + 0.1, {damping: 200, stiffness: 160, mass: 0.8});
