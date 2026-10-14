@@ -37,8 +37,9 @@ Pedido da Agatha (roteiro v4): deixar MUITO claro que o parceiro escolhe como di
 - A. Roteiro: aprovado (13/10). Narração v2 (logo obrigatório): aprovada (13/10).
 
 ## Status (13/10, sessão na nuvem)
-- Cenas animadas prontas em remotion/src/projeto/cenas.tsx: Abertura (0–7,1), SemContaNova (7,1–13,33), Divisao30 (64,09–75,94), Comissao (104,47–110,2), Final (110,2–fim). Linha do tempo em remotion/src/projeto/timeline.ts.
+- Cenas animadas prontas em remotion/src/videos/2026-10-13-cadastro-parceiros/cenas.tsx: Abertura (0–7,1), SemContaNova (7,1–13,33), Divisao30 (64,09–75,94), Comissao (104,47–110,2), Final (110,2–fim). Linha do tempo em remotion/src/videos/2026-10-13-cadastro-parceiros/timeline.ts (composição "CadastroParceiros").
 - Prévias feitas: saida/previa_1_abertura.mp4 e saida/previa_2_divisao30.mp4 (com trilha padrão "Comida" provisória).
+- (14/10) Código movido de src/projeto/ para src/videos/2026-10-13-cadastro-parceiros/; a gravação agora é lida de remotion/public/videos/2026-10-13-cadastro-parceiros/telas.mp4.
 - remotion/public/telas.mp4 atual é PROVISÓRIO (fundo escuro com rótulos). Substituir pela gravação real via montar_telas.py.
 - FALTA (no Mac): gravar conta 1 e conta 2 (gravacao.py), montar telas.mp4 (plano_telas.json com os trechos TELA A 13,33–64,09 e TELA B 75,94–104,47), zooms na timeline, storyboard das telas, escolha da trilha (5 opções), render, mixagem + vinheta, checagens.
 - Trilha: se a Agatha não escolher, usar a padrão "Comida" (já estendida em entrada/trilha_comida.wav só nesta sessão; refazer no Mac com estender_trilha.py).

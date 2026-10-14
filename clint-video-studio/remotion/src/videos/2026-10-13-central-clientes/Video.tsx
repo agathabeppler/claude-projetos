@@ -1,13 +1,13 @@
 import React from 'react';
 import {AbsoluteFill, Easing, Img, OffthreadVideo, Sequence, staticFile} from 'remotion';
-import {C, FONT} from '../theme';
-import {Background, ramp, useSec, useSpring} from '../ui';
+import {C, FONT} from '../../theme';
+import {Background, ramp, useSec, useSpring} from '../../ui';
 import {Abertura, Final, Oportunidades} from './cenas';
 import {DURACAO_S as DUR, W} from './timing';
 
-// Vídeo "Central de Clientes" (projetos/2026-10-13-central-clientes). Tempos = segundos da narração (88,45 s).
+// Vídeo "Central de Clientes" (videos/2026-10-13-central-clientes). Tempos = segundos da narração (88,45 s).
 // A gravação da Agatha (1800x904) entra num cartão flutuante; trechos com dados de clientes usam quadros
-// reescritos com dados fictícios (projetos/.../anonimizar.py → public/central/*.png).
+// reescritos com dados fictícios (videos/.../anonimizar.py → public/videos/2026-10-13-central-clientes/*.png).
 
 export const FPS = 30;
 export const DURACAO_S = DUR;
@@ -270,9 +270,9 @@ const Gravacao: React.FC = () => {
                 return (
                   <Sequence key={i} from={fa} durationInFrames={fb - fa} layout="none">
                     {sg.img ? (
-                      <Img src={staticFile(`central/${sg.img}`)} style={{position: 'absolute', left: 0, top: 0, width: SW, height: SH}} />
+                      <Img src={staticFile(`videos/2026-10-13-central-clientes/${sg.img}`)} style={{position: 'absolute', left: 0, top: 0, width: SW, height: SH}} />
                     ) : (
-                      <OffthreadVideo src={staticFile('central/gravacao.mp4')} startFrom={Math.round((sg.video ?? 0) * FPS)} muted style={{position: 'absolute', left: 0, top: 0, width: SW, height: SH}} />
+                      <OffthreadVideo src={staticFile('videos/2026-10-13-central-clientes/gravacao.mp4')} startFrom={Math.round((sg.video ?? 0) * FPS)} muted style={{position: 'absolute', left: 0, top: 0, width: SW, height: SH}} />
                     )}
                   </Sequence>
                 );

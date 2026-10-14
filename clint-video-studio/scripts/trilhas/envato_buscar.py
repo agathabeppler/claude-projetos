@@ -1,6 +1,6 @@
 """Busca músicas no Envato pelo navegador de gravação (porta 9333) e salva título, autor, id e prévia (.m4a pública).
 uso: python3 scripts/trilhas/envato_buscar.py "termos em inglês" saida.tsv [mais termos ...]
-Ex.: python3 scripts/trilhas/envato_buscar.py "upbeat acoustic ukulele claps happy" "positive acoustic guitar whistle" projetos/<p>/trilhas/candidatas.tsv
+Ex.: python3 scripts/trilhas/envato_buscar.py "upbeat acoustic ukulele claps happy" "positive acoustic guitar whistle" videos/<p>/trilhas/candidatas.tsv
 Se o Envato pedir login, a PESSOA entra na janela do navegador (o Claude nunca digita senha)."""
 import asyncio, sys, urllib.parse
 from playwright.async_api import async_playwright

@@ -1,8 +1,8 @@
 import React from 'react';
 import {AbsoluteFill, Easing} from 'remotion';
-import {C} from '../theme';
+import {C} from '../../theme';
 import {W} from './timing';
-import {Abs, ContactAvatar, Cursor, Grad, Icon, Logo, Pop, POP, Scene, Sparkle, Words, card, ramp, useSec, useSpring} from '../ui';
+import {Abs, ContactAvatar, Cursor, Grad, Icon, Logo, Pop, POP, Scene, Sparkle, Words, card, ramp, useSec, useSpring} from '../../ui';
 
 // Cenas do vídeo "Central de Clientes". L(s) = s - g0, com s = instante da palavra na narração.
 type P = {g0: number; dur: number};

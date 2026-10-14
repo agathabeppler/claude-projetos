@@ -1,6 +1,6 @@
 import React from 'react';
 import {AbsoluteFill, Audio, Sequence, staticFile} from 'remotion';
-import {Background} from '../ui';
+import {Background} from '../../ui';
 import type {CenaProps} from './comum';
 
 export type Bloco = [number, number, React.FC<CenaProps>];

@@ -1,7 +1,10 @@
 import React from 'react';
 import {AbsoluteFill, Easing, OffthreadVideo, Sequence, staticFile} from 'remotion';
 import {Background, ramp, useSec, useSpring} from './ui';
-import {CENAS, FPS, TELAS, VIDEO_TELAS, type Zoom} from './projeto/timeline';
+import * as projeto from './projeto/timeline';
+import type {Cena, Zoom} from './projeto/timeline';
+
+export type Linha = {FPS: number; VIDEO_TELAS: string; TELAS: {de: number; ate: number; zoom?: Zoom[]}[]; CENAS: [number, number, Cena][]};
 
 // Gravação de tela num cartão flutuante sobre o fundo pastel (entra com mola + blur, sai com blur).
 const S = 0.86;
@@ -25,7 +28,7 @@ const zoomAt = (keys: Zoom[] | undefined, t: number): [number, number, number] =
   return [k[1], k[2], k[3]];
 };
 
-const Tela: React.FC<{inicio: number; len: number; zoom?: Zoom[]}> = ({inicio, len, zoom}) => {
+const Tela: React.FC<{inicio: number; len: number; zoom?: Zoom[]; FPS: number; VIDEO_TELAS: string}> = ({inicio, len, zoom, FPS, VIDEO_TELAS}) => {
   const t = useSec();
   const dur = len / FPS;
   const p = useSpring(0, {damping: 200, stiffness: 95, mass: 1});
@@ -60,7 +63,8 @@ const Tela: React.FC<{inicio: number; len: number; zoom?: Zoom[]}> = ({inicio, l
   );
 };
 
-export const Video: React.FC = () => (
+/** Monta o vídeo (gravação + cenas) a partir de uma linha do tempo. */
+export const criarVideo = ({FPS, VIDEO_TELAS, TELAS, CENAS}: Linha): React.FC => () => (
   <AbsoluteFill>
     <Background />
     {TELAS.map(({de, ate, zoom}) => {
@@ -68,7 +72,7 @@ export const Video: React.FC = () => (
       const fb = Math.round(ate * FPS);
       return (
         <Sequence key={`t${de}`} from={fa} durationInFrames={fb - fa}>
-          <Tela inicio={fa} len={fb - fa} zoom={zoom} />
+          <Tela inicio={fa} len={fb - fa} zoom={zoom} FPS={FPS} VIDEO_TELAS={VIDEO_TELAS} />
         </Sequence>
       );
     })}
@@ -83,3 +87,6 @@ export const Video: React.FC = () => (
     })}
   </AbsoluteFill>
 );
+
+// Vídeo em produção (src/projeto/).
+export const Video = criarVideo(projeto);

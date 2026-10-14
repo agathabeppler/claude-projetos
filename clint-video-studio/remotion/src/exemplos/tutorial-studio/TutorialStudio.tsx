@@ -3,7 +3,7 @@ import {AbsoluteFill, Easing, Sequence} from 'remotion';
 import {C} from '../../theme';
 import {Abs, Background, Cursor, Eyebrow, Grad, Icon, IconTile, Logo, Pop, POP, Scene, Sparkle, Toggle, Words, card, ramp, useSec, useSpring} from '../../ui';
 
-// Vídeo tutorial do próprio kit (~57 s). Tempos das palavras em projetos/2026-10-06-tutorial-video-studio/entrada/narracao.palavras.txt
+// Vídeo tutorial do próprio kit (~57 s). Tempos das palavras em videos/2026-10-06-tutorial-video-studio/entrada/narracao.palavras.txt
 export const TUTORIAL_DUR = 51.4;
 
 const mk = (g0: number) => (s: number) => s - g0;

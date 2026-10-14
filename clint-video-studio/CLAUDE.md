@@ -53,12 +53,23 @@ setup.sh                   prepara o computador (o Claude roda sozinho; sem senh
 referencias/               vídeos-modelo (transcrição + estrutura) que os roteiros devem seguir
 remotion/                  template de animação (React/Remotion)
   src/ui.tsx, theme.ts     sistema visual da Clint (não alterar sem motivo)
-  src/projeto/             timeline.ts + cenas.tsx do vídeo em produção
+  src/projeto/             timeline.ts + cenas.tsx do vídeo em produção (modelo; volta ao estado limpo na entrega)
+  src/videos/<data-nome>/  código de cada vídeo já entregue (uma pasta por vídeo)
+  public/videos/<data-nome>/  áudios e imagens usados pelo código de cada vídeo
   src/exemplos/            vídeo "Ligações por WhatsApp" completo + GIF, como referência
   stills.mjs, storyboard.mjs  quadros de prévia
 scripts/                   transcrição, alinhamento, retime, trilha, mixagem, GIF, checagens
   gravacao/                navegador de gravação, gravador 4K, anonimização, mapa da Clint
   ambiente.sh, verificar.sh  carregar/conferir as ferramentas
 assets/                    vinheta e logo
-projetos/<data-nome>/      entradas e saídas de cada vídeo (não vai para o Git)
+videos/<data-nome>/        notas, roteiro e narração de cada vídeo (gravações e saídas pesadas não vão para o Git)
 ```
+
+**Um vídeo, um nome.** Cada vídeo usa o mesmo nome `AAAA-MM-DD-nome-curto` nas três pastas: `videos/<p>/`
+(notas, roteiro, narração), `remotion/src/videos/<p>/` (código) e `remotion/public/videos/<p>/` (áudios e imagens).
+O código e as imagens precisam ficar dentro de `remotion/` para o Remotion encontrá-los.
+
+**Na entrega:** mova `src/projeto/cenas.tsx` e `timeline.ts` para `remotion/src/videos/<p>/`, registre a composição em
+`src/Root.tsx` com `criarVideo(...)` (veja `videos/2026-10-13-cadastro-parceiros`), mova a gravação de
+`public/telas.mp4` para `public/videos/<p>/telas.mp4` e devolva `src/projeto/` ao modelo limpo
+(`git checkout main -- remotion/src/projeto`). Assim o próximo vídeo sempre começa do zero.

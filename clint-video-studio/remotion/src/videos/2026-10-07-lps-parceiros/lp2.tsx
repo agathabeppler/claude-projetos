@@ -1,6 +1,6 @@
 import React from 'react';
 import {Abs, Balao, C, Celular, Chamada, Easing, Icon, IconTile, Pop, Scene, Sparkle, TelaPendente, Words, card, mk, ramp, useSec, type CenaProps} from './comum';
-import {Avatar} from '../ui';
+import {Avatar} from '../../ui';
 import type {LP} from './LPVideo';
 
 // LP2 · Gestão do time de vendas — "visibilidade para cobrar certo" (narração 51,0 s)
@@ -139,7 +139,7 @@ const FechaChamada: React.FC<CenaProps> = (p) => (
 export const LP2: LP = {
   id: 'LP2',
   dur: 51.6,
-  audio: 'lps/lp2.wav',
+  audio: 'videos/2026-10-07-lps-parceiros/lp2.wav',
   blocos: [
     [0, 3.55, DorPergunta],
     [3.55, 11.75, DorCelular],

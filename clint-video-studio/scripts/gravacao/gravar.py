@@ -1,5 +1,5 @@
 """Executa um roteiro de gravação e salva uma tomada (.mp4 4K) por função.
-uso: python3 scripts/gravacao/gravar.py projetos/<p>/gravacao.py projetos/<p>/entrada/telas [nome_da_tomada ...]
+uso: python3 scripts/gravacao/gravar.py videos/<p>/gravacao.py videos/<p>/entrada/telas [nome_da_tomada ...]
 
 O roteiro (gravacao.py) define funções  async def tomada_<nome>(page, c):  onde `c` é o módulo clint.py
 (c.clicar, c.mover, c.digitar, c.pausa). Opcional:  async def preparar_<nome>(page, c):  roda ANTES de gravar

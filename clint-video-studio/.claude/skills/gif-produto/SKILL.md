@@ -14,5 +14,5 @@ Siga as regras do `CLAUDE.md` (estilo, privacidade, contatos fictícios).
    - **loop perfeito**: nos últimos ~0,4 s, faça um crossfade para o primeiro quadro.
 3. Registre a composição em `remotion/src/Root.tsx` (fps 25, duração 4–6 s).
 4. **Prévia** ✋: `COMP=<Id> node stills.mjs <quadros>` + `./sheet.sh` e mostre a folha antes de exportar.
-5. **Exporte**: `scripts/gif.sh <Id> <largura> <altura> projetos/<p>/saida/<nome>.gif` (paleta otimizada, loop infinito). Ideal < 1,5 MB; se passar, reduza fps para 20 ou a duração.
+5. **Exporte**: `scripts/gif.sh <Id> <largura> <altura> videos/<p>/saida/<nome>.gif` (paleta otimizada, loop infinito). Ideal < 1,5 MB; se passar, reduza fps para 20 ou a duração.
 6. Confira 3–4 quadros do GIF final em tamanho real e entregue (mostre no Finder).

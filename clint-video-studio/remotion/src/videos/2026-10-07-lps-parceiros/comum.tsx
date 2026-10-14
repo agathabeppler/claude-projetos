@@ -1,7 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, Easing, Img, staticFile} from 'remotion';
-import {C} from '../theme';
-import {Abs, Cursor, Grad, Icon, IconTile, Logo, Pop, Scene, Sparkle, Words, card, ramp, useSec, useSpring} from '../ui';
+import {C} from '../../theme';
+import {Abs, Cursor, Grad, Icon, IconTile, Logo, Pop, Scene, Sparkle, Words, card, ramp, useSec, useSpring} from '../../ui';
 
 // Peças compartilhadas pelos 5 vídeos das LPs de parceiros.
 // Toda cena recebe g0 (início global, s) e dur; L(s) = s - g0 converte o tempo da narração para o tempo local.

@@ -228,7 +228,7 @@ const FechaChamada: React.FC<CenaProps> = (p) => (
 export const LP1: LP = {
   id: 'LP1',
   dur: 62.4,
-  audio: 'lps/lp1.wav',
+  audio: 'videos/2026-10-07-lps-parceiros/lp1.wav',
   blocos: [
     [0, 8.75, DorFerramentas],
     [8.75, 14.8, DorCelular],

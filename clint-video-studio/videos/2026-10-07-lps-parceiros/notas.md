@@ -9,7 +9,7 @@ Roteiros aprovados: documento "Roteiros: vídeos de demonstração das LPs de pa
 - Duração: até 90 s sem a vinheta; cada vídeo segue o ritmo da narração.
 - Telas: gravadas na conta demo da Clint (pendente: acesso à conta demo neste ambiente).
 - Narração: Voz IA 26 (HeyGen, conta do time), `elevenlabs`, `pt`, velocidade 1, gerada em 07/10/2026.
-  Arquivos em `remotion/public/lps/lpN.wav` (originais, sem edição).
+  Arquivos em `remotion/public/videos/2026-10-07-lps-parceiros/lpN.wav` (originais, sem edição).
 
 | LP | Narração | sha256 (início) |
 |---|---|---|
@@ -29,7 +29,7 @@ Roteiros aprovados: documento "Roteiros: vídeos de demonstração das LPs de pa
 | LP4 | 0–11,4 | 12,4–18,8 | 19,8–39,8 | 40,7–51,4 |
 | LP5 | 0–11,0 | 12,4–15,0 | 16,0–49,6 (perguntas 1–5) | 50,7–70,5 |
 
-Os tempos por palavra usados nas cenas estão direto no código (`remotion/src/lps/lpN.tsx`).
+Os tempos por palavra usados nas cenas estão direto no código (`remotion/src/videos/2026-10-07-lps-parceiros/lpN.tsx`).
 
 ## Gravações de tela a fazer (conta demo)
 
@@ -44,7 +44,7 @@ Os tempos por palavra usados nas cenas estão direto no código (`remotion/src/l
 - [x] Roteiros aprovados
 - [x] Narrações (Voz IA 26)
 - [ ] Cenas animadas (dor, virada, fechamento) → storyboard. Feitas: LP1 (conferida em quadros) e LP2. Faltam LP3, LP4, LP5.
-      Código em `remotion/src/lps/` (composições LP1, LP2… no Remotion). As gravações entram no lugar dos blocos `TelaPendente`.
+      Código em `remotion/src/videos/2026-10-07-lps-parceiros/` (composições LP1, LP2… no Remotion). As gravações entram no lugar dos blocos `TelaPendente`.
 - [ ] Gravações de tela na conta demo
 - [ ] Prévia de trechos
 - [ ] Trilha (5 opções)
