@@ -3,6 +3,7 @@
 Pasta de produção de vídeos de lançamento e GIFs de produto da Clint. Quem abre esta pasta normalmente é alguém do time (marketing, produto, CS) com uma ideia de vídeo, não necessariamente dev. Fale em português, explique em linguagem simples e mostre prévias antes de renderizar o vídeo inteiro.
 
 - Para um vídeo de novidade/tutorial, use a skill `/video-lancamento`.
+- Para um vídeo **sobre a plataforma** (visão geral, institucional, por segmento, YouTube/site/anúncio), use a skill `/video-plataforma`. Todo vídeo da plataforma segue o modelo do vídeo do YouTube em `referencias/video-plataforma-educacao.md`.
 - Para um GIF curto de produto, use a skill `/gif-produto`.
 
 ## Primeira coisa em toda sessão: preparar o computador (sem envolver a pessoa)
@@ -22,7 +23,7 @@ O que só a pessoa pode fazer (peça apenas quando for necessário, com instruç
 - **Narração sempre gerada pelo HeyGen com a voz "Voz IA 26"**: `create_speech` com `voiceId: "fba9170de62148e7b2db21ee0755dba2"`, `engine: "elevenlabs"`, `language: "pt"`. Gere o roteiro inteiro numa chamada (para vídeos longos, um bloco por parágrafo e junte com ffmpeg). Se a pessoa pedir outra voz, ritmo ou entonação, aí sim ajuste.
 - **Trilha: a pessoa escolhe entre 5 opções** (esta é a única pergunta fora das aprovações). O Claude busca no Envato faixas com o perfil da trilha aprovada pelo time, ranqueia por semelhança e mostra prévias de 25 s de **4 trilhas novas + a trilha padrão "Comida" (GlowCity)**, que está sempre em `assets/trilha-padrao/`. Se a pessoa não gostar de nenhuma nova (ou não souber escolher), use a "Comida". Detalhes na skill `/video-lancamento`, etapa 7.
 - **Gravações de tela da Clint**: o Claude grava sozinho (ver skill `/video-lancamento`, etapa 3). Não peça gravações à pessoa.
-- **Formato padrão**: 1920×1080, 30 fps, ~60–120 s, vinheta no final.
+- **Formato padrão**: 1920×1080, 30 fps, ~60–120 s, vinheta no final. Vídeo da plataforma: 5–6 min (cortes curtos depois).
 - **Aprovação por partes**: roteiro → storyboard → prévia de trechos → só então o vídeo inteiro. Identifique sozinho quando precisa de prévias extras (ver skill `/video-lancamento`). Essas são as únicas pausas para a pessoa.
 
 ## Regras da marca (valem para todo vídeo)
@@ -48,7 +49,8 @@ O que só a pessoa pode fazer (peça apenas quando for necessário, com instruç
 ```
 CLAUDE.md                  estas regras
 setup.sh                   prepara o computador (o Claude roda sozinho; sem senha)
-.claude/skills/            /video-lancamento e /gif-produto
+.claude/skills/            /video-lancamento, /video-plataforma e /gif-produto
+referencias/               vídeos-modelo (transcrição + estrutura) que os roteiros devem seguir
 remotion/                  template de animação (React/Remotion)
   src/ui.tsx, theme.ts     sistema visual da Clint (não alterar sem motivo)
   src/projeto/             timeline.ts + cenas.tsx do vídeo em produção
