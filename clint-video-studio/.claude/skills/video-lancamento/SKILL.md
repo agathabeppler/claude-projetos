@@ -32,7 +32,7 @@ Siga as regras do `CLAUDE.md` da raiz (estilo, avatar nunca aparece, vinheta, tr
 ## 0. Preparação (sem envolver a pessoa)
 
 - Rode `scripts/verificar.sh`. Se faltar algo, avise em uma frase simples e rode `./setup.sh` em segundo plano (sem senha, ~10 min, só na primeira vez). Nunca peça para a pessoa rodar comandos.
-- Crie a pasta do projeto: `projetos/AAAA-MM-DD-nome-curto/` com `entrada/`, `saida/` e `notas.md` (decisões, tempos, arquivos escolhidos).
+- Crie a pasta do projeto: `videos/AAAA-MM-DD-nome-curto/` com `entrada/`, `saida/` e `notas.md` (decisões, tempos, arquivos escolhidos).
 
 ## 1. Ideia → roteiro (aprovação A)
 
@@ -44,8 +44,8 @@ Marque em cada parágrafo se é **TELA** (mostrar o produto) ou **CENA** (explic
 ## 2. Narração (automática, sem perguntar)
 
 - Gere com o conector do HeyGen, sempre na **Voz IA 26**: `create_speech` com `voiceId: "fba9170de62148e7b2db21ee0755dba2"`, `engine: "elevenlabs"`, `language: "pt"`, `speed: 1`. Escreva números e siglas como se fala (ex.: "barra vídeo lançamento", "dois minutos").
-- Baixe o `.wav` para `projetos/<p>/entrada/narracao.wav` (para vídeos longos, gere por parágrafo e junte com ffmpeg `concat`, com ~0,4 s de pausa entre blocos).
-- Transcreva com tempo por palavra: `scripts/transcrever.sh projetos/<p>/entrada/narracao.wav projetos/<p>/entrada/narracao` → `.palavras.txt` é a referência de sincronia de tudo.
+- Baixe o `.wav` para `videos/<p>/entrada/narracao.wav` (para vídeos longos, gere por parágrafo e junte com ffmpeg `concat`, com ~0,4 s de pausa entre blocos).
+- Transcreva com tempo por palavra: `scripts/transcrever.sh videos/<p>/entrada/narracao.wav videos/<p>/entrada/narracao` → `.palavras.txt` é a referência de sincronia de tudo.
 - Só troque voz, motor ou velocidade se a pessoa pedir. Se ela mandar um áudio próprio, use exatamente esse arquivo.
 
 ## 3. Gravações de tela (o Claude grava sozinho)
@@ -55,12 +55,12 @@ Marque em cada parágrafo se é **TELA** (mostrar o produto) ou **CENA** (explic
 **Gravar.**
 1. Abra o navegador de gravação em segundo plano: `source scripts/ambiente.sh && python3 scripts/gravacao/navegador.py` (porta 9333, 1920×1080 a 2× = 4K, perfil salvo). Se a página pedir login, diga à pessoa: "Abri uma janela da Clint. Faça login nela uma vez e me avise." Nunca digite senhas.
 2. Use `scripts/gravacao/mapa-clint.md` para achar as telas; se algo mudou, explore o app (sem gravar) e atualize o mapa.
-3. Escreva `projetos/<p>/gravacao.py` com uma função por trecho TELA: `preparar_<nome>(page, c)` (navega até a tela, fora da gravação) e `tomada_<nome>(page, c)` (a ação, com `c.clicar`, `c.mover`, `c.digitar`, `c.pausa`). Ritmo humano; cada tomada ~20% mais longa que a fala correspondente.
-4. Grave: `source scripts/ambiente.sh && python3 scripts/gravacao/gravar.py projetos/<p>/gravacao.py projetos/<p>/entrada/telas` (dá para regravar só uma: acrescente o nome no fim). A anonimização (`anon.js`) troca nomes, mensagens, telefones e e-mails de clientes por fictícios automaticamente; confira 2–3 quadros de cada tomada mesmo assim.
+3. Escreva `videos/<p>/gravacao.py` com uma função por trecho TELA: `preparar_<nome>(page, c)` (navega até a tela, fora da gravação) e `tomada_<nome>(page, c)` (a ação, com `c.clicar`, `c.mover`, `c.digitar`, `c.pausa`). Ritmo humano; cada tomada ~20% mais longa que a fala correspondente.
+4. Grave: `source scripts/ambiente.sh && python3 scripts/gravacao/gravar.py videos/<p>/gravacao.py videos/<p>/entrada/telas` (dá para regravar só uma: acrescente o nome no fim). A anonimização (`anon.js`) troca nomes, mensagens, telefones e e-mails de clientes por fictícios automaticamente; confira 2–3 quadros de cada tomada mesmo assim.
 5. Nunca faça ações reais com clientes (ligar, enviar mensagem, cobrar): use o contato de teste do mapa ou pare antes de confirmar.
 6. Feche o navegador ao terminar: `python3 scripts/gravacao/navegador.py --parar`.
 
-**Encaixar.** Escreva `projetos/<p>/plano_telas.json` (trechos: início/fim na narração + arquivo + pedaço da tomada) e rode `python3 scripts/montar_telas.py projetos/<p>/plano_telas.json remotion/public/telas.mp4`. Na `timeline.ts`, cada TELA pode ter `zoom` para destacar a informação que a fala cita (ex.: aproximar 2× no botão quando a narração o nomeia).
+**Encaixar.** Escreva `videos/<p>/plano_telas.json` (trechos: início/fim na narração + arquivo + pedaço da tomada) e rode `python3 scripts/montar_telas.py videos/<p>/plano_telas.json remotion/public/telas.mp4`. Na `timeline.ts`, cada TELA pode ter `zoom` para destacar a informação que a fala cita (ex.: aproximar 2× no botão quando a narração o nomeia).
 
 ## 4. Linha do tempo + cenas
 
@@ -72,28 +72,28 @@ Marque em cada parágrafo se é **TELA** (mostrar o produto) ou **CENA** (explic
 
 ## 5. Prévias (aprovações B e C)
 
-- **B. Storyboard:** `COMP=Video scripts/storyboard.sh projetos/<p>/saida/storyboard.jpg "<s>:<rótulo>" ...` com o meio de cada cena/tela. Antes de mostrar, olhe você mesmo: textos cortados ou quebrados, elementos sobrepostos, telas com dado sensível. Corrija e só então envie.
-- **C. Trechos:** `COMP=Video scripts/previa.sh <inicio_s> <fim_s> projetos/<p>/entrada/narracao.wav <trilha.wav> projetos/<p>/saida/previa_<n>.mp4` para a abertura e o trecho mais complexo (+ os gatilhos da tabela). Assista/inspecione antes de enviar.
+- **B. Storyboard:** `COMP=Video scripts/storyboard.sh videos/<p>/saida/storyboard.jpg "<s>:<rótulo>" ...` com o meio de cada cena/tela. Antes de mostrar, olhe você mesmo: textos cortados ou quebrados, elementos sobrepostos, telas com dado sensível. Corrija e só então envie.
+- **C. Trechos:** `COMP=Video scripts/previa.sh <inicio_s> <fim_s> videos/<p>/entrada/narracao.wav <trilha.wav> videos/<p>/saida/previa_<n>.mp4` para a abertura e o trecho mais complexo (+ os gatilhos da tabela). Assista/inspecione antes de enviar.
 - Ajuste conforme o retorno e mostre de novo só o que mudou.
 
 ## 6. Render
 
-`cd remotion && npx remotion render src/index.ts Video ../projetos/<p>/saida/video_mudo.mp4 --crf=16 --muted`
+`cd remotion && npx remotion render src/index.ts Video ../videos/<p>/saida/video_mudo.mp4 --crf=16 --muted`
 Se travar: veja "Render travando" nas lições do CLAUDE.md.
 
 ## 7. Trilha (a pessoa escolhe entre 5 opções)
 
 Faça isso **depois** das aprovações A–C e antes do render final (ou junto da prévia C, se preferir economizar uma rodada).
-1. **Buscar no Envato** (navegador de gravação aberto): `python3 scripts/trilhas/envato_buscar.py <termos...> projetos/<p>/trilhas/candidatas.tsv`. Use os termos de `scripts/trilhas/referencia.json` e acrescente 1–2 termos ligados ao clima do vídeo (sempre acústico/caloroso; nunca corporate/ambient). A busca não exige login.
-2. **Ranquear**: `python3 scripts/trilhas/ranquear.py projetos/<p>/trilhas/candidatas.tsv projetos/<p>/trilhas/previas`. Escolha **4 faixas novas** entre as mais próximas que sejam diferentes entre si (andamento, energia, instrumento principal). Evite faixas "infantis" ou com vocal.
-3. **Prévias**: `scripts/previas_trilha.sh projetos/<p>/saida/video_mudo.mp4 <narracao> projetos/<p>/trilhas/escolha <as 4 prévias .m4a> "assets/trilha-padrao/Comida - GlowCity (Envato).mp3"` — dê nomes claros aos arquivos ("1 - Nome (autor)", …, "5 - Comida (trilha padrão)"). Se o vídeo final ainda não existir, use a prévia C.
+1. **Buscar no Envato** (navegador de gravação aberto): `python3 scripts/trilhas/envato_buscar.py <termos...> videos/<p>/trilhas/candidatas.tsv`. Use os termos de `scripts/trilhas/referencia.json` e acrescente 1–2 termos ligados ao clima do vídeo (sempre acústico/caloroso; nunca corporate/ambient). A busca não exige login.
+2. **Ranquear**: `python3 scripts/trilhas/ranquear.py videos/<p>/trilhas/candidatas.tsv videos/<p>/trilhas/previas`. Escolha **4 faixas novas** entre as mais próximas que sejam diferentes entre si (andamento, energia, instrumento principal). Evite faixas "infantis" ou com vocal.
+3. **Prévias**: `scripts/previas_trilha.sh videos/<p>/saida/video_mudo.mp4 <narracao> videos/<p>/trilhas/escolha <as 4 prévias .m4a> "assets/trilha-padrao/Comida - GlowCity (Envato).mp3"` — dê nomes claros aos arquivos ("1 - Nome (autor)", …, "5 - Comida (trilha padrão)"). Se o vídeo final ainda não existir, use a prévia C.
 4. **Perguntar**: envie as 5 prévias no chat e pergunte numa mensagem curta: "Qual trilha você prefere? 1, 2, 3, 4 ou 5 (a trilha padrão da Clint). Se não gostar de nenhuma das novas, fico com a 5." Sem resposta clara → use a 5.
-5. **Se escolher uma nova**: peça confirmação antes de baixar ("Vou baixar e licenciar *<nome>* na sua conta do Envato, ok?"). Com o ok, abra a página da faixa no navegador de gravação (`https://app.envato.com/search/music/<id>`), peça para a pessoa entrar no Envato se aparecer o login (nunca digite senha), clique em baixar/licenciar com o nome do projeto = nome do vídeo (use `scripts/gravacao/executar.py`) e salve o arquivo em `projetos/<p>/trilhas/`. Anote em `notas.md` a faixa, o autor e o id.
-6. **Estender** para a duração do vídeo: `python3 scripts/estender_trilha.py <arquivo> <duração_s> projetos/<p>/entrada/trilha.wav`.
+5. **Se escolher uma nova**: peça confirmação antes de baixar ("Vou baixar e licenciar *<nome>* na sua conta do Envato, ok?"). Com o ok, abra a página da faixa no navegador de gravação (`https://app.envato.com/search/music/<id>`), peça para a pessoa entrar no Envato se aparecer o login (nunca digite senha), clique em baixar/licenciar com o nome do projeto = nome do vídeo (use `scripts/gravacao/executar.py`) e salve o arquivo em `videos/<p>/trilhas/`. Anote em `notas.md` a faixa, o autor e o id.
+6. **Estender** para a duração do vídeo: `python3 scripts/estender_trilha.py <arquivo> <duração_s> videos/<p>/entrada/trilha.wav`.
 
 ## 8. Mixagem final + vinheta
 
-`scripts/mixar_final.sh projetos/<p>/saida/video_mudo.mp4 <narracao> <trilha.wav> projetos/<p>/saida/<Nome do vídeo>.mp4`
+`scripts/mixar_final.sh videos/<p>/saida/video_mudo.mp4 <narracao> <trilha.wav> videos/<p>/saida/<Nome do vídeo>.mp4`
 
 ## 9. Checagens antes de entregar
 

@@ -13,5 +13,6 @@ Você só precisa:
 - fazer login na Clint numa janela que ele abrir;
 - se aparecer o aviso, conectar o HeyGen em Configurações > Conectores.
 
+Para um vídeo sobre a plataforma (por segmento), escreva:  /video-plataforma  e o segmento.
 Para um GIF curto, escreva:  /gif-produto  e o que deve aparecer.
 Dúvidas: fale com a Rafaela Beck.

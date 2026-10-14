@@ -3,7 +3,7 @@ uso: python3 scripts/montar_telas.py plano_telas.json remotion/public/telas.mp4
 
 plano_telas.json:
 {"duracao": 62.4,
- "trechos": [{"inicio": 4.9, "fim": 14.9, "arquivo": "projetos/<p>/entrada/telas/conversas.mp4", "de": 0.5, "ate": 11.0}, ...]}
+ "trechos": [{"inicio": 4.9, "fim": 14.9, "arquivo": "videos/<p>/entrada/telas/conversas.mp4", "de": 0.5, "ate": 11.0}, ...]}
 - inicio/fim: segundos na narração em que a tela aparece.
 - de/ate: pedaço da gravação usado. A velocidade é ajustada para caber (fique entre 0,7x e 1,5x; se passar disso, regrave ou corte).
 Fora dos trechos fica preto (o vídeo final mostra animações ali). Saída 2560x1440, 30 fps, all-intra."""

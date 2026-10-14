@@ -3,7 +3,10 @@ remotion/out/
 remotion/stills/
 remotion/public/telas.mp4
 remotion/public/*.mp4
-projetos/*
-!projetos/README.md
+videos/*/saida/
+videos/*/trilhas/
+videos/*/entrada/telas/
+videos/**/*.mp4
 *.mov
 .DS_Store
+remotion/public/**/*.mp4
