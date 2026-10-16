@@ -26,3 +26,7 @@ Capítulos (para o Drive/YouTube) saem dos tempos da narração final.
 
 ## Aprovações
 - A. Roteiro e plano: aguardando
+
+## Entrega v1 (16/10)
+- `saida/Metodo - Etapa 1 Vender.mp4` — 4:57 com vinheta, -14,7 LUFS.
+- Capítulos: 0:00 Abertura · 0:23 Passo 1 Cliente oculto · 1:15 Passo 2 Diagnóstico · 2:18 Passo 3 Preço · 3:11 Passo 4 Proposta · 4:04 Passo 5 Contrato · 4:36 Fechamento

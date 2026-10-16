@@ -10,3 +10,4 @@ videos/**/*.mp4
 *.mov
 .DS_Store
 remotion/public/**/*.mp4
+videos/*/entrada/trilha*.wav
