@@ -4,7 +4,11 @@ Decisão da Agatha (16/10): em vez de um vídeo por tópico, **um vídeo por eta
 com capítulos por tópico. Voz HeyGen speed 1,1. Trilha "Comida". Vídeo é apoio para quem lê a LP: o essencial de cada passo.
 Reaproveita cenas dos vídeos 01 (Cliente oculto) e 02 (Diagnóstico).
 
-- Roteiro v1: `entrada/roteiro.txt` (~630 palavras → ~3:45 de narração + vinheta).
+- Roteiro v1: `entrada/roteiro_v1.txt` (~620 palavras). Agatha (16/10): "o mais mastigadinho possível, mini curso pra burro",
+  falando com agências/consultores.
+- Roteiro v2: `entrada/roteiro.txt` (831 palavras → ~4:55 + vinheta). Exemplo único do início ao fim (Clínica Sorriso, fictícia);
+  cada passo = o que é → por quê → como → exemplo → "Resumindo:"; jargão explicado (API oficial, setup, evolução, margem);
+  recapitulação no fim. Visual: a Clínica Sorriso aparece em todos os capítulos; cada "Resumindo" vira um cartão-resumo.
 
 ## Plano de cenas (aprovação A)
 
