@@ -31,5 +31,7 @@ Fonte: seção "01 Cliente oculto" da LP + material "Registro do cliente oculto"
 
 ## Aprovações
 - A. Roteiro e plano: aprovado (16/10)
-- Trilha: "Comida" para a série (16/10)
-- Vídeo completo v1: aguardando
+- Trilha: "Comida" para a série (16/10) → TROCADA (16/10): Agatha pediu algo menos "feliz", vibe escritório.
+  Escolhida: "Minimal Tech Corporate Background" — LofiDog (Envato, id a76e0b66-9338-49a0-b7d0-85cd0cfc5bbf). Vale para a série toda.
+  Aguardando o arquivo licenciado (a Agatha baixa pela conta do Envato; a prévia pública não pode ir para o final).
+- Vídeo completo v1: ajustes pedidos (narração lenta → 1,2x; fala cortada no fim → corrigido no mixar_final.sh)
