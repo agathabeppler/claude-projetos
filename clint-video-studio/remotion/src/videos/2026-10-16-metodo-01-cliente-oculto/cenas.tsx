@@ -5,7 +5,9 @@ import {Abs, ContactAvatar, Cursor, Grad, Icon, IconTile, Logo, Pop, POP, Scene,
 
 // Série Método de Aceleração Comercial · 01 Cliente oculto.
 // Tempos = segundos da narração (videos/2026-10-16-metodo-01-cliente-oculto/entrada/narracao.palavras.txt).
-// Dentro da cena: L(s) = s - g0.
+// Dentro da cena: L(s) = s / K - g0. Os tempos escritos aqui são da narração original (palavras.txt);
+// a narração final é a original acelerada K vezes (entrada/narracao_rapida.wav), então tudo é dividido por K.
+export const K = 1.2;
 
 type P = {g0: number; dur: number};
 const PASTA = 'videos/2026-10-16-metodo-01-cliente-oculto';
@@ -153,7 +155,7 @@ const MiniSlide: React.FC<{w: number; glow?: number; children?: React.ReactNode;
 
 // ============ 1. Abertura (0 – 10,6 s) ============
 export const Abertura: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s - g0;
+  const L = (s: number) => s / K - g0;
   const t = useSec();
   const glow = Math.min(useSpring(L(8.6)), 1) * (0.75 + 0.25 * Math.sin((t - L(8.6)) * 4));
   return (
@@ -223,7 +225,7 @@ export const Abertura: React.FC<P> = ({g0, dur}) => {
 
 // ============ 2. O erro mais comum + entrar no funil (10,6 – 26,5 s) ============
 export const Erro: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s - g0;
+  const L = (s: number) => s / K - g0;
   const t = useSec();
   const sai = L(18.0);
   const strike = ramp(t, L(17.5), L(17.95), 0, 1);
@@ -332,7 +334,7 @@ export const Erro: React.FC<P> = ({g0, dur}) => {
 
 // ============ 3. Canais reais + print (26,5 – 37,4 s) ============
 export const Canais: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s - g0;
+  const L = (s: number) => s / K - g0;
   const t = useSec();
   const canais = [
     {at: 28.78, icon: 'megaphone', text: 'Anúncio', teste: false},
@@ -510,7 +512,7 @@ const Check: React.FC<{text: string; ok: boolean; at: number; size?: number}> = 
 };
 
 export const Seis: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s - g0;
+  const L = (s: number) => s / K - g0;
   const t = useSec();
   // 1. cronômetro 0 → 155 min
   const min = Math.round(ramp(t, L(41.0), L(42.7), 0, 155, Easing.out(Easing.cubic)));
@@ -686,7 +688,7 @@ export const Seis: React.FC<P> = ({g0, dur}) => {
 
 // ============ 5. Memória × print (82,3 – 88,9 s) ============
 export const Memoria: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s - g0;
+  const L = (s: number) => s / K - g0;
   const t = useSec();
   const fato = useSpring(L(88.2), POP);
   const apaga = ramp(t, L(86.9), L(87.4), 1, 0.45);
@@ -773,9 +775,9 @@ const zoomAt = (keys: Z[], t: number): [number, number, number] => {
 };
 
 export const TelaRegistro: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s - g0;
+  const L = (s: number) => s / K - g0;
   const t = useSec();
-  const s = t + g0; // tempo da narração
+  const s = (t + g0) * K; // tempo na narração original
   const p = useSpring(0, {damping: 200, stiffness: 95, mass: 1});
   const pc = Math.min(p, 1);
   const outP = ramp(t, dur - 0.3, dur, 0, 1, Easing.in(Easing.cubic));
@@ -878,7 +880,7 @@ export const TelaRegistro: React.FC<P> = ({g0, dur}) => {
 
 // ============ 7. Slide "O que ouvimos" (101,9 – 108,6 s) ============
 export const Slide: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s - g0;
+  const L = (s: number) => s / K - g0;
   const glow = Math.min(useSpring(L(105.2)), 1);
   return (
     <Scene dur={dur} push={0.035}>
@@ -922,7 +924,7 @@ export const Slide: React.FC<P> = ({g0, dur}) => {
 
 // ============ 8. Encerramento: trilha da etapa 1 (108,6 s – fim) ============
 export const Final: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s - g0;
+  const L = (s: number) => s / K - g0;
   const t = useSec();
   const passos = ['Cliente oculto', 'Diagnóstico', 'Preço', 'Proposta', 'Contrato'];
   const ok = useSpring(L(110.0), POP);
