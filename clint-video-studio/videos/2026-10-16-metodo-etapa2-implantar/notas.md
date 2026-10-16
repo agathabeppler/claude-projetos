@@ -28,3 +28,9 @@ B) telas animadas fictícias (chat da Aura, kanban, inbox) feitas em Remotion �
 - Vídeo oficial da Aura (YouTube, BQY7hjlEPWE): conexões WhatsApp/Instagram (75–79 s), caixa de conversas (115 s),
   funil (79,7 s), simulação do agente no celular (88 s). Usados em tela cheia (já estão no visual da Clint).
 - Código: `remotion/src/videos/2026-10-16-metodo-etapa2-implantar/` (comum.tsx, cenas.tsx, timeline.ts) · composição `Etapa2Implantar`.
+
+## Entrega v1 (16/10)
+- `saida/Metodo - Etapa 2 Implantar.mp4` · 5:21 · -14,5 LUFS · trilha "Comida" · voz HeyGen speed 1,1.
+- Capítulos: 0:00 Abertura · 0:25 Passo 1 Kick-off · 1:22 Passo 2 Configuração · 2:19 Passo 3 Operação no ar ·
+  3:07 Passo 4 Playbook · 3:33 Passo 5 Treinamento e rotinas · 4:19 Passo 6 Campanha de ativação · 5:00 Fechamento.
+- Status: enviado para aprovação.
