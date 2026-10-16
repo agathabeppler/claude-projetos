@@ -5,9 +5,23 @@ import {Abs, Grad, Icon, Logo, Pop, POP, Scene, Sparkle, Words, card, ramp, useS
 import {Badge, Bubble, Chip, MiniSlide, Tile, XIcon} from '../2026-10-16-metodo-01-cliente-oculto/cenas';
 
 // Série Método de Aceleração Comercial · 02 Diagnóstico comercial.
-// Tempos escritos = narração ORIGINAL (videos/2026-10-16-metodo-02-diagnostico/entrada/narracao.palavras.txt).
-// A narração final é a original acelerada K vezes (narracao_rapida.wav): L(s) = s / K - g0.
-export const K = 1.2;
+// Tempos escritos = narração ORIGINAL (videos/2026-10-16-metodo-02-diagnostico/entrada/narracao.palavras.txt, speed 1).
+// A narração final é a do HeyGen com speed 1,2 (entrada/narracao_v2.wav, 93,8 s): L(s) = M(s) - g0, M por âncoras.
+import {criarMapa} from '../metodo-tempo';
+export const {M, inv} = criarMapa([
+  [0, 0], [2.94, 1.96], [6.75, 4.87], [8.07, 5.81], [9.07, 6.47], [10.01, 7.13], [11.65, 8.28], [12.11, 8.6],
+  [13.35, 9.54], [14.94, 10.7], [16.64, 11.97], [17.75, 12.84], [18.62, 13.47], [19.74, 14.41], [21.53, 15.66],
+  [23.23, 16.82], [24.22, 17.45], [26.17, 18.82], [27.36, 19.67], [28.69, 20.6], [29.68, 21.34], [31.52, 22.61],
+  [32.77, 23.63], [33.99, 24.64], [35.15, 25.49], [36.89, 26.95], [37.72, 27.61], [38.93, 28.49], [41.17, 30.42],
+  [42.82, 32.07], [44.55, 33.35], [45.24, 33.85], [47.28, 35.22], [49.67, 36.78], [50.54, 37.47], [52.22, 38.64],
+  [53.81, 39.64], [55.13, 40.56], [56.69, 41.57], [58.88, 43.53], [59.97, 44.47], [61.12, 45.36], [61.75, 46.08],
+  [63.34, 47.27], [65.76, 49.07], [66.88, 50.06], [68.09, 51.2], [69.9, 52.76], [71.31, 53.68], [73.65, 55.6],
+  [74.57, 56.53], [76.23, 57.79], [77.22, 58.62], [78.19, 59.41], [79.41, 60.13], [81.43, 61.62], [82.73, 62.75],
+  [85.78, 64.8], [87.03, 65.78], [88.16, 66.56], [89.47, 67.54], [90.22, 68.15], [91.71, 69.17], [93.5, 70.52],
+  [95.57, 71.96], [96.82, 72.75], [98.3, 73.69], [99.34, 74.34], [100.36, 74.95], [101.75, 75.98], [103.3, 77.3],
+  [105.0, 78.6], [107.52, 80.59], [109.52, 82.41], [112.07, 84.6], [114.82, 86.83], [115.98, 87.48], [117.92, 88.52],
+  [118.65, 88.99], [119.37, 89.47], [121.21, 90.58], [122.25, 91.21], [123.53, 92.08], [125.29, 93.27], [125.94, 93.75],
+]);
 type P = {g0: number; dur: number};
 const PASTA = 'videos/2026-10-16-metodo-02-diagnostico';
 
@@ -32,7 +46,7 @@ const Selo: React.FC<{at: number}> = ({at}) => (
 
 // ============ 1. Abertura (0 – 9,0) ============
 export const Abertura: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s / K - g0;
+  const L = (s: number) => M(s) - g0;
   const t = useSec();
   const strike = ramp(t, L(7.85), L(8.3), 0, 1);
   const win = useSpring(L(6.8));
@@ -82,7 +96,7 @@ export const Abertura: React.FC<P> = ({g0, dur}) => {
 
 // ============ 2. Chega com o cliente oculto, sai com três coisas (9,0 – 18,6) ============
 export const Saidas: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s / K - g0;
+  const L = (s: number) => M(s) - g0;
   const saidas = [
     {at: 13.3, icon: 'chart', t: 'Problema', s: 'dimensionado'},
     {at: 14.9, icon: 'user', t: 'Decisor', s: 'identificado'},
@@ -145,7 +159,7 @@ export const Saidas: React.FC<P> = ({g0, dur}) => {
 
 // ============ 3. Vocabulário do segmento (18,6 – 31,4) ============
 export const Vocabulario: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s / K - g0;
+  const L = (s: number) => M(s) - g0;
   const linhas = [
     {at: 21.5, w: 23.2, icon: 'calendar', seg: 'Clínica', fala: '“no-show” é o inimigo'},
     {at: 24.2, w: 26.1, icon: 'book', seg: 'Educação', fala: 'tudo gira na “matrícula”'},
@@ -275,7 +289,7 @@ const Pergunta: React.FC<{at: number; text: string; hi?: number}> = ({at, text, 
 );
 
 export const Blocos: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s / K - g0;
+  const L = (s: number) => M(s) - g0;
   const api = Math.min(useSpring(L(61.7)), 1);
   return (
     <Scene dur={dur} push={0.015}>
@@ -382,7 +396,7 @@ export const Blocos: React.FC<P> = ({g0, dur}) => {
 
 // ============ 5. Não pergunte tudo (74,4 – 82,5) ============
 export const NaoTudo: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s / K - g0;
+  const L = (s: number) => M(s) - g0;
   const t = useSec();
   const corta = ramp(t, L(76.2), L(77.0), 0, 1);
   const lista = [
@@ -450,7 +464,7 @@ export const NaoTudo: React.FC<P> = ({g0, dur}) => {
 
 // ============ 6. A pergunta do problema único (82,5 – 100,2) ============
 export const Unico: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s / K - g0;
+  const L = (s: number) => M(s) - g0;
   const t = useSec();
   const sobe = ramp(t, L(89.9), L(90.6), 0, 1);
   const glow = Math.min(useSpring(L(97.4)), 1);
@@ -508,7 +522,7 @@ export const Unico: React.FC<P> = ({g0, dur}) => {
 
 // ============ 7. Checklist de saída (100,2 – 115,7) ============
 export const Checklist: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s / K - g0;
+  const L = (s: number) => M(s) - g0;
   const itens = [
     {at: 103.3, txt: 'O problema, nas palavras dele'},
     {at: 105.0, txt: 'Volume, ticket e tamanho do time'},
@@ -581,7 +595,7 @@ const zoomAt = (keys: Z[], s: number): [number, number, number] => {
 
 export const TelaBanco: React.FC<P> = ({g0, dur}) => {
   const t = useSec();
-  const s = (t + g0) * K;
+  const s = inv(t + g0);
   const p = useSpring(0, {damping: 200, stiffness: 95, mass: 1});
   const pc = Math.min(p, 1);
   const outP = ramp(t, dur - 0.3, dur, 0, 1, Easing.in(Easing.cubic));
@@ -654,7 +668,7 @@ export const TelaBanco: React.FC<P> = ({g0, dur}) => {
 
 // ============ 9. Encerramento (122,0 – fim) ============
 export const Final: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s / K - g0;
+  const L = (s: number) => M(s) - g0;
   const t = useSec();
   const passos = ['Cliente oculto', 'Diagnóstico', 'Preço', 'Proposta', 'Contrato'];
   const ok = useSpring(L(122.4), POP);

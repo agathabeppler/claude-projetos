@@ -30,6 +30,9 @@ mostrar o passo acontecendo, sem repetir a página inteira.
 - Código: `remotion/src/videos/2026-10-16-metodo-02-diagnostico/` · composição `Metodo02Diagnostico`. Reaproveita Badge/Chip/Tile/MiniSlide do vídeo 01.
 - Trilha "Comida". Final: `saida/Metodo 02 - Diagnostico comercial.mp4` (1:53 com vinheta, -14,9 LUFS).
 
+- Narração v2 (16/10): HeyGen speed 1,2 direto (`entrada/narracao_v2.wav`, 93,8 s), no lugar da esticada (robotizada).
+  Cenas por mapa de âncoras (`criarMapa`). Final: 1:42 com vinheta, -14,8 LUFS.
+
 ## Aprovações
 - A. Roteiro e plano: aprovado (16/10)
 - Vídeo completo v1: aguardando

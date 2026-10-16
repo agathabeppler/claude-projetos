@@ -29,6 +29,10 @@ Fonte: seção "01 Cliente oculto" da LP + material "Registro do cliente oculto"
 - Cenas (s): Abertura 0–10,6 · Erro 10,6–26,5 · Canais 26,5–37,4 · Seis 37,4–82,3 · Memória 82,3–88,9 · TelaRegistro 88,9–101,9 · Slide 101,9–108,6 · Final 108,6–114,9.
 - Final: `saida/Metodo 01 - Cliente oculto.mp4` (122,2 s com vinheta, -14,7 LUFS). Não vai para o Git.
 
+- Narração v3 (16/10): HeyGen speed 1,2 direto (`entrada/narracao_v3.wav`, 84,8 s). A v2 (áudio esticado 1,2x com rubberband) ficou robotizada — NÃO esticar áudio.
+  Cenas sincronizadas por mapa de âncoras (narração original → v3) em `cenas.tsx` (`criarMapa`, `src/videos/metodo-tempo.ts`).
+  Final: 1:32 com vinheta, -14,9 LUFS.
+
 ## Aprovações
 - A. Roteiro e plano: aprovado (16/10)
 - Trilha: "Comida" para a série (16/10) → TROCADA (16/10): Agatha pediu algo menos "feliz", vibe escritório.

@@ -5,9 +5,22 @@ import {Abs, ContactAvatar, Cursor, Grad, Icon, IconTile, Logo, Pop, POP, Scene,
 
 // Série Método de Aceleração Comercial · 01 Cliente oculto.
 // Tempos = segundos da narração (videos/2026-10-16-metodo-01-cliente-oculto/entrada/narracao.palavras.txt).
-// Dentro da cena: L(s) = s / K - g0. Os tempos escritos aqui são da narração original (palavras.txt);
-// a narração final é a original acelerada K vezes (entrada/narracao_rapida.wav), então tudo é dividido por K.
-export const K = 1.2;
+// Dentro da cena: L(s) = M(s) - g0. Os tempos escritos aqui são da narração original (palavras.txt, speed 1);
+// M converte para a narração final (entrada/narracao_v3.wav, HeyGen speed 1,2, 84,8 s) por âncoras.
+import {criarMapa} from '../metodo-tempo';
+export const {M, inv} = criarMapa([
+  [0, 0], [5.62, 4.13], [8.15, 6.26], [10.7, 8.35], [13.54, 10.51], [15.93, 12.61], [18.0, 14.16], [18.79, 14.63],
+  [20.97, 16.32], [22.67, 17.53], [23.35, 18.0], [24.49, 18.94], [25.82, 20.02], [26.65, 20.48], [28.78, 22.09],
+  [29.73, 22.74], [30.6, 23.23], [31.66, 23.89], [32.49, 24.42], [34.39, 25.69], [34.73, 25.94], [36.12, 26.99],
+  [37.47, 28.05], [39.94, 29.7], [40.64, 30.19], [41.98, 31.16], [43.79, 32.52], [45.19, 33.4], [46.57, 34.38],
+  [47.69, 34.98], [48.93, 35.69], [51.17, 37.19], [53.53, 38.69], [54.79, 39.67], [56.54, 41.04], [58.9, 42.86],
+  [59.9, 43.56], [61.73, 45.03], [62.83, 45.79], [63.94, 46.52], [66.13, 48.02], [68.12, 49.21], [70.53, 50.9],
+  [72.44, 52.2], [74.45, 53.79], [76.72, 55.2], [77.32, 55.64], [79.54, 57.05], [80.92, 57.95], [82.44, 59.06],
+  [83.77, 60.25], [84.97, 61.49], [86.97, 62.98], [88.27, 64.09], [88.99, 64.57], [90.55, 65.88], [93.48, 68.19],
+  [94.17, 68.66], [95.42, 69.93], [96.11, 70.49], [97.14, 71.29], [98.66, 72.5], [99.86, 73.34], [101.17, 74.6],
+  [101.94, 75.25], [103.06, 76.13], [105.23, 77.93], [106.56, 78.85], [108.67, 80.27], [112.17, 83.02],
+  [113.44, 83.92], [114.01, 84.29], [114.6, 84.82],
+]);
 
 type P = {g0: number; dur: number};
 const PASTA = 'videos/2026-10-16-metodo-01-cliente-oculto';
@@ -155,7 +168,7 @@ export const MiniSlide: React.FC<{w: number; glow?: number; children?: React.Rea
 
 // ============ 1. Abertura (0 – 10,6 s) ============
 export const Abertura: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s / K - g0;
+  const L = (s: number) => M(s) - g0;
   const t = useSec();
   const glow = Math.min(useSpring(L(8.6)), 1) * (0.75 + 0.25 * Math.sin((t - L(8.6)) * 4));
   return (
@@ -225,7 +238,7 @@ export const Abertura: React.FC<P> = ({g0, dur}) => {
 
 // ============ 2. O erro mais comum + entrar no funil (10,6 – 26,5 s) ============
 export const Erro: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s / K - g0;
+  const L = (s: number) => M(s) - g0;
   const t = useSec();
   const sai = L(18.0);
   const strike = ramp(t, L(17.5), L(17.95), 0, 1);
@@ -334,7 +347,7 @@ export const Erro: React.FC<P> = ({g0, dur}) => {
 
 // ============ 3. Canais reais + print (26,5 – 37,4 s) ============
 export const Canais: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s / K - g0;
+  const L = (s: number) => M(s) - g0;
   const t = useSec();
   const canais = [
     {at: 28.78, icon: 'megaphone', text: 'Anúncio', teste: false},
@@ -512,7 +525,7 @@ const Check: React.FC<{text: string; ok: boolean; at: number; size?: number}> = 
 };
 
 export const Seis: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s / K - g0;
+  const L = (s: number) => M(s) - g0;
   const t = useSec();
   // 1. cronômetro 0 → 155 min
   const min = Math.round(ramp(t, L(41.0), L(42.7), 0, 155, Easing.out(Easing.cubic)));
@@ -688,7 +701,7 @@ export const Seis: React.FC<P> = ({g0, dur}) => {
 
 // ============ 5. Memória × print (82,3 – 88,9 s) ============
 export const Memoria: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s / K - g0;
+  const L = (s: number) => M(s) - g0;
   const t = useSec();
   const fato = useSpring(L(88.2), POP);
   const apaga = ramp(t, L(86.9), L(87.4), 1, 0.45);
@@ -775,9 +788,9 @@ const zoomAt = (keys: Z[], t: number): [number, number, number] => {
 };
 
 export const TelaRegistro: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s / K - g0;
+  const L = (s: number) => M(s) - g0;
   const t = useSec();
-  const s = (t + g0) * K; // tempo na narração original
+  const s = inv(t + g0); // tempo na narração original
   const p = useSpring(0, {damping: 200, stiffness: 95, mass: 1});
   const pc = Math.min(p, 1);
   const outP = ramp(t, dur - 0.3, dur, 0, 1, Easing.in(Easing.cubic));
@@ -880,7 +893,7 @@ export const TelaRegistro: React.FC<P> = ({g0, dur}) => {
 
 // ============ 7. Slide "O que ouvimos" (101,9 – 108,6 s) ============
 export const Slide: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s / K - g0;
+  const L = (s: number) => M(s) - g0;
   const glow = Math.min(useSpring(L(105.2)), 1);
   return (
     <Scene dur={dur} push={0.035}>
@@ -924,7 +937,7 @@ export const Slide: React.FC<P> = ({g0, dur}) => {
 
 // ============ 8. Encerramento: trilha da etapa 1 (108,6 s – fim) ============
 export const Final: React.FC<P> = ({g0, dur}) => {
-  const L = (s: number) => s / K - g0;
+  const L = (s: number) => M(s) - g0;
   const t = useSec();
   const passos = ['Cliente oculto', 'Diagnóstico', 'Preço', 'Proposta', 'Contrato'];
   const ok = useSpring(L(110.0), POP);

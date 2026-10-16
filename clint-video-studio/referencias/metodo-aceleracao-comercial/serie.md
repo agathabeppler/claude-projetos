@@ -5,7 +5,9 @@ https://lp.useclint.com/metodo-aceleracao-comercial (texto completo em `lp-texto
 
 ## Padrões da série (definidos pela Agatha em 16/10)
 
-- **Narração + tela.** Sem apresentador; voz Voz IA 26 (clone) do HeyGen, **acelerada 1,2x** (pedido da Agatha: a velocidade normal ficou lenta).
+- **Narração + tela.** Sem apresentador; voz Voz IA 26 (clone) do HeyGen gerada com **speed 1,2** no próprio HeyGen (pedido da Agatha: a velocidade normal ficou lenta).
+  Nunca acelerar o áudio depois (rubberband/atempo): a voz fica robotizada. Escreva os tempos das cenas na narração
+  speed 1 (ou direto na final) e use `src/videos/metodo-tempo.ts` (`criarMapa`) para converter por âncoras.
 - **Trilha "Comida"** na série (a Agatha queria algo mais "escritório", mas a faixa escolhida exige Envato pago).
 - Os vídeos são **apoio para quem está lendo o Método** na LP: mostrar o passo acontecendo, sem repetir a página.
 - **2 a 3 minutos por vídeo**, para não cansar (~300–380 palavras de narração).
