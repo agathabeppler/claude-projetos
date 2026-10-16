@@ -19,5 +19,17 @@ Fonte: seção "01 Cliente oculto" da LP + material "Registro do cliente oculto"
 | 7 | "slide 'O que ouvimos'… nenhum concorrente consegue copiar" | CENA | A frase gerada voa para um slide "O que ouvimos" |
 | 8 | "Com o cliente oculto feito… próximo vídeo" | CENA | Trilha da Etapa 1 com 5 passos; 01 marcado, 02 Diagnóstico acende → vinheta |
 
+## Produção (16/10, sessão na nuvem)
+- Narração: HeyGen "Voz IA 26 (clone)" voiceId 045f75696cf04e32bd1a42c507edace3, elevenlabs, pt, speed 1 → `entrada/narracao.wav` (114,6 s).
+  Tempos por palavra vieram do próprio HeyGen: `entrada/narracao.palavras.txt` (sem whisper).
+- Trilha: padrão "Comida" (GlowCity) para a série toda (escolha da Agatha), estendida em `entrada/trilha.wav`.
+- Tela do Registro: prints 2x da página pública, preenchida com dados fictícios (WhatsApp 09:12 → 11:47, 7 mensagens, sem follow-up;
+  formulário do site sem resposta), locale pt-BR. Em `remotion/public/videos/2026-10-16-metodo-01-cliente-oculto/r*.png`.
+- Código: `remotion/src/videos/2026-10-16-metodo-01-cliente-oculto/` · composição `Metodo01ClienteOculto`.
+- Cenas (s): Abertura 0–10,6 · Erro 10,6–26,5 · Canais 26,5–37,4 · Seis 37,4–82,3 · Memória 82,3–88,9 · TelaRegistro 88,9–101,9 · Slide 101,9–108,6 · Final 108,6–114,9.
+- Final: `saida/Metodo 01 - Cliente oculto.mp4` (122,2 s com vinheta, -14,7 LUFS). Não vai para o Git.
+
 ## Aprovações
-- A. Roteiro e plano: aguardando
+- A. Roteiro e plano: aprovado (16/10)
+- Trilha: "Comida" para a série (16/10)
+- Vídeo completo v1: aguardando

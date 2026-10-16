@@ -8,9 +8,11 @@ import {LPComp, LPS} from './videos/2026-10-07-lps-parceiros';
 import {FPS as LP_FPS} from './videos/2026-10-07-lps-parceiros/LPVideo';
 import * as cadastroParceiros from './videos/2026-10-13-cadastro-parceiros/timeline';
 import {CentralClientes, DURACAO_S as CC_DUR} from './videos/2026-10-13-central-clientes/Video';
+import * as metodo01 from './videos/2026-10-16-metodo-01-cliente-oculto/timeline';
 import './theme';
 
 const CadastroParceiros = criarVideo(cadastroParceiros);
+const Metodo01 = criarVideo(metodo01);
 
 export const Root: React.FC = () => (
   <>
@@ -18,6 +20,8 @@ export const Root: React.FC = () => (
     <Composition id="Video" component={Video} durationInFrames={Math.round(DURACAO_S * FPS)} fps={FPS} width={1920} height={1080} />
     {/* Vídeo "Cadastro no Programa de Parceiros" (videos/2026-10-13-cadastro-parceiros) */}
     <Composition id="CadastroParceiros" component={CadastroParceiros} durationInFrames={Math.round(cadastroParceiros.DURACAO_S * cadastroParceiros.FPS)} fps={cadastroParceiros.FPS} width={1920} height={1080} />
+    {/* Série Método de Aceleração Comercial · 01 Cliente oculto (videos/2026-10-16-metodo-01-cliente-oculto) */}
+    <Composition id="Metodo01ClienteOculto" component={Metodo01} durationInFrames={Math.round(metodo01.DURACAO_S * metodo01.FPS)} fps={metodo01.FPS} width={1920} height={1080} />
     {/* Vídeo "Central de Clientes" (videos/2026-10-13-central-clientes) */}
     <Composition id="CentralClientes" component={CentralClientes} durationInFrames={Math.round(CC_DUR * FPS)} fps={FPS} width={1920} height={1080} />
     {/* Exemplo de GIF de produto (260x346), desenhado em 3,346x e reduzido na exportação */}
