@@ -3,6 +3,13 @@
 Mini curso para quem quer ser ou já é parceiro Clint. Um vídeo por tópico de cada etapa da LP
 https://lp.useclint.com/metodo-aceleracao-comercial (texto completo em `lp-texto.txt`, capturado em 16/10/2026).
 
+## Formato atual: 1 vídeo por etapa (decisão da Agatha, 16/10)
+
+Os 16 vídeos por tópico viraram **3 vídeos, um por etapa** (Vender, Implantar, Evoluir), de **4 a 5 min**, com capítulos por tópico
+(~50 s cada). Pastas: `videos/2026-10-16-metodo-etapa1-vender`, `...-etapa2-implantar`, `...-etapa3-evoluir`.
+Os vídeos 01 e 02 por tópico ficam guardados como versão aprofundada (não entregues) e suas cenas são reaproveitadas.
+Voz: HeyGen speed **1,1** (1,0 lenta; 1,2 rápida demais).
+
 ## Padrões da série (definidos pela Agatha em 16/10)
 
 - **Narração + tela.** Sem apresentador; voz Voz IA 26 (clone) do HeyGen gerada com **speed 1,2** no próprio HeyGen (pedido da Agatha: a velocidade normal ficou lenta).
@@ -10,7 +17,7 @@ https://lp.useclint.com/metodo-aceleracao-comercial (texto completo em `lp-texto
   speed 1 (ou direto na final) e use `src/videos/metodo-tempo.ts` (`criarMapa`) para converter por âncoras.
 - **Trilha "Comida"** na série (a Agatha queria algo mais "escritório", mas a faixa escolhida exige Envato pago).
 - Os vídeos são **apoio para quem está lendo o Método** na LP: mostrar o passo acontecendo, sem repetir a página.
-- **2 a 3 minutos por vídeo**, para não cansar (~300–380 palavras de narração).
+- ~~2 a 3 minutos por vídeo~~ → 4 a 5 min por etapa (~600–750 palavras de narração em speed 1,1).
 - **Tom direto, falando com "você", parceiro.**
 - Cada vídeo fica numa pasta própria em `videos/2026-10-16-metodo-NN-<tópico>/` (roteiro, notas, narração).
 - Entrega em MP4 depois de aprovado (a Agatha sobe no Drive).

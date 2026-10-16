@@ -1,0 +1,18 @@
+Etapa um do Método de Aceleração Comercial: Vender. Do primeiro contato ao contrato assinado, em cinco passos: cliente oculto, diagnóstico, preço, proposta e contrato. São duas reuniões com o cliente, e uma investigação antes delas.
+Passo um: o cliente oculto. Custa uma hora, e vira o slide mais importante da proposta. Antes de falar com o cliente, entre no funil dele como se fosse um lead, pelos canais reais: anúncio, site, formulário, WhatsApp. Teste pelo menos dois, e tire print de tudo, com o horário aparecendo.
+Meça o tempo até a primeira resposta, se alguém respondeu, quantas mensagens até tentarem agendar, se houve follow-up, a qualidade da conversa, e o caminho inteiro.
+Anote no Registro do cliente oculto: ele calcula o tempo e gera a frase pronta para a proposta. Assim você não chega perguntando como está a operação. Você chega mostrando onde a venda vaza.
+Passo dois: a reunião de diagnóstico. A regra é investigar, não apresentar. Adapte o vocabulário ao segmento, e use o Banco de perguntas, em quatro blocos: o negócio e o número, onde a venda vaza, o que já existe, e a dor e a decisão.
+No bloco três, descubra como está o WhatsApp. O agente exige a API oficial, mas não peça migração agora. Pergunte só o suficiente para dimensionar e precificar.
+E não esqueça a pergunta mais valiosa: se pudesse resolver um único problema em trinta dias, qual seria? Anote com as palavras dele. Você sai com o problema dimensionado, o decisor identificado, e a proposta marcada.
+Passo três: o preço, entre as duas reuniões. Não existe tabela fechada: o preço é seu.
+Comece pelo seu custo por hora. Some salários, custos fixos, ferramentas, imposto, comissão, e o tempo que não fatura, como proposta recusada e retrabalho. Divida pelas horas produtivas reais: de cento e dez a cento e trinta por mês, não cento e setenta e seis.
+Agora, a conta que quase todo mundo erra: margem é sobre o preço, não sobre o custo. Custo mais trinta por cento dá só vinte e três de margem. O certo é dividir o custo por um menos a margem. A calculadora da página já faz essa conta, para os serviços de setup e para os recorrentes.
+Passo quatro: a reunião de proposta. A ordem importa mais que o conteúdo: contexto antes de solução, dor antes de preço.
+Comece devolvendo o diagnóstico: os prints, o tempo de resposta medido, onde o lead sumiu. É o slide "O que ouvimos". Depois, conecte cada entrega a uma dor que ele citou, com as palavras dele.
+Ancore a evolução antes do preço, porque a operação degrada sem manutenção. Indique o pacote, sem abrir o cardápio. E feche com uma pergunta: podemos marcar o kick-off para semana que vem?
+Se vier um "está caro", compare com o custo do vazamento que você mediu. Ele não está comparando com outro fornecedor. Está comparando com não fazer nada. E se vier um "preciso pensar", pergunte: o que, especificamente, você quer pensar? A resposta é a objeção de verdade.
+Passo cinco: o contrato. A minuta está nos materiais, mas confira o que não pode faltar.
+Escopo do setup por entregável, não por horas. Setup e evolução separados, com valores e prazos próprios. Vigência mínima do recorrente. Custos de terceiros por conta do cliente: Meta, consumo de IA e ligações. As dependências do cliente, como a API oficial e os acessos. E a cláusula de que o agente de IA é ferramenta, e não garante resultado de venda.
+Antes do primeiro uso, passe a minuta pelo seu advogado. Depois disso, ela vira o seu padrão.
+Com o contrato assinado, a etapa Vender termina. Todos os materiais estão na página do Método. No próximo vídeo: Implantar, a operação montada em três reuniões.
