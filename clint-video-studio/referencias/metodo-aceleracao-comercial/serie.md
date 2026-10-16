@@ -5,7 +5,9 @@ https://lp.useclint.com/metodo-aceleracao-comercial (texto completo em `lp-texto
 
 ## Padrões da série (definidos pela Agatha em 16/10)
 
-- **Narração + tela.** Sem apresentador; a voz é a padrão do kit (HeyGen, Voz IA 26).
+- **Narração + tela.** Sem apresentador; voz Voz IA 26 (clone) do HeyGen, **acelerada 1,2x** (pedido da Agatha: a velocidade normal ficou lenta).
+- **Trilha "Comida"** na série (a Agatha queria algo mais "escritório", mas a faixa escolhida exige Envato pago).
+- Os vídeos são **apoio para quem está lendo o Método** na LP: mostrar o passo acontecendo, sem repetir a página.
 - **2 a 3 minutos por vídeo**, para não cansar (~300–380 palavras de narração).
 - **Tom direto, falando com "você", parceiro.**
 - Cada vídeo fica numa pasta própria em `videos/2026-10-16-metodo-NN-<tópico>/` (roteiro, notas, narração).
@@ -26,7 +28,7 @@ https://lp.useclint.com/metodo-aceleracao-comercial (texto completo em `lp-texto
 | # | Etapa | Tópico | Material da LP | Pasta |
 |---|---|---|---|---|
 | 01 | Vender | Cliente oculto | Registro do cliente oculto | `2026-10-16-metodo-01-cliente-oculto` |
-| 02 | Vender | Diagnóstico comercial | Banco de perguntas | — |
+| 02 | Vender | Diagnóstico comercial | Banco de perguntas | `2026-10-16-metodo-02-diagnostico` |
 | 03 | Vender | Preço (calculadora hora/homem) | — | — |
 | 04 | Vender | Proposta (12 slides, roteiro, objeções) | Proposta comercial | — |
 | 05 | Vender | Contrato | Minuta de contrato (DOCX) | — |
