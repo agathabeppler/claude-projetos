@@ -23,5 +23,13 @@ mostrar o passo acontecendo, sem repetir a página inteira.
 | 8 | "O Banco de perguntas está nos materiais…" | TELA | Página pública do Banco de perguntas: tabela de vocabulário → rolando pelos 4 blocos → destaque "A pergunta do problema único" |
 | 9 | "No próximo vídeo: … preço" | CENA | Trilha da Etapa 1: 01 e 02 concluídos, 03 Preço acende → vinheta |
 
+## Produção (16/10)
+- Narração: Voz IA 26 (clone) → `entrada/narracao.wav` (125,9 s) → `entrada/narracao_rapida.wav` (rubberband 1,2x, 104,9 s).
+  Tempos-chave em `entrada/narracao.palavras.txt` (narração original; no código L(s) = s / K - g0, K = 1,2).
+- Tela: prints 2x do Banco de perguntas (topo, vocabulário, pergunta do problema único) em `remotion/public/videos/2026-10-16-metodo-02-diagnostico/`.
+- Código: `remotion/src/videos/2026-10-16-metodo-02-diagnostico/` · composição `Metodo02Diagnostico`. Reaproveita Badge/Chip/Tile/MiniSlide do vídeo 01.
+- Trilha "Comida". Final: `saida/Metodo 02 - Diagnostico comercial.mp4` (1:53 com vinheta, -14,9 LUFS).
+
 ## Aprovações
-- A. Roteiro e plano: aguardando
+- A. Roteiro e plano: aprovado (16/10)
+- Vídeo completo v1: aguardando
