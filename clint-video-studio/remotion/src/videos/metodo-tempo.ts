@@ -1,5 +1,5 @@
 // Série Método: os tempos das cenas foram escritos na narração ORIGINAL (speed 1). A narração final é gerada
-// pelo HeyGen com speed 1,2 (voz natural; esticar o áudio deixava a voz robotizada), com outro ritmo.
+// pelo HeyGen com speed 1,1 (voz natural; esticar o áudio deixava a voz robotizada), com outro ritmo.
 // `mapa` converte um instante da narração original para a final por interpolação entre âncoras (mesma palavra nas duas).
 export const criarMapa = (pares: [number, number][]) => {
   const conv = (s: number, a: 0 | 1, b: 0 | 1) => {

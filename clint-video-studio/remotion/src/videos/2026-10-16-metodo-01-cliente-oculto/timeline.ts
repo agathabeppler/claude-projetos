@@ -1,11 +1,11 @@
 // Série Método de Aceleração Comercial · 01 Cliente oculto (videos/2026-10-16-metodo-01-cliente-oculto).
-// Narração final de 84,8 s (HeyGen speed 1,2). Tudo é CENA: a "tela" do Registro do cliente oculto é feita com prints da página
+// Narração final de 102,0 s (HeyGen speed 1,1). Tudo é CENA: a "tela" do Registro do cliente oculto é feita com prints da página
 // pública (remotion/public/videos/2026-10-16-metodo-01-cliente-oculto/r*.png), com zoom e cursor na cena TelaRegistro.
 import type {Cena, Zoom} from '../../projeto/timeline';
 import {Abertura, Canais, Erro, Final, M, Memoria, Seis, Slide, TelaRegistro} from './cenas';
 
 export const FPS = 30;
-// Tempos abaixo na narração original; M converte para a narração final (narracao_v3.wav, 84,8 s).
+// Tempos abaixo na narração original; M converte para a narração final (narracao_final.wav, 102,0 s).
 const c = (x: number) => Math.round(M(x) * 100) / 100;
 export const DURACAO_S = c(114.9);
 export const VIDEO_TELAS = 'telas.mp4';
