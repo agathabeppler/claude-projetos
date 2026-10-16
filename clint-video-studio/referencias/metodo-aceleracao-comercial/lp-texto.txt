@@ -1,0 +1,618 @@
+Método de Aceleração Comercial com IA | Parceiro Certificado Clint
+Clint · Método de aceleração comercial com IA
+01 Vender
+02 Implantar
+03 Evoluir
+Etapa 1 · Vender
+Como funcionaA fase inteira em 4 passos
+01 Cliente ocultoA prova antes da conversa
+02 Diagnóstico comercialAs perguntas que precificam
+03 PreçoCalculadora hora/homem
+04 PropostaEstrutura, roteiro e objeções
+05 ContratoO que não pode faltar
+MateriaisClique para abrir
+Método de aceleração comercial com IA
+Etapa 1 · Vender
+Do primeiro contato ao contrato assinado. Você prova que existe um problema, dimensiona o tamanho dele, chega num preço e fecha. Configurar é a etapa 2.
+2 reuniões com o cliente
+1 investigação antes
+Termina em contrato
+VISÃO GERAL
+Como esta fase funciona
+Quatro passos, em ordem. O erro mais comum é pular o primeiro e chegar na reunião perguntando como está a operação, em vez de mostrando.
+PASSO 1
+Cliente oculto
+Antes de falar com ele, entre no funil dele como se fosse um lead. Você chega sabendo onde a venda vaza.
+PASSO 2
+Reunião de diagnóstico
+Investigar, não apresentar. Sai com o problema dimensionado, o decisor identificado e a proposta agendada.
+PASSO 3
+Preço
+Entre as duas reuniões. A calculadora transforma escopo em horas e horas em preço.
+PASSO 4
+Reunião de proposta
+Devolve o diagnóstico antes de qualquer slide de solução. Fecha com contrato ou com data de kick-off.
+O que NÃO acontece aqui
+Detalhe de funil, tom de voz do agente e regra de negócio são etapa 2. Pergunte só o suficiente para dimensionar e precificar, porque pedir tudo antes da venda alonga o ciclo e queima o cliente.
+01
+Cliente oculto
+Custa uma hora e vira o slide mais importante da proposta. Entre no funil do cliente pelos canais reais dele, como se fosse um lead, e cronometre tudo.
+O que capturarprint de tudo, com horário visível
+Tempo até a primeira resposta. Do envio até alguém responder. É o número que mais choca o gestor.
+Se houve resposta. Em muitos casos simplesmente não há, e essa é a prova mais forte de todas.
+Quantas mensagens até alguém tentar agendar ou conduzir para o próximo passo.
+Se houve follow-up. Você não responde de propósito e vê se alguém volta. Quase nunca volta.
+A qualidade da conversa. Respondeu o que você perguntou? Fez alguma pergunta de volta?
+O caminho inteiro. Clicou no anúncio e caiu onde? A página carregou? O formulário funcionou?
+ABRIRRegistro do cliente ocultoonde anotar o que você mediu
+02
+Diagnóstico comercial
+Investigar, não apresentar. Entender o tamanho do problema, saber se existe dinheiro e decisão do outro lado, e sair com a proposta agendada.
+Adapte o vocabulário ao segmento
+SegmentoMétrica-chaveO vocabulário dele
+Financeiro e créditoVolume aprovado, ticket por operaçãoProposta, análise, aprovação, esteira. "Lead" é proposta.
+IndústriaPedido fechado, margem por linhaOrçamento, representante, tabela, carteira. Ciclo longo, passa por cotação.
+EducaçãoMatrícula e evasãoCaptação, matrícula, rematrícula, turma. Sazonalidade dura.
+Saúde e clínicaAgenda ocupada, retornoAgendamento, confirmação, falta, procedimento. No-show é o inimigo.
+Serviço e B2BContrato assinado, MRRProposta, escopo, kick-off, renovação, churn.
+Banco de perguntas
+Bloco 1 · O negócio e o númerodimensiona o problema
+O que vocês vendem hoje? Qual é o carro-chefe?
+Qual o ticket médio? E o ciclo, do primeiro contato ao fechamento?
+Quantos leads chegam por mês, mais ou menos?
+Qual a meta do mês? Vocês têm batido?
+Consegue me dizer hoje quanto vai fechar esse mês?
+Quantas pessoas no time comercial, e em quais papéis?
+Bloco 2 · Onde a venda vazaé aqui que o cliente oculto entra
+De onde vêm os leads? Anúncio, indicação, orgânico, prospecção?
+Quanto se investe em mídia por mês e quem gerencia?
+Vocês conseguem dizer qual campanha trouxe cliente, ou só qual trouxe clique?
+Em quanto tempo o time responde um lead novo? Compare com o que você mediu.
+Em que etapa vocês mais perdem oportunidade?
+Quantas vezes o time tenta contato antes de desistir? Isso é regra ou é de cada um?
+Bloco 3 · O que já existedefine escopo e viabilidade
+Qual CRM usam hoje? O time realmente registra nele?
+O WhatsApp é número comum, Business ou API oficial?
+Quais canais recebem lead hoje? Em quais o agente vai atuar? WhatsApp e Instagram são trabalhos separados e entram no escopo em separado
+Usam ERP, discador, checkout, ferramenta de e-mail?
+Quem consegue dar acesso e conectar as coisas do lado de vocês?
+Bloco 4 · A dor e a decisãodefine se e quando fecha
+O que mais te incomoda na operação comercial hoje?
+O que você acha que está acontecendo mas não consegue provar?
+Se pudesse resolver um único problema em 30 dias, qual seria?
+Se olhar daqui 90 dias e estiver ótimo, o que estará diferente?
+Além de você, quem participa dessa decisão?
+Vocês já têm orçamento previsto para isso, ou seria algo novo?
+A pergunta do problema único
+A resposta para "se pudesse resolver um único problema em 30 dias, qual seria?" é a informação mais valiosa da reunião. Anote literalmente, com as palavras dele. É por onde a implantação começa, é o que você escreve na proposta, e quando o slide repetir a frase dele a venda já está meio fechada.
+Fechamento da reunião
+Atenção ao WhatsApp
+O agente de WhatsApp exige API oficial. O de Instagram, não. Não peça migração nesta reunião, ele ainda não comprou nada: só descubra como está hoje.
+Se for número comum usado pelo time no celular, a migração muda a rotina das pessoas. Coloque isso na proposta como parte do plano, para não virar surpresa na implantação.
+Antes de encerrar, garanta que você temchecklist de saída
+O problema que ele quer resolver primeiro, escrito com as palavras dele
+Volume de leads, ticket e tamanho do time, para dimensionar o escopo
+Quem decide, além dele, e se existe orçamento
+Situação do WhatsApp e do CRM atual, para dimensionar a migração
+Data da reunião de proposta marcada, com os decisores presentes
+ABRIRBanco de perguntasos quatro blocos, para adaptar ao seu segmento
+03
+Preço
+Não existe tabela fechada, e isso é de propósito: o preço é 100% seu. Você entra com a sua hora e as suas horas, e a conta sai.
+Seu custo total por hora
+Tudo que sai do caixa, dividido pelas horas produtivas reais.
+Margem de lucro desejada
+Em percentual, sobre o preço final. É o que sobra depois de pagar tudo.
+O que entra no custo por horaquase ninguém inclui os três últimos
+Salários, pró-labore e encargos das pessoas envolvidas
+Custos fixos e despesas administrativas do mês
+Ferramentas e assinaturas que você usa para entregar
+Imposto sobre o faturamento, no seu regime
+Comissão de quem vende, se existir
+Tempo não faturável: reunião de venda que não fechou, proposta feita e recusada, retrabalho
+Use as horas produtivas reais: uma pessoa em jornada integral rende de 110 a 130 horas por mês, não 176.
+A conta que quase todo mundo erra
+Margem é sobre o preço, não sobre o custo. "Custo mais 30%" dá 23% de margem, não 30%. A conta certa é custo dividido por (1 menos a margem), e é a que a tabela usa.
+50% de margem é dobrar o custo. 40% é multiplicar por 1,67. 30%, por 1,43.
+Serviços pontuais
+ServiçoReferênciaSuas horasCustoLucroPreço
+Implantação comercial
+Estrutura, pipelines, cadências e integrações. A Aura cria, você revisa e conecta4 a 8 h
+Agente de IA no WhatsApp
+Base de conhecimento, escopo, escalonamento, calibragem e testes com conversas reais. Exige API oficial2 a 4 h
+Agente de IA no Instagram
+Trabalho separado do WhatsApp: outro canal, outro comportamento, outra calibragem2 a 4 h
+Campanha de ativação
+Disparo em base quente por WhatsApp, SMS e voz, com o agente conduzindo quem responder até o objetivo da campanha2 a 4 h
+Marketing dentro do CRM
+UTMs, click-to-WhatsApp, CAPI, landing pages e formulários ligados à pipeline2 a 4 h
+Treinamento de time
+Cada papel no fluxo dele, na reunião 3, com o playbook entregue. Os vídeos e guias da Clint cobrem o resto2 a 4 h
+Definição de métricas
+Indicadores por área e dashboards por papel: pré-venda, vendas e CS2 a 4 h
+Setup
+Serviços recorrentes
+ServiçoReferênciaHoras/mêsCusto/mêsLucro/mêsPreço/mês
+Evolução
+Números, análise das conversas, avaliação do time, objeções, cruzamento com marketing, relatório e reunião8 a 12 h
+Campanhas do ciclo
+Uma campanha por ciclo, com o objetivo que o cliente precisar naquele momento2 a 4 h
+Manutenção do agente
+Base de conhecimento, calibragem de prompt, objeções novas, escalonamento, saúde do número4 a 8 h
+Gestor comercial as a service
+Daily, evolutiva, carrapato, roleplay e 1:1 conduzidos por você16 a 24 h
+Recorrência
+04
+Proposta
+A ordem importa mais que o conteúdo: contexto antes de solução, dor antes de preço.
+A estrutura dos slides
+SeçãoO que vai nela
+CapaNome do cliente, sua marca, data. Nada mais.
+Quem somosUma frase de quem você é. Máximo dois slides, ninguém compra por causa da sua história.
+O que ouvimosO slide mais importante da proposta. O que ele disse, o que o cliente oculto mostrou, onde a venda vaza hoje. É o único que nenhum concorrente consegue copiar.
+Nossa abordagemDiagnóstico, estrutura com IA, rotinas, treinamento, evolução. Cinco passos, uma linha cada.
+O Setup em detalheO que é entregue, o cronograma e a lista de entregáveis concretos.
+A Evolução em detalheO ciclo, a avaliação do time, a manutenção da IA e os entregáveis recorrentes.
+CasesAntes, o que foi feito, depois, com número. Um ou dois, do segmento mais próximo possível.
+InvestimentoSetup e Evolução lado a lado, com prazo. Indique o pacote recomendado.
+Próximo passoUma pergunta de fechamento e a data de kick-off já sugerida.
+Como conduzir a reunião
+Roteirona ordem
+Devolva o diagnóstico primeiro. Antes de qualquer slide de solução, mostre o que encontrou. Prints, tempo de resposta medido, onde o lead sumiu. Deixe o silêncio acontecer.
+Conecte cada entrega a uma dor que ele citou. Não apresente a lista inteira: apresente os três itens que resolvem o que ele falou, com as palavras dele.
+Mostre a operação, não a ferramenta. Se demonstrar, demonstre com propósito: cada tela responde a algo que ele disse. Se mostrar a Aura montando algo ao vivo, use o negócio dele como exemplo.
+Ancore a Evolução antes do preço. A operação degrada sem manutenção: o produto muda, a objeção muda, o agente precisa acompanhar. Assim o recorrente não parece extra, parece necessário.
+Indique o pacote. Não abra o cardápio e não pergunte qual ele quer.
+Feche com pergunta, não com silêncio. "Tem algo que ainda te impede de seguir?" ou "Podemos marcar o kick-off para semana que vem?"
+As objeções desta venda
+"Já tenho um CRM"A pergunta não é se você tem, é se o time usa e se você consegue provar qual campanha traz cliente. Volte para o achado do cliente oculto.
+"Vou fazer com meu time interno"Construir ficou rápido, manter é o trabalho. Pergunte quem vai ler as transcrições toda semana e ajustar o agente todo mês.
+"Está caro"Compare com o custo do vazamento que você mediu: leads sem resposta no prazo, no-show, follow-up esquecido. Ele não está comparando com outro fornecedor, está comparando com não fazer nada.
+"Preciso pensar""Claro. O que especificamente você quer pensar?" Trate a resposta como a objeção real, porque essa nunca é a objeção.
+"E se não der certo?"O escopo inicial é um produto ou processo, não a operação inteira. O risco é pequeno e o resultado é mensurável desde o primeiro ciclo.
+ABRIRProposta comercial12 slides, na ordem, prontos para preencher
+05
+Contrato
+A minuta está no material para download. Aqui está o que conferir antes de mandar.
+O que não pode faltarespecífico deste serviço
+Escopo do Setup fechado por entregável, não por horas. Horas são a sua conta interna, não a promessa ao cliente.
+Separação clara entre Setup e Evolução, com valores, prazos e vigências distintos.
+Vigência mínima do recorrente. Sem isso, o cliente paga o Setup, cancela no mês seguinte e você trabalhou de graça.
+Custos de terceiros por conta do cliente: Meta, consumo de IA e ligações. Isso precisa estar escrito, não combinado.
+Dependências do cliente: API oficial, acessos, responsável nomeado. Se ele atrasar, o prazo corre.
+Titularidade da conta e dos dados, e o que acontece com eles quando o contrato termina.
+Limites do agente de IA: ele é ferramenta, não garante resultado de venda. Cláusula específica.
+Antes de usar
+Passe pelo seu advogado antes do primeiro uso. Depois disso ela vira o seu padrão e você só troca escopo e valor por cliente.
+DOCXMinuta de contratocom as cláusulas de IA e de custos de terceiros
+MATERIAIS
+Materiais desta etapa
+Clique para abrir. Tudo editável, para adaptar por cliente.
+ABRIRProposta comercial
+12 slides na ordem do método, com os campos a preencher marcados
+ABRIRBanco de perguntas
+Os quatro blocos do diagnóstico, para adaptar ao seu segmento
+ABRIRRegistro do cliente oculto
+Onde anotar o que você mediu, para virar slide na proposta
+DOCXMinuta de contrato
+Com as cláusulas de IA e de custos de terceiros. Baixa em Word
+Próxima etapa
+Etapa 2 · Implantar
+Contrato assinado. Agora você monta a operação em três reuniões.
+Ir para a etapa 2
+Etapa 2 · Implantar
+Como funcionaO setup em 3 reuniões
+01 Kick-offLevantar tudo e pedir acesso
+02 ConfiguraçãoA Aura monta, você revisa
+03 A operação no arApresentar funcionando
+04 PlaybookO que você escreve e entrega
+05 Treinamento e rotinasOnde o time começa a operar
+06 Campanha de ativaçãoA primeira entrega de resultado
+MateriaisClique para abrir
+Método de aceleração comercial com IA
+Etapa 2 · Implantar
+Contrato assinado. Agora você monta a operação e entrega ela funcionando. São três reuniões com o cliente e o trabalho de configuração entre a primeira e a segunda. Termina com o time operando e a primeira campanha no ar.
+3 reuniões
+Você configura entre a 1 e a 2
+Termina com resultado na mão
+VISÃO GERAL
+Como esta fase funciona
+Três reuniões. Você levanta tudo na primeira, configura, e na segunda o cliente vê a operação funcionando.
+REUNIÃO 1
+Kick-off
+Levantar o que falta, pedir acessos e a API oficial, nomear responsáveis. Sem demonstração.
+ENTRE 1 E 2
+Configuração
+A Aura cria estrutura, cadência e agente. Você revisa, conecta os canais e liga as integrações.
+REUNIÃO 2
+A operação no ar
+Apresenta a plataforma da Clint com tudo funcionando, testa ao vivo com ele e ajusta na hora.
+ENTRE 2 E 3
+Playbook
+Você escreve a partir da operação já montada e aprovada pelo cliente.
+REUNIÃO 3
+Treinamento e rotinas
+Cada papel no fluxo dele, playbook entregue, rotinas instaladas. O time começa a operar.
+APÓS A REUNIÃO 3
+Campanha de ativação
+Montada antes da reunião 2 e aprovada nela. Com o time treinado, dispara. É a primeira entrega de resultado.
+A Aura
+É a IA que vive dentro da plataforma e é ela que monta a operação. Você descreve o negócio do cliente conversando, no idioma que quiser, e ela cria pipeline, cadência, indicadores, automações e os agentes de atendimento.
+E ela não some depois do setup. A Aura conversa com você e com o cliente sobre a operação inteira: ajuda em integração, explica um indicador, avalia resultado por período, por canal ou por pessoa do time. Na evolução, é ela que você usa para puxar os números de cada ciclo.
+Não confunda com o agente. A Aura fala com você dentro da Clint. O agente de atendimento fala com o lead do cliente, no WhatsApp e no Instagram. A Aura cria o agente, mas não é ele.
+O app Análise Comercial
+Fica na aba Apps e é o que faz a leitura pesada: analisa as transcrições de voz, as reuniões no Meet e as conversas de WhatsApp e Instagram, e devolve o que está travando a venda.
+É ele que sustenta a etapa 3. Sem ele, avaliar qualidade dependeria de alguém ouvir call por amostragem.
+Se a API oficial atrasar
+A reunião 2 acontece com o que estiver pronto: estrutura, integrações, importação e time configurados. O agente entra assim que a Meta liberar. Não trave o cronograma esperando o cliente.
+01
+Kick-off
+Levantar tudo que falta para configurar e para escrever o playbook, pedir os acessos e nomear responsáveis. Sem demonstração da plataforma.
+Quem precisa estar na salase faltar um destes, remarque
+Responsável pelo time comercial e de atendimento
+Responsável técnico, quem dá acesso e conecta integrações
+Estrategista ou C-level, quem decide escopo e prioridade
+Alinhamentostudo com nome e prazo
+Escopo e cronograma das três reuniões do setup acordados
+Canal de comunicação definido e responsável de cada lado nomeado
+Prazos de validação combinados: quem aprova o quê, em quanto tempo
+Os canais do agente
+A Clint tem agente de atendimento no WhatsApp e no Instagram. São trabalhos diferentes e o escopo já foi definido na proposta, com as horas de cada um. Aqui você só executa o que foi vendido.
+O agente de WhatsApp exige a API oficial. Peça a conexão nesta reunião, com responsável e prazo. Se o número atual é usado por todo o time no celular, proponha migração faseada. Sem a API não existe agente de WhatsApp, e esse é o principal risco de cronograma da etapa.
+Materiais para solicitarpeça tudo de uma vez
+Tabela de preço e política comercial
+Scripts e mensagens que o time usa hoje
+Playbook comercial, se já existir. Serve de base, mas a entrega é no seu formato
+Base de contatos e histórico, para importação
+Acessos: CRM atual, gerenciador de anúncios, checkout, ERP
+Perguntas frequentes reais dos clientes, para a base de conhecimento do agente
+O que perguntar para o playbook
+O diagnóstico comercial da etapa 1 levantou o que era preciso para vender. Isto aqui é o que falta para escrever o playbook, e é a única chance de perguntar antes de precisar dele.
+Oferta e política comercialvira a seção mais consultada do playbook
+Quais produtos ou planos, com preço e para quem cada um serve
+Formas de pagamento e parcelamento aceitos
+Até quanto o vendedor pode dar de desconto sem pedir autorização? E com autorização de quem?
+O que ninguém faz sem aprovação: prazo fora do padrão, escopo fora da tabela, promessa de entrega
+Posicionamento e concorrênciao vendedor precisa saber o que responder
+Em uma frase, o que vocês entregam que o concorrente não entrega
+Contra quem vocês mais perdem, e o que esse concorrente faz melhor
+O que o time responde hoje quando o nome dele aparece na conversa
+Volume, origens e sazonalidadedefine como cada lead é tratado
+Quantos leads por mês vêm de cada origem
+O que cada origem costuma trazer: volume com qualificação baixa, ou o contrário
+Quais meses são fortes e quais são fracos, e o que o time faz diferente neles
+Rotina e responsabilidadesé a primeira dúvida de quem entra no time
+Horário de atendimento do time humano, e o que acontece fora dele
+Quem abre a fila na segunda de manhã
+Quem resolve, pelo nome: acesso e senha, exceção de preço, problema técnico, anúncio
+Metas e comissionamentosem isso o indicador não tem consequência
+Qual a meta de cada papel, e em que unidade
+Como cada um é remunerado: fixo, variável, por reunião, por venda
+Quando o período fecha, quem confere o número antes de pagar
+Venda cancelada em quantos dias deixa de contar para a meta?
+Glossário do funilé onde nasce metade do registro errado
+O que vocês chamam de lead qualificado? Peça o critério exato, não a definição de livro
+A partir de qual etapa um negócio conta como oportunidade
+O que precisa acontecer para marcar ganho: assinatura, pagamento, ou outro
+Esta é a reunião mais importante da etapa
+Você sai daqui e monta tudo sozinho, e depois escreve o playbook a partir disto. O que não for levantado agora vira reunião 2 incompleta e playbook com buraco. Os dados de negócio vieram do diagnóstico comercial: o que falta aqui é o operacional e o que vira conteúdo do playbook.
+02
+Configuração
+O trabalho entre a reunião 1 e a 2. A Aura cria, você revisa e conecta. Quando o cliente voltar a te ver, já está tudo montado.
+Quem monta é a Aura
+Você não monta nada na mão. A Aura, a IA da Clint, pergunta o necessário e cria pipeline, cadência, indicadores, automações e agentes. Você conversa com ela e revisa o que saiu.
+O que ela não tem é o que veio do diagnóstico: o problema que o cliente quer resolver primeiro, com as palavras dele, e o que o cliente oculto mostrou sobre onde a venda vaza. Isso você acrescenta.
+Estrutura
+A Aura cria pipeline, cadência e motivos de perda. Seu trabalho é revisar. Etapa é a fase do processo, atividade é a ação a executar nela: se ela misturou as duas, corrija.
+O que revisar na estruturaa Aura cria, você confere
+As etapas da pipeline refletem o processo real do cliente, com o nome que ele usa
+Existe funil de pós-venda, porque a operação não termina na venda
+As cadências fazem sentido por etapa: quantos toques, em quais canais, em qual prazo
+Os motivos de perda são os que aparecem de verdade nesse negócio
+A operação está desenhada para o time que ele tem: um vendedor ponta a ponta, ou pré-vendedor mais vendedor
+Agente de IA
+A Aura cria, você revisa
+O agente de atendimento sai pronto da conversa com a Aura. O trabalho que você cobra é conectar isso com a realidade do cliente e fazer funcionar na prática, e é aí que mora a diferença entre um agente que responde e um que vende.
+O que revisar no agentea Aura cria, você confere
+Canais conforme o escopo vendido: WhatsApp, Instagram ou os dois. O de WhatsApp exige API oficial conectada
+A base de conhecimento tem as perguntas frequentes reais, a tabela de preço, a política e as objeções que aparecem
+O escopo está claro: até onde ele vai, qual o objetivo dele, e quando encaminha
+A regra de preço está do jeito que o cliente quer: se fala, quando fala, o que não fala
+Os gatilhos de escalonamento para humano estão no ponto certo
+O tom e o vocabulário são os do segmento, não os genéricos
+Testado com conversas reais, não só com o roteiro feliz. Inclua o cliente irritado, o que não é perfil de compra e o que só quer preço
+Ele gera negócio automaticamente a partir do atendimento
+Comunicação
+Os canais
+Módulo de atendimento configurado
+WhatsApp API oficial, número aquecido, volume subindo aos poucos
+Instagram conectado
+Templates de campanha revisados e aprovados na Meta
+API oficial
+Aqueça o número antes de escalar. Número queimado por spam derruba a operação inteira e não tem recuperação.
+Vendas e leads
+O que entra na pipeline
+Plataformas de checkout integradas, com múltiplas conexões se necessário
+Webhooks e aplicativos conectados
+Contatos e negócios antigos importados, com tag para ação em massa
+Captação automática de leads integrada
+Landing pages e formulários inteligentes ligados à pipeline
+Marketing dentro do CRM
+Parar de medir separado
+UTMs em campos personalizados: source, medium, campaign e ID do criativo
+Anúncios Meta e Google conectados
+Click-to-WhatsApp ativo, com janela de 72h em vez de 24h
+CAPI, a API de conversões da Meta, devolvendo a venda para o anúncio, para a campanha otimizar por cliente fechado e não por clique
+Origem cruzável com motivo de perda e com conversão
+Campanha de ativação
+Monte aqui, junto com o resto. Objetivo, segmentação da base, mensagens dos três canais, e o agente ajustado para receber quem responder. Você apresenta e aprova na reunião 2, e dispara depois do treinamento. O detalhe está na seção 06.
+Time e acessos
+Quem vê o quê
+Todos os membros convidados
+Conta Google conectada por usuário
+Extensão da Clint instalada no Chrome de cada vendedor, se a operação é inside sales e a reunião acontece no Google Meet. É ela que joga a transcrição da call dentro do CRM automaticamente
+Permissões configuradas por função
+Distribuição automática de dono por origem
+Respostas rápidas criadas
+Visualizações personalizadas por papel
+Avançadoconforme o plano, avalie deixar para depois
+Webhooks de saída para plataformas externas
+Integrações via API personalizada
+Discador ou ERP, se aplicável
+03
+A operação no ar
+Apresenta a plataforma da Clint com tudo funcionando, testa ao vivo com ele e ajusta na hora.
+Testar as integrações, uma a uma
+ÁreaComo testar ao vivo
+CRM e pipelineCriar um negócio de teste e movê-lo por todas as etapas, conferindo atividades e motivos de perda
+WhatsApp API oficialMandar mensagem de um número externo e ver o atendimento nascer no inbox
+Instagram e demais canaisMesmo teste, por cada canal ativo
+Formulários e landing pagesPreencher um formulário real e conferir o lead caindo na etapa certa, com o dono certo
+CheckoutSimular uma compra e ver o negócio sendo criado ou movido
+ImportaçãoConferir contatos e negócios sem duplicidade e sem campo perdido
+UTMsClicar num anúncio real e verificar source, medium, campaign e criativo preenchidos
+CAPIConfirmar a conversão chegando de volta no gerenciador de anúncios
+Acessos e permissõesEntrar com o usuário de cada papel e conferir o que ele vê e o que não vê
+IndicadoresAbrir o dashboard de cada papel com dado real dentro
+Transcrição de reuniãoAbrir uma call de teste no Meet com a extensão instalada e conferir a transcrição caindo no negócio certo
+A jornada com o agente
+CenárioO que ele precisa ver acontecer
+Lead novo chegaO agente responde em segundos, com o tom da casa, e o negócio aparece na pipeline
+Lead no perfil de compraO agente qualifica e conduz até o objetivo definido para aquele agente, ou encaminha com o contexto completo
+Lead fora do perfilEncerra de forma educada e registra o motivo, sem forçar o próximo passo
+Pergunta de preçoResponde conforme a regra combinada, e não inventa condição
+Pergunta que ele não sabeEscala para humano no gatilho certo, sem deixar o lead no vácuo
+Passagem para o humanoO vendedor assume sem o cliente precisar repetir nada
+TranscriçãoA conversa aparece transcrita e legível para avaliação de qualidade
+Aprovar a campanha
+Apresente a campanha de ativação que você montou: o objetivo, para quem vai, o texto de cada canal e o que o agente faz com quem responder. O disparo sai no nome da empresa dele, então ele aprova aqui.
+Saída da reunião
+Ajustes feitos na hora, ou listados com prazo se forem grandes. Campanha aprovada. E a data da reunião 3 marcada, com o time inteiro presente.
+04
+Playbook do cliente
+Você escreve entre a reunião 2 e a 3, a partir da operação já montada e aprovada pelo cliente.
+Quem escreve
+Você, no seu formato. Se o cliente já tem playbook, use como base, mas entregue uma versão nova no seu modelo.
+Entregue na reunião 3, junto com o treinamento: é o que o time vai consultar quando tiver dúvida.
+O que vai dentrouse o modelo como esqueleto
+Quem é a empresa, o que vende e para quem
+O perfil de cliente ideal e o que faz um lead ser bom ou ruim
+O funil, etapa por etapa, com o que acontece em cada uma
+Os papéis e quem faz o quê, incluindo o agente de IA
+As cadências: quantos toques, em quais canais, em qual prazo
+Os scripts em uso e as mensagens padronizadas
+As objeções mais comuns e como respondê-las
+Os indicadores que cada papel acompanha
+As rotinas instauradas, com dia, horário e responsável
+ABRIRModelo de playbookcom e sem pré-venda, 11 seções
+05
+Treinamento e rotinas
+A última reunião do setup. Cada pessoa aprende só o que executa, recebe o playbook, e as rotinas ficam instaladas.
+O princípio
+Nível botão: onde clica, onde consulta, como vê os próprios números. A pessoa executa ao vivo e você corrige na hora. Ninguém aprende assistindo.
+Você não precisa ensinar a plataforma inteira. A Clint tem vídeos e guias que cobrem o uso, e o playbook cobre a operação. Aqui você treina só o fluxo que cada um executa e mostra onde consultar depois.
+PapelO que essa pessoa precisa saber fazer
+Pré-vendedorPriorizar pela pipeline com filtro, assumir a conversa que o agente passar, registrar, seguir a cadência, marcar motivo de perda, ver os próprios números
+VendedorLer o contexto que veio do agente e do pré-vendedor, conduzir a reunião com a extensão ligada, mover etapa, registrar dor e proposta, acompanhar a própria previsão de fechamento
+GestorLer indicadores, rodar o app Análise Comercial sobre as conversas do time, conduzir as rotinas (daily, evolutiva semanal, carrapato, roleplay e 1:1), dar feedback com dado na mão, ajustar cadência
+Atendimento e CSOperar o inbox, assumir do agente sem perder contexto, funil de pós-venda, registrar renovação e churn
+Instaurar as rotinas
+Sem isso a operação morre em duas semanas
+Sem alguém cobrando o uso, a operação morre e a culpa cai na ferramenta. Não termine o setup sem as cinco rotinas instaladas com dia, horário e responsável: daily, evolutiva semanal, carrapato, roleplay e 1:1. Os roteiros de cada uma estão na etapa 3.
+Saída da reunião 3checklist de encerramento do setup
+Cadência completa simulada de ponta a ponta como teste prático
+Cada pessoa executou ao vivo, com correção na hora
+Playbook entregue, e cada um sabe onde consultar quando tiver dúvida
+Daily, evolutiva semanal, carrapato, roleplay e 1:1 com dia, horário e responsável definidos
+Indicadores combinados com a liderança
+Primeiro ciclo agendado, sete dias depois
+O que vem depois
+Com o time operando, dispara a campanha de ativação que você montou e o cliente aprovou na reunião 2. É a última entrega do setup e a primeira a dar resultado.
+Sete dias depois acontece o primeiro ciclo: revisão do agente com dado real, ajustes e dúvidas do time. Já é a etapa 3.
+06
+Campanha de ativação
+A última entrega do setup e a primeira a dar resultado. Um disparo na base parada do cliente, com o agente recebendo quem responder e conduzindo até o objetivo que vocês definirem.
+Quando cada coisa acontecea campanha atravessa o setup inteiro
+Entre a reunião 1 e a 2: você monta junto com o resto da configuração. Define o objetivo, segmenta a base, escreve as mensagens dos três canais e ajusta o agente para receber quem responder
+Na reunião 2: apresenta junto com a operação e aprova o texto e o objetivo com o cliente. O disparo sai no nome da empresa dele, então ele precisa ver antes
+Na reunião 3: o time é treinado sabendo que a campanha vai sair e o que fazer quando o lead chegar
+Logo após a reunião 3: dispara. Se o agente conduz sozinho, pode sair antes
+Por que isso muda a venda
+Sem campanha, a operação só responde quem aparece. Com campanha, ela vai atrás dos contatos que já estão na base do cliente.
+É a entrega mais rápida de mostrar resultado, porque usa lead que ele já pagou. E o cliente pode ter comprado só a implantação, sem a evolução: se a campanha der resultado na primeira semana, a conversa sobre o recorrente muda de lugar.
+Pré-requisitos
+Sem os três, não dispare
+Time preparado, se a campanha depender dele. Se o agente conduz até o fim sozinho, como numa recuperação de venda, ninguém precisa entrar. Mas se a campanha gera reunião agendada ou passa a conversa para um vendedor, o disparo só sai depois do treinamento: lead qualificado caindo no colo de um time cru queima a oportunidade e a primeira impressão
+Base quente. Gente que já comprou, já pediu orçamento, já foi atendida ou levantou a mão. Base antiga não é base ruim: lista comprada e contato que nunca interagiu ficam de fora
+Número com reputação e limite compatíveis. A Meta classifica a qualidade do número em verde, amarelo ou vermelho. Vermelho não dispara. E a empresa precisa estar verificada no Meta Business Manager: sem isso o limite fica travado em 250 conversas por dia, o que não sustenta campanha nenhuma
+O volume respeita o tier: não adianta ter dez mil contatos se o número comporta mil por dia
+Como montar
+Os três canais levam para a mesma conversa
+WhatsApp é o canal principal, com template aprovado na Meta
+SMS e torpedo de voz cobrem quem não respondeu ou não tem WhatsApp ativo
+Todos levam para o agente de atendimento, que conduz até o objetivo que vocês definirem. Pode ser agendar reunião, marcar consulta, vender um produto, recuperar carrinho, reativar contrato. O objetivo muda o texto e o comportamento do agente, não o trabalho
+Use o mesmo agente do atendimento. Só crie um específico se a oferta da campanha for muito diferente do que ele atende no dia a dia
+Antes de disparar
+Base sem consentimento recente é exposição para o cliente e para você. Confirme a origem da base e o opt-in com o responsável dele, e registre isso por escrito.
+O que fazer com o resultado
+Se der resultado, vira campanha por ciclo na etapa 3: reativação, quem pediu orçamento e não fechou, cliente que sumiu, aniversário. É receita recorrente para você e para ele, com o mesmo trabalho de duas a quatro horas por campanha.
+MATERIAIS
+Materiais desta etapa
+Clique para abrir. Tudo editável, para adaptar por cliente.
+ABRIRChecklist de implantação
+As três reuniões e a configuração, com caixas para marcar
+ABRIRModelo de playbook
+Dois modelos, com e sem pré-venda, em 11 seções
+ABRIRRoteiro de treinamento por papel
+O que cada pessoa precisa saber fazer
+Próxima etapa
+Etapa 3 · Evoluir
+O primeiro ciclo acontece sete dias depois da reunião 3.
+Ir para a etapa 3
+Etapa 3 · Evoluir
+Como funcionaO ciclo que renova
+01 As duas lentesNúmero e qualidade
+02 O ciclo do parceiroOs oito passos que você repete
+03 Manutenção do agenteO coração da recorrência
+04 Os rituais do clienteAs cinco rotinas e os roteiros
+05 A reunião de entregaOnde o ciclo termina
+MateriaisClique para abrir
+Método de aceleração comercial com IA
+Etapa 3 · Evoluir
+O setup colocou a operação de pé. Agora é acelerar, e é isso que cada ciclo faz: analisa, ajusta e melhora. Começa sete dias depois do treinamento e segue na frequência contratada, semanal, quinzenal ou mensal.
+Começa 7 dias após o setup
+Semanal, quinzenal ou mensal
+É o que sustenta a recorrência
+VISÃO GERAL
+Como esta fase funciona
+O mesmo ciclo se repete na frequência que você vendeu: analisar, ajustar, melhorar. O que muda entre semanal, quinzenal e mensal é a profundidade, não o que você olha.
+CICLO 1
+7 dias após o setup
+O mais curto e o mais importante. Primeira vez com dado real: revisa o agente, ajusta o que apareceu, tira dúvida do time.
+SEMANAL
+Ciclo leve, alta frequência
+Números da semana, ajuste rápido do agente e da cadência. Pouca profundidade, muita correção de rota.
+QUINZENAL
+O meio-termo
+Dá tempo de acumular dado sem perder o time de vista. É a frequência mais vendida.
+MENSAL
+Ciclo completo
+Número e qualidade avaliados pessoa a pessoa, manutenção do agente, cruzamento com marketing, relatório e reunião de entrega.
+Escolher a frequência
+FrequênciaQuando faz sentidoO que você consegue
+SemanalTime grande, operação nova ou volume alto de leads. Também para cliente em recuperação de metaCorreção de rota rápida. Erro do agente ou do time não passa de uma semana sem alguém ver
+QuinzenalA maior parte dos casos. Dá tempo de acumular dado sem perder o time de vistaEquilíbrio entre profundidade e proximidade. É a frequência mais vendida
+MensalOperação madura, volume menor, ou cliente que já tem gestão comercial própriaAnálise completa, com as duas lentes pessoa a pessoa e cruzamento com marketing
+Um cuidado com o mensal
+Um mês é muito tempo para um agente errado. Se vender mensal, combine que a manutenção acontece fora da reunião e que a reunião é para análise e decisão.
+O primeiro ciclo é diferente
+É o único ciclo em que quase tudo que aparece só existe com uso real: agente errando um tom que ninguém previu, pergunta fora da base, etapa que ninguém usa, cadência com toque demais.
+Foque em três coisas: revisar o agente com as conversas que rolaram, ajustar o que apareceu, e responder as dúvidas do time. Se mexer em algo, atualize o playbook junto.
+01
+As duas lentes
+O número mostra o que está acontecendo. A qualidade mostra por quê. Só uma das duas engana.
+Lente do númeroo que está acontecendo
+Tempo de resposta
+Conversão por etapa
+Follow-ups feitos contra esquecidos
+Movimentação do funil
+Ciclo médio e ticket médio
+Lente da qualidadepor que está acontecendo
+Segue o script?
+Contorna objeção?
+Perde o contexto?
+O tom está humanizado?
+Investiga ou já apresenta?
+02
+O ciclo do parceiro
+Oito passos, na ordem. Cada um alimenta o seguinte. No semanal você faz a versão curta; no mensal, por inteiro.
+1 · Puxar os númerosdados da operação
+Dashboards: leads, funil, atividades, receita, pós-venda. Pergunte para a Aura em vez de abrir tela por tela: ela cruza período, canal e pessoa do time
+Compare com o ciclo anterior, não só com a meta. A tendência diz mais que o atingimento
+2 · Analisar as conversasonde o número não chega
+Use o app Análise Comercial em vez de abrir conversa por conversa. Ele analisa as transcrições de voz, as reuniões no Meet e as conversas de WhatsApp e Instagram, e devolve padrão, objeção e onde a conversa trava
+Olhe os dois extremos: quem está bem e quem está mal
+É onde estão as objeções verdadeiras e os vazamentos que o número não mostra
+3 · Avaliar cada pessoa nas duas lentesindividualmente
+Número e qualidade, pessoa a pessoa
+O resultado vira o feedback do 1:1 e o cenário do roleplay da semana
+4 · Mapear objeçõeso insumo de tudo o que vem depois
+Consolidar o que mais trava a venda no período
+Essa lista alimenta o agente, o script e o treino
+5 · Ajustar IA, cadência e scripté o coração do serviço
+Base de conhecimento do agente alimentada e prompt calibrado, pela Aura
+Cadência reequilibrada conforme onde as respostas acontecem
+Script atualizado com o que está convertendo
+6 · Rodar a campanha do ciclo2 a 4 h por campanha
+O objetivo muda a cada ciclo conforme o que o cliente precisa: reativar quem sumiu, converter quem pediu orçamento, vender um produto específico, encher a agenda de um período fraco
+WhatsApp, SMS e voz levando para o agente qualificar e conduzir
+Os pré-requisitos são os mesmos da primeira: base quente e número com reputação e tier
+7 · Cruzar com marketingcampanha × motivo de perda × conversão
+Qual criativo traz cliente e qual traz volume que não compra
+É a resposta que o cliente nunca teve antes de você chegar
+8 · Levar ao clienteo ciclo só termina aqui
+Comparativo com o ciclo anterior
+Plano de ação com responsável e prazo
+Metas por pessoa para o próximo ciclo
+03
+Manutenção do agente
+Criar o agente é rápido. Mantê-lo bom é o trabalho contínuo, e é o que justifica a recorrência. Quanto mais curto o ciclo, mais rápido o agente melhora, e é por isso que a frequência que você vende muda o resultado.
+FrenteO que fazerQuando
+Base de conhecimentoIncluir as perguntas novas que apareceram, corrigir informação desatualizada, remover o que saiu de linhaA cada ciclo
+Calibragem de promptCorrigir onde ele erra o tom, escala cedo demais, escala tarde demais ou responde o que não deviaA cada ciclo
+ObjeçõesEnsinar as objeções novas que a análise mapeou e revisar as respostas que não estão convertendoA cada ciclo
+CadênciaReequilibrar toques e canais conforme onde as respostas realmente acontecemA cada ciclo
+EscalonamentoRevisar quando ele passa para humano. A régua muda conforme o time amadureceQuando o time amadurece
+Saúde do númeroMonitorar a API oficial, taxa de bloqueio e aprovação de templateContínua
+04
+Os rituais do cliente
+Estas são as rotinas do cliente, não as suas. Sem alguém cobrando o uso, a operação morre em duas semanas e a culpa cai na ferramenta.
+As cinco rotinas
+RotinaFrequênciaO que acontece
+DailyDiária, 10 a 15 minTrês coisas: o número de ontem, a meta do dia e o que está travando alguém.
+Evolutiva semanalSemanal, 45 a 60 minIndicadores da semana, o que melhorou, o que piorou, o que ajusta. Comparativo contra meta e plano da semana seguinte.
+CarrapatoSemanal, 30 a 45 minUm acompanha a call real do outro, só escutando. Pode ser o liderado observando o líder para absorver ritmo e linguagem, ou o líder ouvindo o liderado e dando feedback logo depois. É conversa com cliente de verdade.
+RoleplaySemanal, 30 a 45 minSimulação com os papéis trocados: cada um faz o cliente na vez do outro. Treina objeção e fechamento antes de errar na frente do cliente. É treino, não é call real.
+1:130 a 60 min, na frequência que o time pedirDesenvolvimento individual, metas e feedback nos dois sentidos. É onde o plano de melhoria é acordado com nome e prazo. Semanal para quem está começando ou abaixo da meta, quinzenal ou mensal para quem está no ritmo.
+O papel do gestor
+O que o gestor fazvocê ensina no treinamento e cobra a cada ciclo
+Acompanha: número na mão, todo dia, sem esperar o fim do mês
+Analisa as conversas: usa o app Análise Comercial em vez de ouvir call por call, então a avaliação deixa de ser por amostragem de sorte
+Mapeia objeção: o que trava a venda vira tema do próximo treino
+Dá feedback: específico, com exemplo, com um ponto a manter e um a mudar
+Decide: o vendedor executa e propõe melhoria, a decisão de processo é da gestão
+DOCRoteiros dos rituaisum roteiro por rotina, pronto para conduzir
+05
+A reunião de entrega
+O ciclo só termina quando o cliente entende o que mudou e sai com decisão tomada.
+Preparaçãoantes de marcar
+Relatórios e dashboards reunidos: leads, funil, atividades, receita, pós-venda
+Escopo do ciclo definido: pré-venda, vendas, pós-venda, gestão, ou tudo
+Avaliação anterior em mãos, para o comparativo
+Dados financeiros do período atualizados
+Percepção prévia do cliente coletada: o que ele acha que está acontecendo
+Análise do período rodada no app Análise Comercial, cobrindo quem está bem e quem está mal
+O que olhar na análise
+BlocoIndicadores
+Geração de leadsVolume gerado, volume tratado, taxa de aproveitamento, origens mais eficazes
+Funil e conversãoConversão por etapa, passagem de pré-venda para venda, ciclo médio, tempo de resposta
+FinanceiroReceita, ticket médio, CAC, LTV, churn, upsell e cross-sell
+AtividadesConcluídas contra pendentes, follow-up no prazo, diferença de produtividade entre pessoas
+Uso da plataformaNegócios criados por automação, volume e taxa de resposta no WhatsApp, adoção de transcrição, IA e campanhas
+AgenteConversas resolvidas sem humano, qualificação correta contra incorreta, tempo até o primeiro contato, escalonamentos e o motivo deles
+Pós-vendaTempo de resposta no pós, taxa de renovação, LTV, motivos de cancelamento
+Fechamento do ciclonão encerre sem os cinco
+Relatório visual da operação montado
+Reunião de apresentação feita, com os números na tela
+Percepções, dúvidas e prioridades do cliente discutidas
+Ações acordadas com responsável e prazo
+Próximo ciclo agendado
+MATERIAIS
+Materiais desta etapa
+Clique para abrir. Tudo editável, para adaptar por cliente.
+ABRIRRoteiros dos rituais
+Daily, evolutiva, carrapato, roleplay e 1:1, prontos para conduzir
+ABRIRRoteiro do ciclo completo
+A preparação, a análise e o fechamento
+ABRIRRelatório de ciclo
+A estrutura da apresentação de entrega para o cliente
