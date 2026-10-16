@@ -17,3 +17,14 @@ B) telas animadas fictícias (chat da Aura, kanban, inbox) feitas em Remotion �
 ## Aprovações
 - A. Roteiro: aprovado (16/10)
 - Visual: a Agatha grava a plataforma (Aura etc.) no Mac e manda os MP4 — guia em `roteiro_gravacao.md` (G1–G6).
+
+## Produção (16/10)
+- Narração: 8 blocos HeyGen speed 1,1 (`entrada/n0..n7.wav`, sem a sigla "IA" na fala), unidos por `juntar_narracao.sh` → 5:15.
+- Gravações da Agatha (uploads de 16/10; MP4 não vão para o Git, recriar a partir dos originais):
+  - G1 tela inicial + Aura (19.20.08) com nomes trocados por fictícios: overlay `entrada/anon_overlay_g1.png`
+    (Mariana Costa, Rafael Nunes… / Juliana Rocha… / "Boa noite, Paula", "PA", foto real trocada por avatar "JR").
+  - Funil da Aura (23.53.32, dermatologia): só o recorte das etapas (Novo lead → … → Fechado), sem o título "Dermatologia".
+  - Automação (20.04.15), criar agente (texto_agente_SDR, invertido = digitando), teste do agente (ultimo_teste_ia).
+- Vídeo oficial da Aura (YouTube, BQY7hjlEPWE): conexões WhatsApp/Instagram (75–79 s), caixa de conversas (115 s),
+  funil (79,7 s), simulação do agente no celular (88 s). Usados em tela cheia (já estão no visual da Clint).
+- Código: `remotion/src/videos/2026-10-16-metodo-etapa2-implantar/` (comum.tsx, cenas.tsx, timeline.ts) · composição `Etapa2Implantar`.

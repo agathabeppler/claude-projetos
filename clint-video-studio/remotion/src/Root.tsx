@@ -11,12 +11,14 @@ import {CentralClientes, DURACAO_S as CC_DUR} from './videos/2026-10-13-central-
 import * as metodo01 from './videos/2026-10-16-metodo-01-cliente-oculto/timeline';
 import * as metodo02 from './videos/2026-10-16-metodo-02-diagnostico/timeline';
 import * as etapa1 from './videos/2026-10-16-metodo-etapa1-vender/timeline';
+import * as etapa2 from './videos/2026-10-16-metodo-etapa2-implantar/timeline';
 import './theme';
 
 const CadastroParceiros = criarVideo(cadastroParceiros);
 const Metodo01 = criarVideo(metodo01);
 const Metodo02 = criarVideo(metodo02);
 const Etapa1 = criarVideo(etapa1);
+const Etapa2 = criarVideo(etapa2);
 
 export const Root: React.FC = () => (
   <>
@@ -30,6 +32,8 @@ export const Root: React.FC = () => (
     <Composition id="Metodo02Diagnostico" component={Metodo02} durationInFrames={Math.round(metodo02.DURACAO_S * metodo02.FPS)} fps={metodo02.FPS} width={1920} height={1080} />
     {/* Método · Etapa 1 · Vender (videos/2026-10-16-metodo-etapa1-vender) */}
     <Composition id="Etapa1Vender" component={Etapa1} durationInFrames={Math.round(etapa1.DURACAO_S * etapa1.FPS)} fps={etapa1.FPS} width={1920} height={1080} />
+    {/* Método · Etapa 2 · Implantar (videos/2026-10-16-metodo-etapa2-implantar) */}
+    <Composition id="Etapa2Implantar" component={Etapa2} durationInFrames={Math.round(etapa2.DURACAO_S * etapa2.FPS)} fps={etapa2.FPS} width={1920} height={1080} />
     {/* Vídeo "Central de Clientes" (videos/2026-10-13-central-clientes) */}
     <Composition id="CentralClientes" component={CentralClientes} durationInFrames={Math.round(CC_DUR * FPS)} fps={FPS} width={1920} height={1080} />
     {/* Exemplo de GIF de produto (260x346), desenhado em 3,346x e reduzido na exportação */}
