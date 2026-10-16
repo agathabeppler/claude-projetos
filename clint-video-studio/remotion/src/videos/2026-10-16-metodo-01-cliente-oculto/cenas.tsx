@@ -32,7 +32,7 @@ const EXTRA: Record<string, React.ReactNode> = {
   pen: <path d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z" />,
   thought: <path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.6 8.6 0 0 1-3.8-.9L3 20.5l1.6-4.4A8.4 8.4 0 1 1 21 11.5z" />,
 };
-const XIcon: React.FC<{name: string; size?: number; color?: string; stroke?: number}> = ({name, size = 28, color = 'currentColor', stroke = 2}) =>
+export const XIcon: React.FC<{name: string; size?: number; color?: string; stroke?: number}> = ({name, size = 28, color = 'currentColor', stroke = 2}) =>
   EXTRA[name] ? (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={stroke} strokeLinecap="round" strokeLinejoin="round">
       {EXTRA[name]}
@@ -41,13 +41,13 @@ const XIcon: React.FC<{name: string; size?: number; color?: string; stroke?: num
     <Icon name={name} size={size} color={color} stroke={stroke} />
   );
 
-const Tile: React.FC<{name: string; size?: number; color?: string; tint?: string}> = ({name, size = 72, color = C.purple, tint = C.purpleTint}) => (
+export const Tile: React.FC<{name: string; size?: number; color?: string; tint?: string}> = ({name, size = 72, color = C.purple, tint = C.purpleTint}) => (
   <div style={{width: size, height: size, borderRadius: size * 0.28, background: tint, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0}}>
     <XIcon name={name} size={size * 0.46} color={color} />
   </div>
 );
 
-const Chip: React.FC<{icon?: string; img?: string; text: string; color?: string; tint?: string; size?: number; style?: React.CSSProperties}> = ({
+export const Chip: React.FC<{icon?: string; img?: string; text: string; color?: string; tint?: string; size?: number; style?: React.CSSProperties}> = ({
   icon,
   img,
   text,
@@ -79,7 +79,7 @@ const Chip: React.FC<{icon?: string; img?: string; text: string; color?: string;
   </div>
 );
 
-const Badge: React.FC<{text: string; ok?: boolean; grad?: boolean; size?: number; icon?: string}> = ({text, ok, grad, size = 24, icon}) => (
+export const Badge: React.FC<{text: string; ok?: boolean; grad?: boolean; size?: number; icon?: string}> = ({text, ok, grad, size = 24, icon}) => (
   <div
     style={{
       display: 'inline-flex',
@@ -101,7 +101,7 @@ const Badge: React.FC<{text: string; ok?: boolean; grad?: boolean; size?: number
 );
 
 // balão de conversa
-const Bubble: React.FC<{text: string; me?: boolean; time?: string; w?: number; ticks?: boolean}> = ({text, me, time, w = 520, ticks}) => (
+export const Bubble: React.FC<{text: string; me?: boolean; time?: string; w?: number; ticks?: boolean}> = ({text, me, time, w = 520, ticks}) => (
   <div
     style={{
       maxWidth: w,
@@ -127,14 +127,14 @@ const Bubble: React.FC<{text: string; me?: boolean; time?: string; w?: number; t
   </div>
 );
 
-const LogoTile: React.FC<{size: number}> = ({size}) => (
+export const LogoTile: React.FC<{size: number}> = ({size}) => (
   <div style={{width: size, height: size, borderRadius: size * 0.3, background: C.grad, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0}}>
     <Logo height={size * 0.52} color="#fff" iconOnly />
   </div>
 );
 
 // mini slide de proposta
-const MiniSlide: React.FC<{w: number; glow?: number; children?: React.ReactNode; title?: string}> = ({w, glow = 0, children, title = 'O que ouvimos'}) => (
+export const MiniSlide: React.FC<{w: number; glow?: number; children?: React.ReactNode; title?: string}> = ({w, glow = 0, children, title = 'O que ouvimos'}) => (
   <div
     style={card({
       width: w,

@@ -7,6 +7,8 @@ source "$(cd "$(dirname "$0")" && pwd)/ambiente.sh"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"; A="$1"; B="$2"; N="$3"; T="$4"; OUT="$5"
 FA=$(python3 -c "print(round($A*30))"); FB=$(python3 -c "print(round($B*30)-1)"); D=$(python3 -c "print($B-$A)")
 TMP="$(mktemp -d)"
+# a narração ganha 4 s de silêncio no fim: sem isso o loudnorm engole os últimos ~3 s da fala
+ffmpeg -nostdin -v error -y -i "$N" -af apad=pad_dur=4 -ar 48000 "$TMP/n.wav"; N="$TMP/n.wav"
 (cd "$ROOT/remotion" && npx remotion render src/index.ts "${COMP:-Video}" "$TMP/v.mp4" --frames=$FA-$FB --scale=0.5 --crf=26 --muted --log=error)
-ffmpeg -v error -y -i "$TMP/v.mp4" -ss "$A" -t "$D" -i "$N" -ss "$A" -t "$D" -i "$T" -filter_complex "[1:a]aresample=48000,aformat=channel_layouts=stereo,apad=pad_dur=4,loudnorm=I=-15.3:TP=-1.5[v];[2:a]aresample=48000,aformat=channel_layouts=stereo,loudnorm=I=-31:TP=-3[m];[v][m]amix=inputs=2:normalize=0:duration=first[a]" -map 0:v -map "[a]" -c:v copy -c:a aac -b:a 160k -shortest "$OUT"
+ffmpeg -nostdin -v error -y -i "$TMP/v.mp4" -ss "$A" -t "$D" -i "$N" -ss "$A" -t "$D" -i "$T" -filter_complex "[1:a]aresample=48000,aformat=channel_layouts=stereo,loudnorm=I=-15.3:TP=-1.5[v];[2:a]aresample=48000,aformat=channel_layouts=stereo,loudnorm=I=-31:TP=-3[m];[v][m]amix=inputs=2:normalize=0:duration=first[a]" -map 0:v -map "[a]" -c:v copy -c:a aac -b:a 160k -shortest "$OUT"
 rm -rf "$TMP"; echo "ok: $OUT (${D}s)"

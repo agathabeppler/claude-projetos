@@ -1,0 +1,130 @@
+# Tempos (s) da narração ORIGINAL (entrada/narracao.wav, 125,9 s), vindos do HeyGen. Palavras-chave para sincronia.
+# A narração final é narracao_rapida.wav (1,2x, 104,9 s): no código, L(s) = s / K - g0 com K = 1,2.
+    0.00  Segundo
+    2.09  Vender:
+    2.94  diagnóstico
+    3.73  comercial.
+    6.75  investigar,
+    7.83  não
+    8.07  apresentar.
+    9.07  Você chega
+   10.01  cliente oculto
+   11.65  sai
+   12.11  três coisas:
+   13.35  problema
+   13.83  dimensionado,
+   14.94  decisor
+   15.46  identificado,
+   16.64  reunião
+   17.21  proposta
+   17.75  marcada.
+   19.74  adapte
+   20.33  vocabulário.
+   21.53  clínica,
+   22.29  inimigo
+   23.23  no-show.
+   24.22  educação,
+   26.17  matrícula.
+   27.36  crédito,
+   28.10  lead
+   28.69  proposta.
+   29.68  Fale
+   30.29  língua
+   31.52  As perguntas
+   32.77  quatro
+   33.18  blocos.
+   33.99  Bloco um:
+   35.15  negócio
+   36.24  número.
+   36.89  Ticket,
+   37.72  ciclo
+   38.93  quantos leads
+   41.17  meta
+   41.98  batida.
+   42.82  Bloco dois:
+   43.80  onde
+   44.55  vaza.
+   45.24  De onde vêm os leads,
+   47.28  tempo
+   48.19  responde.
+   49.67  compara
+   50.54  mediu
+   51.02  cliente oculto.
+   52.22  Bloco três:
+   53.81  existe.
+   55.13  CRM,
+   56.69  time usa
+   57.36  verdade,
+   58.88  WhatsApp.
+   59.97  agente
+   61.12  exige
+   61.75  API
+   62.25  oficial.
+   63.34  não peça
+   63.91  migração
+   65.76  comprou
+   66.88  descubra
+   68.09  Bloco quatro:
+   69.21  dor
+   69.90  decisão.
+   71.31  participa
+   73.23  existe
+   73.65  orçamento.
+   74.57  não pergunte
+   75.30  tudo.
+   76.23  suficiente
+   77.22  dimensionar
+   78.19  precificar.
+   79.41  Detalhe
+   80.20  funil
+   81.43  implantação.
+   82.73  pergunta
+   83.56  valiosa
+   85.78  se pudesse resolver
+   87.03  único
+   87.35  problema
+   88.16  trinta dias,
+   89.47  seria?
+   90.22  Anote
+   90.76  resposta
+   91.71  palavras
+   92.25  dele.
+   93.50  implantação
+   94.17  começa.
+   95.57  slide
+   96.19  proposta
+   96.82  repetir
+   97.52  frase,
+   98.30  venda
+   99.10  meio
+   99.34  fechada.
+  100.36  Antes de encerrar,
+  101.75  confira
+  103.30  problema (1)
+  104.43  palavras dele,
+  105.00  volume, (2)
+  105.66  ticket
+  106.37  tamanho do time,
+  107.52  quem decide (3)
+  108.65  orçamento,
+  109.52  situação (4)
+  110.13  WhatsApp
+  110.95  CRM,
+  112.07  reunião (5)
+  112.66  proposta
+  113.17  marcada,
+  114.23  decisores
+  114.82  presentes.
+  115.98  Banco
+  116.55  perguntas
+  117.92  materiais
+  118.65  etapa,
+  119.37  pronto
+  120.09  adaptar
+  121.21  segmento.
+  122.25  próximo
+  122.70  vídeo:
+  123.53  transformar
+  124.42  diagnóstico
+  125.29  preço.
+  125.94  <fim>
