@@ -19,10 +19,10 @@ A calculadora da página do Método faz essa conta para você. Resumindo: descub
 Passo quatro: a reunião de proposta. É a segunda conversa, e agora sim você apresenta. Mas a ordem importa: primeiro o problema, depois a solução, e só no fim o preço.
 Comece mostrando o que você encontrou: "Mandei mensagem às nove e doze, e só me responderam às onze e quarenta e sete." Esse é o slide "O que ouvimos", o mais importante da proposta.
 Depois, mostre como você resolve cada problema que ele contou, usando as palavras dele.
-A proposta tem duas partes: o setup, que é montar tudo uma vez, e a evolução, que é o acompanhamento todo mês. Explique que, sem acompanhamento, a operação piora com o tempo.
+A proposta tem duas partes: a implantação, que é montar tudo uma vez, e a evolução, que é o acompanhamento todo mês. Explique que, sem acompanhamento, a operação piora com o tempo.
 Não ofereça várias opções: indique o pacote certo. E termine com uma pergunta: podemos começar na semana que vem?
 Se ele disser que está caro, lembre quanto ele perde hoje com contatos sem resposta.
 Resumindo: problema, solução, preço, e uma pergunta para fechar.
-Passo cinco: o contrato. Tem uma minuta pronta nos materiais. Confira se estão lá: o que você vai entregar, item por item. O setup e a evolução separados, cada um com valor e prazo. Um tempo mínimo de evolução, para o cliente não cancelar no mês seguinte. Os custos de terceiros, como Meta, inteligência artificial e ligações, pagos pelo cliente. O que o cliente precisa te entregar, como os acessos. E que o agente de IA é uma ferramenta, e não garante vendas.
+Passo cinco: o contrato. Tem um modelo de contrato pronto nos materiais. Confira se estão lá: o que você vai entregar, item por item. A implantação e a evolução separadas, cada uma com valor e prazo. Um tempo mínimo de evolução, para o cliente não cancelar no mês seguinte. Os custos de terceiros, como Meta, inteligência artificial e ligações, pagos pelo cliente. O que o cliente precisa te entregar, como os acessos. E que o agente de IA é uma ferramenta, e não garante vendas.
 Antes de usar pela primeira vez, mostre ao seu advogado.
 Pronto: contrato assinado, e a etapa Vender acabou. Recapitulando: cliente oculto, diagnóstico, preço, proposta e contrato. Todos os materiais estão na página do Método. No próximo vídeo, a etapa dois: Implantar.

@@ -1,0 +1,8 @@
+Passo dois: a reunião de diagnóstico. É a primeira conversa com o dono da clínica. A regra é: você investiga, não apresenta. Nada de slide da sua agência. Você pergunta e escuta.
+As perguntas estão prontas no Banco de perguntas, em quatro blocos.
+Um: o negócio e os números. Quanto vende, quantos contatos chegam por mês, e se bate a meta.
+Dois: onde a venda se perde. De onde vêm os contatos, e quanto tempo o time leva para responder. Ele diz dez minutos. Você mediu duas horas e meia.
+Três: o que já existe. Qual sistema usam, e como está o WhatsApp. Para a Clint colocar um agente de IA no WhatsApp, a empresa precisa da versão oficial, a API oficial. Só descubra se ela já tem. Não peça para mudar agora.
+Quatro: a dor e a decisão. Quem mais decide, e se já existe dinheiro reservado.
+E faça a pergunta mais importante: se você pudesse resolver um único problema em trinta dias, qual seria? Anote a resposta com as palavras dele.
+Resumindo: você sai sabendo o tamanho do problema, quem decide, e com a próxima reunião marcada.
