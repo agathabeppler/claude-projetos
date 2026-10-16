@@ -1,0 +1,3 @@
+Passo quatro: o playbook. É o manual de vendas da clínica. Você escreve entre a segunda e a terceira reunião, com base no que já está montado, usando o modelo dos materiais.
+Ele explica quem é a clínica e o que ela vende, como é o paciente ideal, o que acontece em cada etapa do funil, quem faz o quê, as mensagens prontas, as respostas para as objeções mais comuns, e as rotinas do time.
+Resumindo: o playbook é o que o time consulta quando tiver dúvida.

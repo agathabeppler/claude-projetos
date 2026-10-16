@@ -1,0 +1,5 @@
+Passo três: a operação no ar. É a segunda reunião. Agora sim você mostra a Clint, com tudo funcionando, e testa ao vivo com o cliente.
+Mande uma mensagem de outro número, e mostre o atendimento chegando. Preencha um formulário, e mostre o contato caindo no funil, com o vendedor certo. Converse com o agente como se fosse um paciente, e mostre a conversa passando para uma pessoa, sem o paciente precisar repetir nada.
+Ajuste o que aparecer na hora. E apresente a campanha de ativação que você preparou: para quem vai, o que diz, e o que o agente faz com quem responder. Como ela sai no nome da clínica, o cliente aprova aqui.
+Se a API oficial atrasar, a reunião acontece mesmo assim, com o que estiver pronto. O agente entra depois.
+Resumindo: o cliente vê tudo funcionando, aprova a campanha, e a terceira reunião fica marcada.

@@ -1,0 +1,6 @@
+Passo um: o kick-off. É a primeira reunião depois do contrato, e a mais importante da etapa. Nela, você não mostra a plataforma. Você levanta tudo o que precisa para montar a operação.
+Chame três pessoas: quem cuida do time de vendas, quem cuida da parte técnica e dá os acessos, e quem decide. Se faltar alguém, remarque.
+Peça tudo de uma vez: a tabela de preços, as mensagens que o time usa hoje, a lista de contatos antigos, os acessos aos sistemas, e as perguntas que os pacientes mais fazem.
+E peça a API oficial do WhatsApp, com um responsável e um prazo. Sem ela, não tem agente de IA no WhatsApp. É o maior risco de atraso da etapa.
+Aproveite para perguntar o que vai entrar no manual do time: até quanto o vendedor pode dar de desconto, contra quem a clínica mais perde, e o que conta como um paciente qualificado.
+Resumindo: você sai do kick-off com acessos, materiais e respostas. O que não for perguntado aqui, faz falta depois.
