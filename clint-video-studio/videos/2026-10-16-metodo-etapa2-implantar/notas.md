@@ -15,4 +15,5 @@ A) gravação real no Mac (conta de demonstração, dados fictícios) — mais f
 B) telas animadas fictícias (chat da Aura, kanban, inbox) feitas em Remotion — dá para fazer na nuvem.
 
 ## Aprovações
-- A. Roteiro: aguardando
+- A. Roteiro: aprovado (16/10)
+- Visual: a Agatha grava a plataforma (Aura etc.) no Mac e manda os MP4 — guia em `roteiro_gravacao.md` (G1–G6).
