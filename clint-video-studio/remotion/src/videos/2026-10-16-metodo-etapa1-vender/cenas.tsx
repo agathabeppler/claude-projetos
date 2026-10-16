@@ -7,16 +7,17 @@ import {Badge, Bubble, Chip, MiniSlide, Tile, XIcon} from '../2026-10-16-metodo-
 // Método · Etapa 1 · Vender (vídeo único da etapa, didático, exemplo da Clínica Sorriso).
 // Narração = blocos HeyGen speed 1,1 (entrada/n0.wav, n1.wav, …) unidos por juntar_narracao.sh com 0,5 s entre eles.
 // Tempos: b(k, s) = início do bloco k + s (s = tempo da palavra dentro do bloco, do HeyGen). Dentro da cena: L(t) = t - g0.
-export const O = [0, 23.383];
+export const O = [0, 23.383, 75.214, 138.434, 191.022, 243.793, 275.666];
 export const b = (k: number, s: number) => O[k] + s;
 type P = {g0: number; dur: number};
 const PASTA_01 = 'videos/2026-10-16-metodo-01-cliente-oculto';
+const PASTA = 'videos/2026-10-16-metodo-etapa1-vender';
 
 export const PASSOS = ['Cliente oculto', 'Diagnóstico', 'Preço', 'Proposta', 'Contrato'];
 const ICONES = ['search', 'help', 'chart', 'doc', 'shield'];
 
 // ---------- peças comuns ----------
-const Clinica: React.FC<{size?: number; sub?: string}> = ({size = 1, sub = 'exemplo fictício'}) => (
+export const Clinica: React.FC<{size?: number; sub?: string}> = ({size = 1, sub = 'exemplo fictício'}) => (
   <div style={card({padding: `${24 * size}px ${34 * size}px`, display: 'flex', alignItems: 'center', gap: 20 * size, borderRadius: 26 * size, whiteSpace: 'nowrap'})}>
     <div style={{width: 76 * size, height: 76 * size, borderRadius: 22 * size, background: 'linear-gradient(160deg, #7FE3D3 0%, #33B6A5 100%)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 42 * size}}>😁</div>
     <div>
@@ -27,7 +28,7 @@ const Clinica: React.FC<{size?: number; sub?: string}> = ({size = 1, sub = 'exem
 );
 
 /** Abertura de capítulo: "Passo N" + título + trilha dos 5 passos com o atual aceso. */
-const Capitulo: React.FC<{n: number; at: number}> = ({n, at}) => (
+export const Capitulo: React.FC<{n: number; at: number}> = ({n, at}) => (
   <>
     <Abs x={0} y={330} w={1920}>
       <div style={{display: 'flex', justifyContent: 'center'}}>
@@ -45,7 +46,7 @@ const Capitulo: React.FC<{n: number; at: number}> = ({n, at}) => (
 );
 
 /** Trilha horizontal dos 5 passos (concluídos em verde, atual em gradiente). */
-const Trilha: React.FC<{atual: number; at: number; small?: boolean}> = ({atual, at, small}) => {
+export const Trilha: React.FC<{atual: number; at: number; small?: boolean}> = ({atual, at, small}) => {
   const s = small ? 0.7 : 1;
   return (
     <div style={{display: 'flex', alignItems: 'center'}}>
@@ -92,7 +93,7 @@ const Trilha: React.FC<{atual: number; at: number; small?: boolean}> = ({atual, 
 };
 
 /** Cartão "Resumindo" que fecha cada passo. */
-const Resumo: React.FC<{at: number; texto: string; n: number}> = ({at, texto, n}) => (
+export const Resumo: React.FC<{at: number; texto: string; n: number}> = ({at, texto, n}) => (
   <>
     <Abs x={960} y={500} center>
       <Pop at={at} y={50} s={0.9}>
