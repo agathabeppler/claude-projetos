@@ -60,3 +60,9 @@ modelo-playbook.html, roteiro-treinamento-por-papel.html, roteiros-rituais.html,
 relatorio-ciclo.html.
 
 Vídeos da etapa Implantar (07, 08) pedem telas da plataforma (Aura, pipeline, agente): gravar no Mac, com login.
+
+## Pronúncia (lição da Etapa 1)
+- A voz soletra a sigla **"IA"** com pausa ("I… A") e fica feio. Na narração, evite a sigla: use "o agente" quando o contexto
+  já diz que é de IA, ou "inteligência artificial" por extenso. Na TELA a sigla pode aparecer normalmente.
+- Para trocar uma frase sem mexer nas cenas: gere só a frase no HeyGen (mesma voz/speed) e emende no bloco, no silêncio entre
+  frases, preenchendo com silêncio até a duração original (ver notas da Etapa 1).

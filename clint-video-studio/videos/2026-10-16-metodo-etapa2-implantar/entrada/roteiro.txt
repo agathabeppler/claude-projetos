@@ -2,7 +2,7 @@ Etapa dois do Método de Aceleração Comercial: Implantar. O contrato está ass
 Passo um: o kick-off. É a primeira reunião depois do contrato, e a mais importante da etapa. Nela, você não mostra a plataforma. Você levanta tudo o que precisa para montar a operação.
 Chame três pessoas: quem cuida do time de vendas, quem cuida da parte técnica e dá os acessos, e quem decide. Se faltar alguém, remarque.
 Peça tudo de uma vez: a tabela de preços, as mensagens que o time usa hoje, a lista de contatos antigos, os acessos aos sistemas, e as perguntas que os pacientes mais fazem.
-E peça a API oficial do WhatsApp, com um responsável e um prazo. Sem ela, não tem agente de IA no WhatsApp. É o maior risco de atraso da etapa.
+E peça a API oficial do WhatsApp, com um responsável e um prazo. Sem ela, não tem agente no WhatsApp. É o maior risco de atraso da etapa.
 Aproveite para perguntar o que vai entrar no manual do time: até quanto o vendedor pode dar de desconto, contra quem a clínica mais perde, e o que conta como um paciente qualificado.
 Resumindo: você sai do kick-off com acessos, materiais e respostas. O que não for perguntado aqui, faz falta depois.
 Passo dois: a configuração. É o seu trabalho entre a primeira e a segunda reunião. E quem monta é a Aura, a inteligência artificial da Clint. Você conversa com ela, descreve a clínica, e ela cria o funil de vendas, as sequências de contato, os indicadores, as automações e o agente de atendimento.
@@ -25,7 +25,7 @@ Depois, entregue o playbook e coloque na agenda as cinco rotinas do time, com di
 Sem essas rotinas, o time para de usar a ferramenta em duas semanas.
 Resumindo: cada um sabe o que fazer, e as rotinas estão na agenda.
 Passo seis: a campanha de ativação. É a primeira entrega que dá resultado.
-Você manda uma mensagem para quem já conhece a clínica, mas está parado: quem já foi paciente, e quem pediu orçamento e não fechou. Por WhatsApp, SMS e ligação de voz. E o agente de IA conversa com quem responder, até marcar a consulta.
+Você manda uma mensagem para quem já conhece a clínica, mas está parado: quem já foi paciente, e quem pediu orçamento e não fechou. Por WhatsApp, SMS e ligação de voz. E o agente conversa com quem responder, até marcar a consulta.
 Antes de disparar, confira três coisas. Se a campanha vai passar conversas para o time, ele já precisa estar treinado. A lista tem que ser de contatos que já falaram com a clínica, nunca uma lista comprada. E o número de WhatsApp precisa estar saudável, com a empresa verificada na Meta.
 Resumindo: a campanha usa contatos que a clínica já tem, e mostra resultado logo na primeira semana.
 Pronto: o time está usando a Clint, e a primeira campanha está rodando. Recapitulando: kick-off, configuração, operação no ar, playbook, treinamento e campanha. Sete dias depois, começa a etapa três: Evoluir.

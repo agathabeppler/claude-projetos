@@ -8,7 +8,7 @@ Passo dois: a reunião de diagnóstico. É a primeira conversa com o dono da cl�
 As perguntas estão prontas no Banco de perguntas, em quatro blocos.
 Um: o negócio e os números. Quanto vende, quantos contatos chegam por mês, e se bate a meta.
 Dois: onde a venda se perde. De onde vêm os contatos, e quanto tempo o time leva para responder. Ele diz dez minutos. Você mediu duas horas e meia.
-Três: o que já existe. Qual sistema usam, e como está o WhatsApp. Para a Clint colocar um agente de IA no WhatsApp, a empresa precisa da versão oficial, a API oficial. Só descubra se ela já tem. Não peça para mudar agora.
+Três: o que já existe. Qual sistema usam, e como está o WhatsApp. Para a Clint colocar um agente no WhatsApp, a empresa precisa da versão oficial, a API oficial. Só descubra se ela já tem. Não peça para mudar agora.
 Quatro: a dor e a decisão. Quem mais decide, e se já existe dinheiro reservado.
 E faça a pergunta mais importante: se você pudesse resolver um único problema em trinta dias, qual seria? Anote a resposta com as palavras dele.
 Resumindo: você sai sabendo o tamanho do problema, quem decide, e com a próxima reunião marcada.
@@ -23,6 +23,6 @@ A proposta tem duas partes: a implantação, que é montar tudo uma vez, e a evo
 Não ofereça várias opções: indique o pacote certo. E termine com uma pergunta: podemos começar na semana que vem?
 Se ele disser que está caro, lembre quanto ele perde hoje com contatos sem resposta.
 Resumindo: problema, solução, preço, e uma pergunta para fechar.
-Passo cinco: o contrato. Tem um modelo de contrato pronto nos materiais. Confira se estão lá: o que você vai entregar, item por item. A implantação e a evolução separadas, cada uma com valor e prazo. Um tempo mínimo de evolução, para o cliente não cancelar no mês seguinte. Os custos de terceiros, como Meta, inteligência artificial e ligações, pagos pelo cliente. O que o cliente precisa te entregar, como os acessos. E que o agente de IA é uma ferramenta, e não garante vendas.
+Passo cinco: o contrato. Tem um modelo de contrato pronto nos materiais. Confira se estão lá: o que você vai entregar, item por item. A implantação e a evolução separadas, cada uma com valor e prazo. Um tempo mínimo de evolução, para o cliente não cancelar no mês seguinte. Os custos de terceiros, como Meta, inteligência artificial e ligações, pagos pelo cliente. O que o cliente precisa te entregar, como os acessos. E que o agente é uma ferramenta, e não garante vendas.
 Antes de usar pela primeira vez, mostre ao seu advogado.
 Pronto: contrato assinado, e a etapa Vender acabou. Recapitulando: cliente oculto, diagnóstico, preço, proposta e contrato. Todos os materiais estão na página do Método. No próximo vídeo, a etapa dois: Implantar.
