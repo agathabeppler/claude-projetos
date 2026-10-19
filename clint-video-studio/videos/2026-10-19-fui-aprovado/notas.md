@@ -29,7 +29,7 @@ Fontes:
 - Agente de IA que lembra o prazo e avisa 1 h antes do encontro (WhatsApp): PODE citar.
 
 ## Roteiro
-- v1 (19/10): entrada/roteiro_v1.txt, ~85 s estimados. Aguardando aprovação A.
+- v1 (19/10): entrada/roteiro_v1.txt, ~100 s estimados. Aguardando aprovação A.
 
 ## Aprovações
 - A. Roteiro: pendente
