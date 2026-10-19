@@ -17,4 +17,4 @@ gravações de tela (`entrada/telas/`, `*.mp4`, `*.mov`), `saida/` e `trilhas/`.
 | `2026-10-07-lps-parceiros` | Vídeos das LPs do Programa de Parceiros (LP1 a LP5) | LP1 e LP2 animadas; faltam LP3–LP5 e gravações de tela |
 | `2026-10-13-cadastro-parceiros` | Cadastro no Programa de Parceiros (quem já é cliente) | Cenas prontas; faltam gravação e zooms |
 | `2026-10-13-central-clientes` | Central de Clientes | Entregue |
-| `2026-10-19-tour-painel-afiliado` | Tour pelo Painel do afiliado (ativação, logo depois do cadastro) | Levantando informações com a Agatha |
+| `2026-10-19-fui-aprovado` | Fui aprovado, e agora? (etapa 4: aguardando 1º cliente) | Roteiro em aprovação |
