@@ -27,8 +27,8 @@ Pasta antes chamada `2026-10-19-gerenciar-links` (renomeada). A proposta de cort
 - Cena `Comissao` (`remotion/src/videos/2026-10-13-cadastro-parceiros/cenas.tsx`) → base do bloco 7.
 - A narração do cadastro NÃO serve: usa os rótulos antigos ("Quero receber" / "oferecer"). Narração nova inteira.
 
-## Proposta (aguardando aprovação A da Agatha)
-Roteiro em `entrada/roteiro_proposto.txt`.
+## Roteiro aprovado (19/10, com o bloco 7)
+Texto em `entrada/roteiro_aprovado.txt`. Conferir os rótulos na tela real antes de gerar a narração.
 
 | # | ~Tempo | TELA/CENA | O que aparece |
 |---|---|---|---|
@@ -42,7 +42,6 @@ Roteiro em `entrada/roteiro_proposto.txt`.
 
 - Narração: HeyGen, "Voz IA 26 (clone)" voiceId 045f75696cf04e32bd1a42c507edace3 (o id do kit fba91... não existe nesta conta), elevenlabs, pt, speed 1.
 - Anonimizar todos os `ref=...` (no design há ids de exemplo; trocar por um código fictício).
-- Se precisar de 30 s certinhos: tirar o bloco 7 ou encurtar o 1.
 
 ## Decisão: telas (19/10, Agatha)
 **Esperar a implementação e gravar a tela real.** Nada de animar/gravar o protótipo do design.
@@ -52,4 +51,4 @@ Roteiro em `entrada/roteiro_proposto.txt`.
 - Gravação no Mac (precisa de login), numa conta já parceira. Anonimizar `ref=...`; desativar os links de teste no fim.
 
 ## Aprovações
-- A. Roteiro: pendente (a Agatha ainda vai dizer se mantém o bloco 7). Decisão telas: tela real (19/10).
+- A. Roteiro: APROVADO com o bloco 7 (~35 s + vinheta) (19/10). Decisão telas: tela real (19/10).
