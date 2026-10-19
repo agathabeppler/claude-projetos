@@ -1,0 +1,7 @@
+[1 · CENA ~7 s] Você tem trinta por cento para dividir do jeito que quiser: uma parte é a sua comissão, e a outra vira desconto para quem você indicar.
+[2 · TELA Painel ~3,5 s] No Painel do afiliado, clique em: Seu link de indicação.
+[3 · TELA modal ~5,5 s] Em "Sua comissão", coloque quanto fica para você. O desconto do indicado se ajusta sozinho.
+[4 · TELA modal ~4 s] Depois, clique em: Criar novo link com vinte e cinco e cinco por cento.
+[5 · TELA modal ~4,5 s] O link novo vira o seu link atual. É só clicar em Copiar e compartilhar.
+[6 · TELA tabela ~7 s] Dica: use uma divisão para cada canal, uma no Instagram e outra no WhatsApp, por exemplo. E desative os links que você não usa mais.
+[7 · CENA ~4 s] Cada cliente que fechar pelo seu link vira comissão para você.
