@@ -43,8 +43,13 @@ Vídeo A da nova jornada do parceiro: etapas 1–2 do funil (Conta criada → Tr
 | 10 | Prazo | CENA | calendário "30 dias → 1º cliente pagando" |
 | 11 | Chamada | CENA | botão "Certificar com a Aura" + escurece para a vinheta |
 
+## Decisões
+- 19/10 (Agatha): ESPERAR a implementação e gravar a tela real. Não animar as telas do design.
+  → Narração, gravação e montagem ficam paradas até a página do programa (certificação) entrar no ar.
+  → Quando entrar no ar: conferir o roteiro contra a tela real (nomes de botões, textos, nº de requisitos), ajustar e só então gerar a narração.
+  → Cenas animadas (blocos 1, 2, 5, 8, 10, 11) não dependem da tela e podem ser feitas antes, se a Agatha quiser adiantar.
+
 ## Pendências (perguntas à Agatha)
-- Animar as telas do design agora ou esperar a implementação para gravar?
 - Agência que já paga (MainPago): fica de fora, ou entra numa frase?
 - "Conectar cliente": o caminho é o "Pedir acesso" da Central de Clientes? O vídeo só mostra o botão.
 - Citar que cada requisito tem uma aula na Academy ("Ver como fazer")?
