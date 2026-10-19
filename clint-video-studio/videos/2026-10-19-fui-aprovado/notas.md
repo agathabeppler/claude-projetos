@@ -23,9 +23,13 @@ Fontes:
 - Passo a passo de link de indicação, conexão de cliente (Central) e case: cada um tem vídeo próprio. Só apontar onde fica.
 - Ensinar o Método (já tem 4 vídeos).
 
-## Perguntas para a Agatha (19/10)
-- Animar as telas do design (recriadas em Remotion) ou esperar a implementação para gravar?
-- Citar a prorrogação do prazo (cliente em teste no dia 30)? Citar o agente de IA que lembra prazo e encontro?
+## Respostas da Agatha (19/10)
+- Telas: ESPERAR a implementação e gravar as telas reais. Roteiro e narração podem ser feitos agora.
+- Prorrogação do prazo (cliente em teste no dia 30): NÃO citar.
+- Agente de IA que lembra o prazo e avisa 1 h antes do encontro (WhatsApp): PODE citar.
+
+## Roteiro
+- v1 (19/10): entrada/roteiro_v1.txt, ~85 s estimados. Aguardando aprovação A.
 
 ## Aprovações
 - A. Roteiro: pendente
