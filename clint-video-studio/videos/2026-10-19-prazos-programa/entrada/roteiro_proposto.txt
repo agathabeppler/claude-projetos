@@ -1,0 +1,15 @@
+Ser parceiro Clint tem dois combinados. E o Programa de parceiros te avisa sempre que um deles precisa de atenção.
+São dois controles separados, cada um com trinta dias: a conta free e o certificado. Um não depende do outro.
+Começando pela conta free. Quando o seu certificado é aprovado, o topo da página mostra o prazo: trinta dias para ter pelo menos um cliente pagando.
+Assim que um cliente assina, o prazo some, e fica o selo Conta free ativa, ao lado do certificado.
+Se o último cliente pagando cancelar, o aviso volta, em amarelo, com a data limite. Você tem mais trinta dias para voltar a ter um.
+Cliente em teste ainda não conta como pagando, mas prorroga o prazo uma vez, até o fim do teste. E, se o prazo vencer, a sua conta deixa de ser free, mas o seu certificado continua.
+Para resolver, clique em Pedir acesso ao cliente, e ajude quem você indicou a dar o próximo passo. Ou, se preferir, assine um plano.
+Agora, o certificado. Ele pede um agente de IA com pelo menos dez sessões nos últimos trinta dias, na sua conta ou na de um cliente seu.
+Se ficar abaixo disso, o alerta aparece na hora, e o certificado fica suspenso. O topo mostra o prazo de trinta dias e quanto falta. Por exemplo: quatro de dez sessões.
+Para regularizar, clique em Ativar um agente com a Aura. Ou em Ver clientes, para usar o agente de um cliente. Chegou a dez sessões, o certificado volta sozinho.
+Enquanto isso, o Método de Aceleração Comercial continua liberado.
+Se o prazo vencer, a conta de parceiro é bloqueada. Ficam só o Painel do afiliado, a Central de Clientes, o Programa de parceiros, o Link de indicação e Trocar de conta.
+Se preferir não regularizar, também dá para assinar um plano. Você continua afiliado e recebendo as suas comissões.
+E se os dois prazos correrem juntos, o topo mostra o do certificado, e o da conta free aparece na Central de Clientes.
+Fique de olho no topo do Programa de parceiros: ele sempre mostra o que falta, e o caminho mais curto para resolver.
