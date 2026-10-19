@@ -1,0 +1,33 @@
+ROTEIRO v1 — Painel do afiliado: comissões e indicações (aguardando aprovação)
+Trechos entre [ ] dependem das respostas da Agatha.
+
+1. CENA (~5 s) — Gancho: notificação "Novo cliente pelo seu link!" e moedinhas entrando.
+   "Seu primeiro cliente fechou pelo seu link? Agora vem a melhor parte: acompanhar quanto você vai receber."
+
+2. TELA (~6 s) — Menu › Painel do afiliado.
+   "Tudo fica no Painel do afiliado."
+
+3. TELA + zoom nos 3 primeiros números (~10 s)
+   "No topo, você vê quantas contas ativas vieram pelo seu link, a comissão total que você já gerou, e quanto já sacou."
+
+4. TELA + zoom em "Saldo a liberar" e "Saldo disponível" (~10 s)
+   "O saldo a liberar é a comissão que ainda vai entrar. E o saldo disponível é o que você já pode usar."
+   [Se a Agatha confirmar a regra: + uma frase de quando o valor é liberado.]
+
+5. TELA + zoom no gráfico (~10 s)
+   "Em Liberações futuras, você vê as próximas datas e quanto entra em cada uma. A próxima liberação fica em destaque."
+
+6. TELA + zoom no extrato (~12 s)
+   "No Extrato de indicações, cada cliente aparece com o plano, a data, o valor da sua comissão, a porcentagem, o ciclo e as parcelas."
+   [Sem explicar por que o % muda, a não ser que a Agatha peça.]
+
+7. TELA + zoom no histórico de saques (~8 s)
+   "E no Histórico de saques ficam todos os seus saques, com data, valor, status e comprovante."
+
+8. TELA — cursor sobre "Sacar" (~7 s, ponte)
+   "Quando tiver saldo disponível, é só clicar em Sacar. A gente explica esse passo a passo em outro vídeo."
+
+9. CENA final (~6 s) — cartões das indicações se somando ao saldo, escurece para a vinheta.
+   "Acompanhe seu painel e continue indicando: cada cliente novo é mais comissão para você."
+
+Valores, nomes e datas sempre fictícios.
