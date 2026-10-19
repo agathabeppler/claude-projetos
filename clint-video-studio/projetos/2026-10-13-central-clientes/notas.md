@@ -38,3 +38,6 @@ Método: sobreposição em Remotion nas posições fixas (linhas com passo de 57
 - Aprovado pela Agatha. Trilha: padrão "Comida" (GlowCity).
 - Final: saida/Central de Clientes - Parceiros Clint.mp4 — 79,2 s (71,8 + vinheta 7,3), 1920x1080, -14,9 LUFS.
 - Não transcrito com whisper (não instalado na sessão na nuvem); narração é o .wav aprovado, sem troca de voz.
+
+## Correção (19/10): áudio cortava em 1:08
+- A última frase sumia no vídeo final: o loudnorm do mixar_final.sh descartava os ~3 s finais da narração. Corrigido com apad antes do loudnorm (script + lição no CLAUDE.md). Vídeo final remixado; voz confere com a narração até 71,6 s; -14,9 LUFS.

@@ -41,6 +41,7 @@ O que só a pessoa pode fazer (peça apenas quando for necessário, com instruç
 - **Trocou a voz, mudou o ritmo**: alinhe a narração antiga com a nova (`scripts/alinhar_narracao.py`), reajuste as telas (`scripts/retime_video.py`) e passe os tempos das cenas pelo mesmo mapa.
 - **Render travando** (timeout no Remotion): o vídeo de telas precisa ser all-intra (`-g 1`; o `retime_video.py` já gera assim). Se o Mac estiver sobrecarregado, feche Chrome de testes/Adobe, use `--concurrency=1` ou renderize só os trechos que mudaram e emende em quadros-chave.
 - **Bordas brancas** em vídeos do avatar/gravação: meça os pixels das bordas antes de entregar.
+- **Fim da narração cortado na mixagem**: o `loudnorm` descarta os últimos ~3 s se o áudio não tiver folga no fim. O `mixar_final.sh` já põe `apad` antes do `loudnorm`; em qualquer mixagem manual, faça o mesmo. Antes de entregar, compare o volume dos últimos 5 s do vídeo final com a narração.
 - Antes de entregar, sempre: transcreva o início do vídeo final, confira a duração, a sincronia (palavras × cenas) e o volume (~-15 LUFS).
 
 ## Estrutura
