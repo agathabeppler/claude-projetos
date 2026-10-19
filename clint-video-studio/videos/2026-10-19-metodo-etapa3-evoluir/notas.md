@@ -8,4 +8,4 @@ Abertura (+ frequência e primeiro ciclo) · 1 As duas lentes · 2 O ciclo do pa
 3 Manutenção do agente · 4 As rotinas do cliente · 5 A reunião de entrega · Fechamento (recap das 3 etapas).
 
 ## Aprovações
-- A. Roteiro: rascunho v1 (19/10), aguardando aprovação.
+- A. Roteiro: v1 (19/10, `entrada/roteiro_v1.txt`); v2 com gancho, linha lógica e CTA da certificação no tom do vídeo oficial da Etapa 1 (`referencias/metodo-aceleracao-comercial/video-oficial-etapa1.md`), aguardando aprovação.
