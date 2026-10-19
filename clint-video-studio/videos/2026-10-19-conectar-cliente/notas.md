@@ -26,6 +26,8 @@ Vídeo D da jornada do parceiro. Passo 2 da página do programa certificado e se
   (`remotion/public/videos/2026-10-13-central-clientes/pedir_acesso.png`).
 
 ## Pendências com a Agatha
-- [ ] Animar as telas do design ou esperar a implementação para gravar?
+- [x] Animar o design ou esperar? → **B: esperar a implementação e gravar as telas reais** (Agatha, 19/10).
+  Até lá não grava nada. Quando as telas estiverem no ar, gravar com o navegador de gravação
+  (Central, Pedir acesso, aba Aguardando, Acessar conta, Trocar de conta), escondendo/sem focar "Revogar".
 - [ ] Quais tarefas de implementação mostrar dentro da conta do cliente?
 - [ ] Aprovação A (roteiro e plano).
