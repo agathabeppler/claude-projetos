@@ -17,3 +17,4 @@ gravações de tela (`entrada/telas/`, `*.mp4`, `*.mov`), `saida/` e `trilhas/`.
 | `2026-10-07-lps-parceiros` | Vídeos das LPs do Programa de Parceiros (LP1 a LP5) | LP1 e LP2 animadas; faltam LP3–LP5 e gravações de tela |
 | `2026-10-13-cadastro-parceiros` | Cadastro no Programa de Parceiros (quem já é cliente) | Cenas prontas; faltam gravação e zooms |
 | `2026-10-13-central-clientes` | Central de Clientes | Entregue |
+| `2026-10-19-visao-indicado` | O que o seu indicado vê ao clicar no seu link de indicação | Aguardando informações da Agatha (para onde o link leva e onde aparece o desconto) |
