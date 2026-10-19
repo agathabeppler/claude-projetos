@@ -1,0 +1,5 @@
+Parte um: as duas lentes. Em todo ciclo, você olha a operação de dois jeitos.
+A lente do número mostra o que está acontecendo: o tempo de resposta, a conversão em cada etapa do funil, os follow-ups feitos e os esquecidos.
+A lente da qualidade mostra por que está acontecendo: o vendedor segue o roteiro? Contorna as objeções? O tom é humano?
+Por exemplo: a clínica marca poucas avaliações. O número mostra onde trava. A qualidade mostra o motivo: a atendente manda o preço antes de entender o que o paciente quer.
+Resumindo: o número mostra o quê, a qualidade mostra o porquê. Uma lente sozinha engana.

@@ -1,0 +1,5 @@
+Parte três: a manutenção do agente. Criar o agente é rápido. Mantê-lo bom é o trabalho contínuo, e é o que justifica a recorrência.
+A cada ciclo: coloque na base de conhecimento as perguntas novas, e corrija o que mudou, como um preço. Ajuste o agente onde ele erra o tom, ou passa a conversa para uma pessoa cedo ou tarde demais. Ensine a ele as objeções novas. E reequilibre as sequências de contato.
+Por exemplo: os pacientes da clínica começaram a perguntar se ela aceita convênio. Se o agente não sabe, você ensina.
+E fique de olho no número do WhatsApp, o tempo todo.
+Resumindo: quanto mais curto o ciclo, mais rápido o agente melhora.
