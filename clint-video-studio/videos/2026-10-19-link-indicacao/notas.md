@@ -44,8 +44,12 @@ Roteiro em `entrada/roteiro_proposto.txt`.
 - Anonimizar todos os `ref=...` (no design há ids de exemplo; trocar por um código fictício).
 - Se precisar de 30 s certinhos: tirar o bloco 7 ou encurtar o 1.
 
-## Pergunta em aberto
-As telas são proposta de design. Animar/gravar o protótipo do design agora, ou esperar a implementação e gravar a tela real?
+## Decisão: telas (19/10, Agatha)
+**Esperar a implementação e gravar a tela real.** Nada de animar/gravar o protótipo do design.
+- Produção pausada até o modal novo "Gerenciar link de indicação" e o Painel novo estarem no ar.
+- Quando estiver no ar: conferir os rótulos reais contra o roteiro (Sua comissão, Desconto do indicado,
+  "Criar novo link com X% e Y%", "Link atual", status) e ajustar o roteiro ANTES de gerar a narração.
+- Gravação no Mac (precisa de login), numa conta já parceira. Anonimizar `ref=...`; desativar os links de teste no fim.
 
 ## Aprovações
-- A. Roteiro: pendente. Decisão telas (design × real): pendente.
+- A. Roteiro: pendente (a Agatha ainda vai dizer se mantém o bloco 7). Decisão telas: tela real (19/10).
