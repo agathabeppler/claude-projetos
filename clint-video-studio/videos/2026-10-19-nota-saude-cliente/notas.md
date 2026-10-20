@@ -30,8 +30,8 @@ conta free do parceiro e a comissão.
 ## Perguntas em aberto para a Agatha (19/10)
 1. Faixas da nota: além de "Estável" e "Saudável", quais estados existem e qual intervalo de cada um?
 2. Ação recomendada pelo time em cada faixa (upsell × risco de cancelamento).
-3. Animar as telas do design agora ou esperar a implementação para gravar a tela real?
-4. Frequência da medição ("Medido hoje").
+3. Frequência da medição ("Medido hoje").
 
 ## Decisões
-- (aguardando respostas)
+- 20/10 (Agatha): ESPERAR A TELA PRONTA para gravar. Não animar as telas do design. A gravação e as animações
+  só começam quando "Saúde da conta" estiver no ar; aí conferir se textos/estados mudaram em relação ao design.
