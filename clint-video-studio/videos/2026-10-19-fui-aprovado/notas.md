@@ -38,6 +38,7 @@ Fontes:
   + frase final trocada (pedido da Agatha): a frase antiga foi cortada em 94,25 s (silêncio) e no lugar entrou
   entrada/frase_final_v2.wav (gerada sozinha, mesma voz/motor/velocidade; sha256 c2f8f50d0b6f21b4…; volume -18,7 × -19,3 LUFS do resto).
   Frase nova: "Então comece hoje: abra o Método, participe do próximo encontro e faça a sua primeira indicação."
+- Os arquivos do HeyGen (narracao_v1_com_bloco8.wav, frase_final_v2.wav) são MP3 com extensão .wav; a narracao.wav editada é WAV de verdade (PCM 16 bits, 44,1 kHz, mono), decodificada uma vez só.
 - A v2 intermediária (só sem o bloco 8, 101,6 s) ficou no histórico do Git (commit anterior), não na pasta.
 - v1 guardada como entrada/narracao_v1_com_bloco8.wav (104,9 s, sha256 b85b8cf0c8415bad…) — NÃO usar.
 - Texto: entrada/roteiro_aprovado.txt (sem o bloco 8 e com a frase final nova); v1 em entrada/roteiro_v1.txt.
