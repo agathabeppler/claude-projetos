@@ -33,12 +33,16 @@ Fontes:
 
 ## Narração (19/10)
 - HeyGen "Voz IA 26 (clone)" voiceId 045f75696cf04e32bd1a42c507edace3 (o id do kit fba91... não existe nesta conta), elevenlabs, pt, speed 1
-- v2 (20/10, pedido da Agatha: "tira o bloco 8"): entrada/narracao.wav — 101,6 s, sha256 5b766981c25557cc…
-  Feita CORTANDO o take v1 (sem gerar de novo): removido 68,10–71,37 s do v1 ("Para participar, clique em: Garantir minha vaga."), corte em silêncio, fade de 30 ms. Pausa entre os blocos 7 e 9 = 0,44 s.
+- v3 (20/10, ATUAL): entrada/narracao.wav — 100,4 s, sha256 c0443b2865c0fa76…
+  = v1 sem o bloco 8 (corte 68,10–71,37 s do v1, em silêncio, fade 30 ms; pedido da Agatha "tira o bloco 8")
+  + frase final trocada (pedido da Agatha): a frase antiga foi cortada em 94,25 s (silêncio) e no lugar entrou
+  entrada/frase_final_v2.wav (gerada sozinha, mesma voz/motor/velocidade; sha256 c2f8f50d0b6f21b4…; volume -18,7 × -19,3 LUFS do resto).
+  Frase nova: "Então comece hoje: abra o Método, participe do próximo encontro e faça a sua primeira indicação."
+- A v2 intermediária (só sem o bloco 8, 101,6 s) ficou no histórico do Git (commit anterior), não na pasta.
 - v1 guardada como entrada/narracao_v1_com_bloco8.wav (104,9 s, sha256 b85b8cf0c8415bad…) — NÃO usar.
-- Texto: entrada/roteiro_aprovado.txt (v2, sem o bloco 8); v1 em entrada/roteiro_v1.txt.
-- Início de cada bloco na v2 (s): 1) 0.0 · 2) 6.9 · 3) 12.2 Método (12.4) / encontros (18.3) / MAX (20.9) · 4) 25.3 prazo, "trinta dias" 28.0 · 5) 33.3 "Ir para o programa" 34.3, contador 38.5 · 6) 41.8 passos: indicar 44.8 / conectar 47.0 / comissões 49.8 / case 52.7 · 7) 57.9 encontro, temas 62.7–67.7 · 9) 68.1 hot seat, "Quero levar um problema" 79.0, "Entrar na fila" 82.5, fim 87.0 · 10) 87.1 WhatsApp · 11) 94.3 final, fim 101.5
-  (blocos 9–11 = tempo do v1 − 3,27 s)
+- Texto: entrada/roteiro_aprovado.txt (sem o bloco 8 e com a frase final nova); v1 em entrada/roteiro_v1.txt.
+- Início de cada bloco na v3 (s): 1) 0.0 · 2) 6.9 · 3) 12.2 Método (12.4) / encontros (18.3) / MAX (20.9) · 4) 25.3 prazo, "trinta dias" 28.0 · 5) 33.3 "Ir para o programa" 34.3, contador 38.5 · 6) 41.8 passos: indicar 44.8 / conectar 47.0 / comissões 49.8 / case 52.7 · 7) 57.9 encontro, temas 62.7–67.7 · 9) 68.1 hot seat, "Quero levar um problema" 79.0, "Entrar na fila" 82.5, fim 87.0 · 10) 87.1 WhatsApp · 11) 94.5 final ("abra o Método" 95.8, "participe" 96.8, "primeira indicação" 99.1), fim 100.2
+  (blocos 9–10 = tempo do v1 − 3,27 s; bloco 11 = 94,25 + tempo da frase_final_v2.wav)
 - Tempo por palavra: rodar scripts/transcrever.sh no Mac para gerar narracao.palavras.txt (whisper não está nesta sessão na nuvem).
 
 ## Próximos passos
@@ -47,4 +51,4 @@ Fontes:
 - Na gravação: o hot seat deve usar um problema fictício e não pode entrar na fila de verdade (ou desfazer depois); o card do encontro não pode mostrar nomes/avatares reais de parceiros.
 
 ## Aprovações
-- A. Roteiro v1: aprovado (19/10). 20/10: Agatha pediu para tirar o bloco 8 ("Garantir minha vaga") → roteiro v2 em entrada/roteiro_aprovado.txt.
+- A. Roteiro v1: aprovado (19/10). 20/10: Agatha pediu para tirar o bloco 8 ("Garantir minha vaga") → roteiro v2 em entrada/roteiro_aprovado.txt. Depois pediu para trocar a frase final ("garanta sua vaga" → "participe do próximo encontro"), porque o vídeo não mostra mais o botão da vaga.
