@@ -29,5 +29,12 @@ Vídeo D da jornada do parceiro. Passo 2 da página do programa certificado e se
 - [x] Animar o design ou esperar? → **B: esperar a implementação e gravar as telas reais** (Agatha, 19/10).
   Até lá não grava nada. Quando as telas estiverem no ar, gravar com o navegador de gravação
   (Central, Pedir acesso, aba Aguardando, Acessar conta, Trocar de conta), escondendo/sem focar "Revogar".
-- [ ] Quais tarefas de implementação mostrar dentro da conta do cliente?
-- [ ] Aprovação A (roteiro e plano).
+- [x] Tarefas dentro da conta: conectar o WhatsApp, organizar o funil e publicar o agente de IA (aprovadas com o roteiro).
+- [x] Aprovação A (roteiro e plano): **aprovado** pela Agatha em 20/10. Texto em entrada/roteiro_aprovado.txt.
+
+## Narração (20/10)
+- O id padrão do CLAUDE.md (fba9170de62148e7b2db21ee0755dba2) deu "voice not found" no HeyGen.
+  Usada a mesma voz do vídeo da Central: "Voz IA 26 (clone)" 045f75696cf04e32bd1a42c507edace3, elevenlabs, pt,
+  speed 1.15 (ritmo que a Agatha aprovou na Central) e pausas de 0,3 s entre blocos.
+- entrada/narracao.wav — 60,63 s. Tempos por bloco e palavras-chave em entrada/narracao.tempos.md.
+- Próximo: cenas de animação (blocos 1, 2, 8–11) podem ser adiantadas; blocos 3–7 (TELA) esperam as telas no ar.
