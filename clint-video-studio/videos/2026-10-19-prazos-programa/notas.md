@@ -20,7 +20,9 @@ Vídeo (I) da jornada do parceiro. Etapas 7–8 do funil.
 ## Decisões
 - 19/10 — Agatha: **esperar a implementação e gravar a tela real** (não animar o design).
   → Agora: roteiro, cenas animadas (CENA). Trechos TELA ficam reservados até as telas entrarem no ar.
-  → Narração: gerar só depois do roteiro aprovado; se os textos da tela mudarem na implementação, revisar o roteiro antes.
+  → 20/10 — Agatha: narração também espera as telas entrarem no ar. Ordem: telas no ar → conferir textos
+    da tela real e ajustar o roteiro → narração → cenas animadas (sincronizadas com a narração) → gravação.
+  → Pendentes com a Agatha: aprovação final do roteiro e se o bloco 14 (dois prazos juntos) fica ou sai.
 
 ## Aprovações
 - [ ] A. Roteiro (proposto em 19/10: entrada/roteiro_proposto.txt)
