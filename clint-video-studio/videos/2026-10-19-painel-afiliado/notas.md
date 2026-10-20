@@ -32,7 +32,14 @@ quando a comissão passa de "a liberar" para "disponível"; se a comissão é re
 4. % diferente por linha (30%, 27%, 20%): explicar ou não citar?
 5. "—" em ciclo e parcelas: o que significa? Citar ou evitar?
 
-## Roteiro proposto (v1, aguardando aprovação A)
+## Respostas da Agatha (20/10)
+1. **Esperar a plataforma**: não animar o design; gravar a tela real quando a plataforma nova estiver no ar. VÍDEO EM ESPERA.
+2. Regra de liberação (a liberar → disponível): esperar a plataforma nova para saber.
+3. Status do indicado: esperar a plataforma nova para saber.
+4. % diferente por linha: **explicar o motivo no vídeo**. O motivo ainda não foi informado (perguntado em 20/10). Hipótese a confirmar, NÃO usar sem confirmação: 27% = link com divisão 27% comissão + 3% desconto; 20% nas linhas do plano Starter.
+5. "—" em ciclo/parcelas: Agatha perguntou onde. No design aparece só na linha "Gabriela Souza · Pro · 21/08/2026 · 30%". Aguardando resposta.
+
+## Roteiro proposto (v1, aguardando aprovação A; será revisto quando a plataforma nova estiver no ar)
 Ver `entrada/roteiro_v1.txt`. ~65–75 s + vinheta.
 
 ## Aprovações
