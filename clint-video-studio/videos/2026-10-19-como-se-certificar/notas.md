@@ -28,7 +28,7 @@ Vídeo A da nova jornada do parceiro: etapas 1–2 do funil (Conta criada → Tr
 - MainPago (agência que já paga): sem aviso de trial. No fim: "Método liberado. Você segue no seu plano e, quando tiver um cliente pagando, sua conta passa a ser free."
 - Funil: quem envia 9/9 tem o trial pausado durante a análise; o time Clint aprova manualmente em até 2 dias úteis.
 
-## Roteiro proposto (v1, 19/10): entrada/roteiro_proposto.txt (~85 s)
+## Roteiro aprovado (v1, 19/10; aprovado 20/10): entrada/roteiro_aprovado.txt (~85 s)
 | # | Bloco | TELA/CENA | O que aparece |
 |---|---|---|---|
 | 1 | Gancho | CENA | cartão "Conta de parceiro criada ✓" → selo do certificado se acende |
@@ -49,10 +49,11 @@ Vídeo A da nova jornada do parceiro: etapas 1–2 do funil (Conta criada → Tr
   → Quando entrar no ar: conferir o roteiro contra a tela real (nomes de botões, textos, nº de requisitos), ajustar e só então gerar a narração.
   → Cenas animadas (blocos 1, 2, 5, 8, 10, 11) não dependem da tela e podem ser feitas antes, se a Agatha quiser adiantar.
 
-## Pendências (perguntas à Agatha)
-- Agência que já paga (MainPago): fica de fora, ou entra numa frase?
-- "Conectar cliente": o caminho é o "Pedir acesso" da Central de Clientes? O vídeo só mostra o botão.
-- Citar que cada requisito tem uma aula na Academy ("Ver como fazer")?
+## Respostas da Agatha (20/10)
+- Agência que já paga (MainPago): FORA do vídeo.
+- "Conectar cliente que já usa a Clint" = o "Pedir acesso" da Central de Clientes. No vídeo, só o clique no botão.
+- Academy / "Ver como fazer": NÃO citar por enquanto.
 
 ## Aprovações
-- A. Roteiro: aguardando.
+- A. Roteiro: aprovado (20/10), texto em entrada/roteiro_aprovado.txt. Narração ainda NÃO gerada:
+  esperar a página entrar no ar, conferir o texto contra a tela real e, se algo mudar, mostrar de novo antes de gerar a voz.
