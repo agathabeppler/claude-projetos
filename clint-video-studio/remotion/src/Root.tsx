@@ -8,9 +8,11 @@ import {LPComp, LPS} from './videos/2026-10-07-lps-parceiros';
 import {FPS as LP_FPS} from './videos/2026-10-07-lps-parceiros/LPVideo';
 import * as cadastroParceiros from './videos/2026-10-13-cadastro-parceiros/timeline';
 import {CentralClientes, DURACAO_S as CC_DUR} from './videos/2026-10-13-central-clientes/Video';
+import * as registrarCase from './videos/2026-10-19-registrar-case/timeline';
 import './theme';
 
 const CadastroParceiros = criarVideo(cadastroParceiros);
+const RegistrarCase = criarVideo(registrarCase);
 
 export const Root: React.FC = () => (
   <>
@@ -18,6 +20,8 @@ export const Root: React.FC = () => (
     <Composition id="Video" component={Video} durationInFrames={Math.round(DURACAO_S * FPS)} fps={FPS} width={1920} height={1080} />
     {/* Vídeo "Cadastro no Programa de Parceiros" (videos/2026-10-13-cadastro-parceiros) */}
     <Composition id="CadastroParceiros" component={CadastroParceiros} durationInFrames={Math.round(cadastroParceiros.DURACAO_S * cadastroParceiros.FPS)} fps={cadastroParceiros.FPS} width={1920} height={1080} />
+    {/* Vídeo "Como registrar um case de sucesso" (videos/2026-10-19-registrar-case) — telas ainda provisórias */}
+    <Composition id="RegistrarCase" component={RegistrarCase} durationInFrames={Math.round(registrarCase.DURACAO_S * registrarCase.FPS)} fps={registrarCase.FPS} width={1920} height={1080} />
     {/* Vídeo "Central de Clientes" (videos/2026-10-13-central-clientes) */}
     <Composition id="CentralClientes" component={CentralClientes} durationInFrames={Math.round(CC_DUR * FPS)} fps={FPS} width={1920} height={1080} />
     {/* Exemplo de GIF de produto (260x346), desenhado em 3,346x e reduzido na exportação */}

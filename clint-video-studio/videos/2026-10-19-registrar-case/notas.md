@@ -25,4 +25,18 @@ Pasta: `2026-10-19-registrar-case` (mesmo nome em `videos/`, `remotion/src/video
 - Não citar prazo de validação (o funil não define).
 
 ## Aprovações
-- A. Roteiro: proposta v1 em `entrada/roteiro_v1.txt` — aguardando aprovação.
+- A. Roteiro: `entrada/roteiro_v1.txt` — **aprovado (20/10)**, sem a frase sobre "primeiro cliente pagando" (não citar).
+- B. Storyboard das cenas animadas: `saida/storyboard.jpg` — aguardando aprovação.
+
+## Montagem (Remotion: src/videos/2026-10-19-registrar-case/, composição "RegistrarCase")
+- Cenas animadas prontas (tempos ESTIMADOS, sem narração ainda): 1 Abertura · 2 ListaIndicacoes · 10 Validacao · 11 Final.
+- Blocos 3–9 = `TelaPendente` (marcador tracejado) até a gravação real existir.
+- Tempos dentro de cada cena são relativos ao início do bloco; ao gerar a narração, só atualizar `B` em timeline.ts
+  e conferir as palavras-chave (ex.: "mais ativos" ~5,6 s do bloco 2; "pagando"/"de verdade" ~2,6/3,9 s do bloco 10).
+- Fictícios: Clínica Vida, Escola Norte, Rafaela Silva Consultoria, Agência Maré, Lucas Prado Digital, Studio Ponto.
+
+## Falta (quando o modal estiver no ar)
+1. Conferir os textos do modal real e ajustar o roteiro se mudou.
+2. Gerar a narração (Voz IA 26) e transcrever; atualizar `B`.
+3. Gravar as telas (passo 4 › modal › Enviar para validação) numa conta parceira com cliente pagante de teste — sem enviar case real.
+4. Prévias C (abertura + trecho de tela mais complexo), trilha (5 opções), render, mixagem + vinheta, checagens.

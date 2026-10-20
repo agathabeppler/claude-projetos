@@ -17,4 +17,4 @@ gravações de tela (`entrada/telas/`, `*.mp4`, `*.mov`), `saida/` e `trilhas/`.
 | `2026-10-07-lps-parceiros` | Vídeos das LPs do Programa de Parceiros (LP1 a LP5) | LP1 e LP2 animadas; faltam LP3–LP5 e gravações de tela |
 | `2026-10-13-cadastro-parceiros` | Cadastro no Programa de Parceiros (quem já é cliente) | Cenas prontas; faltam gravação e zooms |
 | `2026-10-13-central-clientes` | Central de Clientes | Entregue |
-| `2026-10-19-registrar-case` | Como registrar um case de sucesso (Programa de Parceiros) | Roteiro proposto; telas aguardam implementação |
+| `2026-10-19-registrar-case` | Como registrar um case de sucesso (Programa de Parceiros) | Roteiro aprovado; cenas animadas prontas; telas aguardam implementação |
